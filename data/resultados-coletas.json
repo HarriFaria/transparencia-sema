@@ -1,0 +1,2776 @@
+{
+  "schema_version": 1,
+  "gerado_em_utc": "2026-10-09T16:22:20.985Z",
+  "aviso": "Navegação e captura são sinais técnicos. Somente revisão humana registrada pode verificar um critério ou produzir resultado final.",
+  "totais": {
+    "execucoes": 4,
+    "execucoes_concluidas": 3,
+    "grupos_com_coleta": 1,
+    "criterios_com_coleta_tecnica": 10,
+    "criterios_efetivamente_verificados": 0,
+    "criterios_sem_verificacao": 73,
+    "resultados_preliminares": 0,
+    "resultados_finais_validados": 0,
+    "evidencias_registradas": 13,
+    "evidencias_autorizadas": 10
+  },
+  "questoes": [
+    {
+      "questao": 1,
+      "total": 35,
+      "com_coleta_tecnica": 10,
+      "verificados": 0,
+      "pendentes": 35
+    },
+    {
+      "questao": 2,
+      "total": 24,
+      "com_coleta_tecnica": 0,
+      "verificados": 0,
+      "pendentes": 24
+    },
+    {
+      "questao": 3,
+      "total": 14,
+      "com_coleta_tecnica": 0,
+      "verificados": 0,
+      "pendentes": 14
+    }
+  ],
+  "ultima_execucao": {
+    "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+    "grupo": "Q1.1",
+    "modo": "coleta",
+    "criado_em_utc": "2026-10-09T15:53:09.277Z",
+    "encerrado_em_utc": "2026-10-09T15:53:52.694Z",
+    "situacao": "concluida",
+    "homepage": "https://www.sema.mt.gov.br/",
+    "candidatos": 9,
+    "criterios_associados": [
+      "Q1.1.1",
+      "Q1.1.10",
+      "Q1.1.2",
+      "Q1.1.3",
+      "Q1.1.4",
+      "Q1.1.5",
+      "Q1.1.6",
+      "Q1.1.7",
+      "Q1.1.8",
+      "Q1.1.9"
+    ],
+    "navegacoes": [
+      {
+        "timestamp_utc": "2026-10-09T15:53:19.898Z",
+        "texto_link": "Perguntas Frequentes",
+        "url_candidata": "http://www.sema.mt.gov.br/site/index.php/unidades-administrativas/educacao-ambiental/category/1077-perguntas-frequentes",
+        "url_final": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/educacao-ambiental/category/1077-perguntas-frequentes",
+        "criterios": [
+          "Q1.1.10"
+        ],
+        "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+      },
+      {
+        "timestamp_utc": "2026-10-09T15:53:22.894Z",
+        "texto_link": "Ouvidoria",
+        "url_candidata": "http://www.sema.mt.gov.br/site/index.php/unidades-administrativas/ouvidoria",
+        "url_final": "https://www.sema.mt.gov.br/",
+        "criterios": [
+          "Q1.1.3",
+          "Q1.1.4",
+          "Q1.1.5"
+        ],
+        "observacao": "A navegação terminou na página inicial; isso não determina localização ou ausência da informação."
+      },
+      {
+        "timestamp_utc": "2026-10-09T15:53:26.382Z",
+        "texto_link": "Comitê do Programa REM",
+        "url_candidata": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+        "url_final": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+        "criterios": [
+          "Q1.1.6",
+          "Q1.1.7",
+          "Q1.1.8",
+          "Q1.1.9"
+        ],
+        "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+      },
+      {
+        "timestamp_utc": "2026-10-09T15:53:29.217Z",
+        "texto_link": "Planos Estaduais",
+        "url_candidata": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+        "url_final": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+        "criterios": [
+          "Q1.1.6",
+          "Q1.1.7",
+          "Q1.1.8",
+          "Q1.1.9"
+        ],
+        "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+      },
+      {
+        "timestamp_utc": "2026-10-09T15:53:32.099Z",
+        "texto_link": "Projeto EVA",
+        "url_candidata": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+        "url_final": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+        "criterios": [
+          "Q1.1.6",
+          "Q1.1.7",
+          "Q1.1.8",
+          "Q1.1.9"
+        ],
+        "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+      },
+      {
+        "timestamp_utc": "2026-10-09T15:53:35.204Z",
+        "texto_link": "Quem Somos",
+        "url_candidata": "https://www.sema.mt.gov.br/site/index.php/sema/quem-somos",
+        "url_final": "https://www.sema.mt.gov.br/site/index.php/sema/quem-somos",
+        "criterios": [
+          "Q1.1.1"
+        ],
+        "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+      },
+      {
+        "timestamp_utc": "2026-10-09T15:53:38.077Z",
+        "texto_link": "Unidades Administrativas",
+        "url_candidata": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas",
+        "url_final": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas",
+        "criterios": [
+          "Q1.1.2"
+        ],
+        "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+      },
+      {
+        "timestamp_utc": "2026-10-09T15:53:41.032Z",
+        "texto_link": "Atendimento ao cidadão",
+        "url_candidata": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+        "url_final": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+        "criterios": [
+          "Q1.1.3",
+          "Q1.1.4",
+          "Q1.1.5"
+        ],
+        "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+      },
+      {
+        "timestamp_utc": "2026-10-09T15:53:43.885Z",
+        "texto_link": "Ouvidoria",
+        "url_candidata": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/ouvidoria",
+        "url_final": "https://www.sema.mt.gov.br/",
+        "criterios": [
+          "Q1.1.3",
+          "Q1.1.4",
+          "Q1.1.5"
+        ],
+        "observacao": "A navegação terminou na página inicial; isso não determina localização ou ausência da informação."
+      }
+    ],
+    "evidencias": [
+      {
+        "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-20e57dd71107",
+        "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "timestamp_utc": "2026-10-09T15:53:16.652Z",
+        "criterios": [
+          "Q1.1.1",
+          "Q1.1.2",
+          "Q1.1.3",
+          "Q1.1.4",
+          "Q1.1.5",
+          "Q1.1.6",
+          "Q1.1.7",
+          "Q1.1.8",
+          "Q1.1.9",
+          "Q1.1.10"
+        ],
+        "url": "https://www.sema.mt.gov.br/",
+        "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+        "integridade_confirmada": true,
+        "visualizacao_autorizada": true,
+        "url_visualizacao": "/evidencias-autorizadas/20e57dd71107-000-homepage.png",
+        "compartilhada": true
+      },
+      {
+        "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-a3cdd7fbd01b",
+        "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "timestamp_utc": "2026-10-09T15:53:20.687Z",
+        "criterios": [
+          "Q1.1.10"
+        ],
+        "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/educacao-ambiental/category/1077-perguntas-frequentes",
+        "sha256": "a3cdd7fbd01bdb95adfe7faffde1d82a93451c0362d39d83b16fd1ee472012b7",
+        "integridade_confirmada": true,
+        "visualizacao_autorizada": true,
+        "url_visualizacao": "/evidencias-autorizadas/a3cdd7fbd01b-001-Q1.1.10.png",
+        "compartilhada": false
+      },
+      {
+        "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-94c642a71ac8",
+        "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "timestamp_utc": "2026-10-09T15:53:23.833Z",
+        "criterios": [
+          "Q1.1.3",
+          "Q1.1.4",
+          "Q1.1.5"
+        ],
+        "url": "https://www.sema.mt.gov.br/",
+        "sha256": "94c642a71ac8b4e5229689d409927336cb0a6efca6bd23eb4eca30dbbaf23a04",
+        "integridade_confirmada": true,
+        "visualizacao_autorizada": true,
+        "url_visualizacao": "/evidencias-autorizadas/94c642a71ac8-002-Q1.1.3-Q1.1.4-Q1.1.5.png",
+        "compartilhada": true
+      },
+      {
+        "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-0a82454f21e8",
+        "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "timestamp_utc": "2026-10-09T15:53:26.781Z",
+        "criterios": [
+          "Q1.1.6",
+          "Q1.1.7",
+          "Q1.1.8",
+          "Q1.1.9"
+        ],
+        "url": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+        "sha256": "0a82454f21e88510c812e94ddb364ab2e848e6dcdaa97edbabda8c43f4ff2203",
+        "integridade_confirmada": true,
+        "visualizacao_autorizada": true,
+        "url_visualizacao": "/evidencias-autorizadas/0a82454f21e8-003-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+        "compartilhada": true
+      },
+      {
+        "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-b0f2396a9171",
+        "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "timestamp_utc": "2026-10-09T15:53:29.601Z",
+        "criterios": [
+          "Q1.1.6",
+          "Q1.1.7",
+          "Q1.1.8",
+          "Q1.1.9"
+        ],
+        "url": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+        "sha256": "b0f2396a9171400196e0e7ede26d88c8e62b934e8934120e38f19338ba58e79b",
+        "integridade_confirmada": true,
+        "visualizacao_autorizada": true,
+        "url_visualizacao": "/evidencias-autorizadas/b0f2396a9171-004-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+        "compartilhada": true
+      },
+      {
+        "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-d409f9c384db",
+        "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "timestamp_utc": "2026-10-09T15:53:32.748Z",
+        "criterios": [
+          "Q1.1.6",
+          "Q1.1.7",
+          "Q1.1.8",
+          "Q1.1.9"
+        ],
+        "url": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+        "sha256": "d409f9c384db9d5fc85377b9343d95d1abdbc76507aee538afa11356f61af4d3",
+        "integridade_confirmada": true,
+        "visualizacao_autorizada": true,
+        "url_visualizacao": "/evidencias-autorizadas/d409f9c384db-005-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+        "compartilhada": true
+      },
+      {
+        "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-575ae2af2e46",
+        "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "timestamp_utc": "2026-10-09T15:53:35.615Z",
+        "criterios": [
+          "Q1.1.1"
+        ],
+        "url": "https://www.sema.mt.gov.br/site/index.php/sema/quem-somos",
+        "sha256": "575ae2af2e46e986911c92d90ef3daf3ada7bc4cf2c22be8ba07fc344e480cdb",
+        "integridade_confirmada": true,
+        "visualizacao_autorizada": true,
+        "url_visualizacao": "/evidencias-autorizadas/575ae2af2e46-006-Q1.1.1.png",
+        "compartilhada": false
+      },
+      {
+        "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-303ac319db04",
+        "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "timestamp_utc": "2026-10-09T15:53:38.562Z",
+        "criterios": [
+          "Q1.1.2"
+        ],
+        "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas",
+        "sha256": "303ac319db04c90b3095f33f6103f9999ffce026fd5acc87ba2d699e4d72d534",
+        "integridade_confirmada": true,
+        "visualizacao_autorizada": true,
+        "url_visualizacao": "/evidencias-autorizadas/303ac319db04-007-Q1.1.2.png",
+        "compartilhada": false
+      },
+      {
+        "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-cd2d7435476d",
+        "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "timestamp_utc": "2026-10-09T15:53:41.588Z",
+        "criterios": [
+          "Q1.1.3",
+          "Q1.1.4",
+          "Q1.1.5"
+        ],
+        "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+        "sha256": "cd2d7435476d30ad7f0a6dfc3be64c24325b5f54012f34cbb6456133d4166640",
+        "integridade_confirmada": true,
+        "visualizacao_autorizada": true,
+        "url_visualizacao": "/evidencias-autorizadas/cd2d7435476d-008-Q1.1.3-Q1.1.4-Q1.1.5.png",
+        "compartilhada": true
+      },
+      {
+        "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-b630490c1bed",
+        "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "timestamp_utc": "2026-10-09T15:53:44.747Z",
+        "criterios": [
+          "Q1.1.3",
+          "Q1.1.4",
+          "Q1.1.5"
+        ],
+        "url": "https://www.sema.mt.gov.br/",
+        "sha256": "b630490c1bed453df474bc0953b1bb4c5dc961cec60dbadd56b76928e9178ea2",
+        "integridade_confirmada": true,
+        "visualizacao_autorizada": true,
+        "url_visualizacao": "/evidencias-autorizadas/b630490c1bed-009-Q1.1.3-Q1.1.4-Q1.1.5.png",
+        "compartilhada": true
+      }
+    ],
+    "erros_tecnicos": [
+      {
+        "url": "https://platform.twitter.com/widgets.js",
+        "erro": "net::ERR_CONNECTION_RESET",
+        "ocorrencias": 10
+      },
+      {
+        "url": "https://connect.facebook.net/pt_BR/sdk.js",
+        "erro": "net::ERR_CONNECTION_RESET",
+        "ocorrencias": 10
+      }
+    ],
+    "resultado_final": null
+  },
+  "execucoes": [
+    {
+      "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+      "grupo": "Q1.1",
+      "modo": "coleta",
+      "criado_em_utc": "2026-10-09T15:53:09.277Z",
+      "encerrado_em_utc": "2026-10-09T15:53:52.694Z",
+      "situacao": "concluida",
+      "homepage": "https://www.sema.mt.gov.br/",
+      "candidatos": 9,
+      "criterios_associados": [
+        "Q1.1.1",
+        "Q1.1.10",
+        "Q1.1.2",
+        "Q1.1.3",
+        "Q1.1.4",
+        "Q1.1.5",
+        "Q1.1.6",
+        "Q1.1.7",
+        "Q1.1.8",
+        "Q1.1.9"
+      ],
+      "navegacoes": [
+        {
+          "timestamp_utc": "2026-10-09T15:53:19.898Z",
+          "texto_link": "Perguntas Frequentes",
+          "url_candidata": "http://www.sema.mt.gov.br/site/index.php/unidades-administrativas/educacao-ambiental/category/1077-perguntas-frequentes",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/educacao-ambiental/category/1077-perguntas-frequentes",
+          "criterios": [
+            "Q1.1.10"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:22.894Z",
+          "texto_link": "Ouvidoria",
+          "url_candidata": "http://www.sema.mt.gov.br/site/index.php/unidades-administrativas/ouvidoria",
+          "url_final": "https://www.sema.mt.gov.br/",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "observacao": "A navegação terminou na página inicial; isso não determina localização ou ausência da informação."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:26.382Z",
+          "texto_link": "Comitê do Programa REM",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:29.217Z",
+          "texto_link": "Planos Estaduais",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:32.099Z",
+          "texto_link": "Projeto EVA",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:35.204Z",
+          "texto_link": "Quem Somos",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/sema/quem-somos",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/sema/quem-somos",
+          "criterios": [
+            "Q1.1.1"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:38.077Z",
+          "texto_link": "Unidades Administrativas",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas",
+          "criterios": [
+            "Q1.1.2"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:41.032Z",
+          "texto_link": "Atendimento ao cidadão",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:43.885Z",
+          "texto_link": "Ouvidoria",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/ouvidoria",
+          "url_final": "https://www.sema.mt.gov.br/",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "observacao": "A navegação terminou na página inicial; isso não determina localização ou ausência da informação."
+        }
+      ],
+      "evidencias": [
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-20e57dd71107",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:16.652Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/20e57dd71107-000-homepage.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-a3cdd7fbd01b",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:20.687Z",
+          "criterios": [
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/educacao-ambiental/category/1077-perguntas-frequentes",
+          "sha256": "a3cdd7fbd01bdb95adfe7faffde1d82a93451c0362d39d83b16fd1ee472012b7",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/a3cdd7fbd01b-001-Q1.1.10.png",
+          "compartilhada": false
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-94c642a71ac8",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:23.833Z",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "94c642a71ac8b4e5229689d409927336cb0a6efca6bd23eb4eca30dbbaf23a04",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/94c642a71ac8-002-Q1.1.3-Q1.1.4-Q1.1.5.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-0a82454f21e8",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:26.781Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "sha256": "0a82454f21e88510c812e94ddb364ab2e848e6dcdaa97edbabda8c43f4ff2203",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/0a82454f21e8-003-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-b0f2396a9171",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:29.601Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "sha256": "b0f2396a9171400196e0e7ede26d88c8e62b934e8934120e38f19338ba58e79b",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/b0f2396a9171-004-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-d409f9c384db",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:32.748Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "sha256": "d409f9c384db9d5fc85377b9343d95d1abdbc76507aee538afa11356f61af4d3",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/d409f9c384db-005-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-575ae2af2e46",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:35.615Z",
+          "criterios": [
+            "Q1.1.1"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/sema/quem-somos",
+          "sha256": "575ae2af2e46e986911c92d90ef3daf3ada7bc4cf2c22be8ba07fc344e480cdb",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/575ae2af2e46-006-Q1.1.1.png",
+          "compartilhada": false
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-303ac319db04",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:38.562Z",
+          "criterios": [
+            "Q1.1.2"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas",
+          "sha256": "303ac319db04c90b3095f33f6103f9999ffce026fd5acc87ba2d699e4d72d534",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/303ac319db04-007-Q1.1.2.png",
+          "compartilhada": false
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-cd2d7435476d",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:41.588Z",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+          "sha256": "cd2d7435476d30ad7f0a6dfc3be64c24325b5f54012f34cbb6456133d4166640",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/cd2d7435476d-008-Q1.1.3-Q1.1.4-Q1.1.5.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-b630490c1bed",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:44.747Z",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "b630490c1bed453df474bc0953b1bb4c5dc961cec60dbadd56b76928e9178ea2",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/b630490c1bed-009-Q1.1.3-Q1.1.4-Q1.1.5.png",
+          "compartilhada": true
+        }
+      ],
+      "erros_tecnicos": [
+        {
+          "url": "https://platform.twitter.com/widgets.js",
+          "erro": "net::ERR_CONNECTION_RESET",
+          "ocorrencias": 10
+        },
+        {
+          "url": "https://connect.facebook.net/pt_BR/sdk.js",
+          "erro": "net::ERR_CONNECTION_RESET",
+          "ocorrencias": 10
+        }
+      ],
+      "resultado_final": null
+    },
+    {
+      "execucao_id": "q11-descoberta-2026-10-09T15-52-37-517Z-88eae50f",
+      "grupo": "Q1.1",
+      "modo": "descoberta",
+      "criado_em_utc": "2026-10-09T15:52:37.520Z",
+      "encerrado_em_utc": "2026-10-09T15:52:53.250Z",
+      "situacao": "concluida",
+      "homepage": "https://www.sema.mt.gov.br/",
+      "candidatos": 9,
+      "criterios_associados": [
+        "Q1.1.1",
+        "Q1.1.10",
+        "Q1.1.2",
+        "Q1.1.3",
+        "Q1.1.4",
+        "Q1.1.5",
+        "Q1.1.6",
+        "Q1.1.7",
+        "Q1.1.8",
+        "Q1.1.9"
+      ],
+      "navegacoes": [],
+      "evidencias": [
+        {
+          "id": "q11-descoberta-2026-10-09T15-52-37-517Z-88eae50f-20e57dd71107",
+          "execucao_id": "q11-descoberta-2026-10-09T15-52-37-517Z-88eae50f",
+          "timestamp_utc": "2026-10-09T15:52:45.810Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": false,
+          "url_visualizacao": null,
+          "compartilhada": true
+        }
+      ],
+      "erros_tecnicos": [
+        {
+          "url": "https://connect.facebook.net/pt_BR/sdk.js",
+          "erro": "net::ERR_CONNECTION_RESET",
+          "ocorrencias": 1
+        },
+        {
+          "url": "https://platform.twitter.com/widgets.js",
+          "erro": "net::ERR_CONNECTION_RESET",
+          "ocorrencias": 1
+        }
+      ],
+      "resultado_final": null
+    },
+    {
+      "execucao_id": "q11-descoberta-2026-10-09T15-51-41-789Z-dd0e4db7",
+      "grupo": "Q1.1",
+      "modo": "descoberta",
+      "criado_em_utc": "2026-10-09T15:51:41.791Z",
+      "encerrado_em_utc": "2026-10-09T15:51:52.268Z",
+      "situacao": "concluida",
+      "homepage": "https://www.sema.mt.gov.br/",
+      "candidatos": 35,
+      "criterios_associados": [
+        "Q1.1.1",
+        "Q1.1.10",
+        "Q1.1.2",
+        "Q1.1.3",
+        "Q1.1.4",
+        "Q1.1.5",
+        "Q1.1.6",
+        "Q1.1.7",
+        "Q1.1.8",
+        "Q1.1.9"
+      ],
+      "navegacoes": [],
+      "evidencias": [
+        {
+          "id": "q11-descoberta-2026-10-09T15-51-41-789Z-dd0e4db7-a8bf67d9efe7",
+          "execucao_id": "q11-descoberta-2026-10-09T15-51-41-789Z-dd0e4db7",
+          "timestamp_utc": "2026-10-09T15:51:49.917Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "a8bf67d9efe7d5010aa4c959ac0049c994e7f2c4e6c59de4ae6c9bed7928dfe5",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": false,
+          "url_visualizacao": null,
+          "compartilhada": true
+        }
+      ],
+      "erros_tecnicos": [
+        {
+          "url": "https://connect.facebook.net/pt_BR/sdk.js",
+          "erro": "net::ERR_CONNECTION_RESET",
+          "ocorrencias": 1
+        },
+        {
+          "url": "https://platform.twitter.com/widgets.js",
+          "erro": "net::ERR_CONNECTION_RESET",
+          "ocorrencias": 1
+        }
+      ],
+      "resultado_final": null
+    },
+    {
+      "execucao_id": "q11-descoberta-2026-10-09T15-50-01-411Z-18773246",
+      "grupo": "Q1.1",
+      "modo": "descoberta",
+      "criado_em_utc": "2026-10-09T15:50:01.422Z",
+      "encerrado_em_utc": "2026-10-09T15:50:16.140Z",
+      "situacao": "interrompida",
+      "homepage": "https://www.sema.mt.gov.br/",
+      "candidatos": 35,
+      "criterios_associados": [
+        "Q1.1.1",
+        "Q1.1.10",
+        "Q1.1.2",
+        "Q1.1.3",
+        "Q1.1.4",
+        "Q1.1.5",
+        "Q1.1.6",
+        "Q1.1.7",
+        "Q1.1.8",
+        "Q1.1.9"
+      ],
+      "navegacoes": [],
+      "evidencias": [
+        {
+          "id": "q11-descoberta-2026-10-09T15-50-01-411Z-18773246-20e57dd71107",
+          "execucao_id": "q11-descoberta-2026-10-09T15-50-01-411Z-18773246",
+          "timestamp_utc": "2026-10-09T15:50:15.865Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": false,
+          "url_visualizacao": null,
+          "compartilhada": true
+        }
+      ],
+      "erros_tecnicos": [
+        {
+          "url": "https://platform.twitter.com/widgets.js",
+          "erro": "net::ERR_CONNECTION_RESET",
+          "ocorrencias": 1
+        },
+        {
+          "url": "https://connect.facebook.net/pt_BR/sdk.js",
+          "erro": "net::ERR_CONNECTION_RESET",
+          "ocorrencias": 1
+        }
+      ],
+      "resultado_final": null
+    }
+  ],
+  "criterios": {
+    "Q1.1.1": {
+      "criterio_id": "Q1.1.1",
+      "situacao": "coleta_tecnica_sem_verificacao",
+      "execucoes": [
+        "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "q11-descoberta-2026-10-09T15-52-37-517Z-88eae50f",
+        "q11-descoberta-2026-10-09T15-51-41-789Z-dd0e4db7",
+        "q11-descoberta-2026-10-09T15-50-01-411Z-18773246"
+      ],
+      "navegacoes": [
+        {
+          "timestamp_utc": "2026-10-09T15:53:35.204Z",
+          "texto_link": "Quem Somos",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/sema/quem-somos",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/sema/quem-somos",
+          "criterios": [
+            "Q1.1.1"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        }
+      ],
+      "evidencias": [
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-20e57dd71107",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:16.652Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/20e57dd71107-000-homepage.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-575ae2af2e46",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:35.615Z",
+          "criterios": [
+            "Q1.1.1"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/sema/quem-somos",
+          "sha256": "575ae2af2e46e986911c92d90ef3daf3ada7bc4cf2c22be8ba07fc344e480cdb",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/575ae2af2e46-006-Q1.1.1.png",
+          "compartilhada": false
+        }
+      ],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
+    },
+    "Q1.1.2": {
+      "criterio_id": "Q1.1.2",
+      "situacao": "coleta_tecnica_sem_verificacao",
+      "execucoes": [
+        "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "q11-descoberta-2026-10-09T15-52-37-517Z-88eae50f",
+        "q11-descoberta-2026-10-09T15-51-41-789Z-dd0e4db7",
+        "q11-descoberta-2026-10-09T15-50-01-411Z-18773246"
+      ],
+      "navegacoes": [
+        {
+          "timestamp_utc": "2026-10-09T15:53:38.077Z",
+          "texto_link": "Unidades Administrativas",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas",
+          "criterios": [
+            "Q1.1.2"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        }
+      ],
+      "evidencias": [
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-20e57dd71107",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:16.652Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/20e57dd71107-000-homepage.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-303ac319db04",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:38.562Z",
+          "criterios": [
+            "Q1.1.2"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas",
+          "sha256": "303ac319db04c90b3095f33f6103f9999ffce026fd5acc87ba2d699e4d72d534",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/303ac319db04-007-Q1.1.2.png",
+          "compartilhada": false
+        }
+      ],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
+    },
+    "Q1.1.3": {
+      "criterio_id": "Q1.1.3",
+      "situacao": "coleta_tecnica_sem_verificacao",
+      "execucoes": [
+        "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "q11-descoberta-2026-10-09T15-52-37-517Z-88eae50f",
+        "q11-descoberta-2026-10-09T15-51-41-789Z-dd0e4db7",
+        "q11-descoberta-2026-10-09T15-50-01-411Z-18773246"
+      ],
+      "navegacoes": [
+        {
+          "timestamp_utc": "2026-10-09T15:53:22.894Z",
+          "texto_link": "Ouvidoria",
+          "url_candidata": "http://www.sema.mt.gov.br/site/index.php/unidades-administrativas/ouvidoria",
+          "url_final": "https://www.sema.mt.gov.br/",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "observacao": "A navegação terminou na página inicial; isso não determina localização ou ausência da informação."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:41.032Z",
+          "texto_link": "Atendimento ao cidadão",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:43.885Z",
+          "texto_link": "Ouvidoria",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/ouvidoria",
+          "url_final": "https://www.sema.mt.gov.br/",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "observacao": "A navegação terminou na página inicial; isso não determina localização ou ausência da informação."
+        }
+      ],
+      "evidencias": [
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-20e57dd71107",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:16.652Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/20e57dd71107-000-homepage.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-94c642a71ac8",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:23.833Z",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "94c642a71ac8b4e5229689d409927336cb0a6efca6bd23eb4eca30dbbaf23a04",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/94c642a71ac8-002-Q1.1.3-Q1.1.4-Q1.1.5.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-cd2d7435476d",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:41.588Z",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+          "sha256": "cd2d7435476d30ad7f0a6dfc3be64c24325b5f54012f34cbb6456133d4166640",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/cd2d7435476d-008-Q1.1.3-Q1.1.4-Q1.1.5.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-b630490c1bed",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:44.747Z",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "b630490c1bed453df474bc0953b1bb4c5dc961cec60dbadd56b76928e9178ea2",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/b630490c1bed-009-Q1.1.3-Q1.1.4-Q1.1.5.png",
+          "compartilhada": true
+        }
+      ],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
+    },
+    "Q1.1.4": {
+      "criterio_id": "Q1.1.4",
+      "situacao": "coleta_tecnica_sem_verificacao",
+      "execucoes": [
+        "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "q11-descoberta-2026-10-09T15-52-37-517Z-88eae50f",
+        "q11-descoberta-2026-10-09T15-51-41-789Z-dd0e4db7",
+        "q11-descoberta-2026-10-09T15-50-01-411Z-18773246"
+      ],
+      "navegacoes": [
+        {
+          "timestamp_utc": "2026-10-09T15:53:22.894Z",
+          "texto_link": "Ouvidoria",
+          "url_candidata": "http://www.sema.mt.gov.br/site/index.php/unidades-administrativas/ouvidoria",
+          "url_final": "https://www.sema.mt.gov.br/",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "observacao": "A navegação terminou na página inicial; isso não determina localização ou ausência da informação."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:41.032Z",
+          "texto_link": "Atendimento ao cidadão",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:43.885Z",
+          "texto_link": "Ouvidoria",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/ouvidoria",
+          "url_final": "https://www.sema.mt.gov.br/",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "observacao": "A navegação terminou na página inicial; isso não determina localização ou ausência da informação."
+        }
+      ],
+      "evidencias": [
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-20e57dd71107",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:16.652Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/20e57dd71107-000-homepage.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-94c642a71ac8",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:23.833Z",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "94c642a71ac8b4e5229689d409927336cb0a6efca6bd23eb4eca30dbbaf23a04",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/94c642a71ac8-002-Q1.1.3-Q1.1.4-Q1.1.5.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-cd2d7435476d",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:41.588Z",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+          "sha256": "cd2d7435476d30ad7f0a6dfc3be64c24325b5f54012f34cbb6456133d4166640",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/cd2d7435476d-008-Q1.1.3-Q1.1.4-Q1.1.5.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-b630490c1bed",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:44.747Z",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "b630490c1bed453df474bc0953b1bb4c5dc961cec60dbadd56b76928e9178ea2",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/b630490c1bed-009-Q1.1.3-Q1.1.4-Q1.1.5.png",
+          "compartilhada": true
+        }
+      ],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
+    },
+    "Q1.1.5": {
+      "criterio_id": "Q1.1.5",
+      "situacao": "coleta_tecnica_sem_verificacao",
+      "execucoes": [
+        "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "q11-descoberta-2026-10-09T15-52-37-517Z-88eae50f",
+        "q11-descoberta-2026-10-09T15-51-41-789Z-dd0e4db7",
+        "q11-descoberta-2026-10-09T15-50-01-411Z-18773246"
+      ],
+      "navegacoes": [
+        {
+          "timestamp_utc": "2026-10-09T15:53:22.894Z",
+          "texto_link": "Ouvidoria",
+          "url_candidata": "http://www.sema.mt.gov.br/site/index.php/unidades-administrativas/ouvidoria",
+          "url_final": "https://www.sema.mt.gov.br/",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "observacao": "A navegação terminou na página inicial; isso não determina localização ou ausência da informação."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:41.032Z",
+          "texto_link": "Atendimento ao cidadão",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:43.885Z",
+          "texto_link": "Ouvidoria",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/ouvidoria",
+          "url_final": "https://www.sema.mt.gov.br/",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "observacao": "A navegação terminou na página inicial; isso não determina localização ou ausência da informação."
+        }
+      ],
+      "evidencias": [
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-20e57dd71107",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:16.652Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/20e57dd71107-000-homepage.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-94c642a71ac8",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:23.833Z",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "94c642a71ac8b4e5229689d409927336cb0a6efca6bd23eb4eca30dbbaf23a04",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/94c642a71ac8-002-Q1.1.3-Q1.1.4-Q1.1.5.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-cd2d7435476d",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:41.588Z",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/atendimento-ao-cidad%C3%A3o",
+          "sha256": "cd2d7435476d30ad7f0a6dfc3be64c24325b5f54012f34cbb6456133d4166640",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/cd2d7435476d-008-Q1.1.3-Q1.1.4-Q1.1.5.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-b630490c1bed",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:44.747Z",
+          "criterios": [
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "b630490c1bed453df474bc0953b1bb4c5dc961cec60dbadd56b76928e9178ea2",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/b630490c1bed-009-Q1.1.3-Q1.1.4-Q1.1.5.png",
+          "compartilhada": true
+        }
+      ],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
+    },
+    "Q1.1.6": {
+      "criterio_id": "Q1.1.6",
+      "situacao": "coleta_tecnica_sem_verificacao",
+      "execucoes": [
+        "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "q11-descoberta-2026-10-09T15-52-37-517Z-88eae50f",
+        "q11-descoberta-2026-10-09T15-51-41-789Z-dd0e4db7",
+        "q11-descoberta-2026-10-09T15-50-01-411Z-18773246"
+      ],
+      "navegacoes": [
+        {
+          "timestamp_utc": "2026-10-09T15:53:26.382Z",
+          "texto_link": "Comitê do Programa REM",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:29.217Z",
+          "texto_link": "Planos Estaduais",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:32.099Z",
+          "texto_link": "Projeto EVA",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        }
+      ],
+      "evidencias": [
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-20e57dd71107",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:16.652Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/20e57dd71107-000-homepage.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-0a82454f21e8",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:26.781Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "sha256": "0a82454f21e88510c812e94ddb364ab2e848e6dcdaa97edbabda8c43f4ff2203",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/0a82454f21e8-003-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-b0f2396a9171",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:29.601Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "sha256": "b0f2396a9171400196e0e7ede26d88c8e62b934e8934120e38f19338ba58e79b",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/b0f2396a9171-004-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-d409f9c384db",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:32.748Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "sha256": "d409f9c384db9d5fc85377b9343d95d1abdbc76507aee538afa11356f61af4d3",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/d409f9c384db-005-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        }
+      ],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
+    },
+    "Q1.1.7": {
+      "criterio_id": "Q1.1.7",
+      "situacao": "coleta_tecnica_sem_verificacao",
+      "execucoes": [
+        "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "q11-descoberta-2026-10-09T15-52-37-517Z-88eae50f",
+        "q11-descoberta-2026-10-09T15-51-41-789Z-dd0e4db7",
+        "q11-descoberta-2026-10-09T15-50-01-411Z-18773246"
+      ],
+      "navegacoes": [
+        {
+          "timestamp_utc": "2026-10-09T15:53:26.382Z",
+          "texto_link": "Comitê do Programa REM",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:29.217Z",
+          "texto_link": "Planos Estaduais",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:32.099Z",
+          "texto_link": "Projeto EVA",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        }
+      ],
+      "evidencias": [
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-20e57dd71107",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:16.652Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/20e57dd71107-000-homepage.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-0a82454f21e8",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:26.781Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "sha256": "0a82454f21e88510c812e94ddb364ab2e848e6dcdaa97edbabda8c43f4ff2203",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/0a82454f21e8-003-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-b0f2396a9171",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:29.601Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "sha256": "b0f2396a9171400196e0e7ede26d88c8e62b934e8934120e38f19338ba58e79b",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/b0f2396a9171-004-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-d409f9c384db",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:32.748Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "sha256": "d409f9c384db9d5fc85377b9343d95d1abdbc76507aee538afa11356f61af4d3",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/d409f9c384db-005-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        }
+      ],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
+    },
+    "Q1.1.8": {
+      "criterio_id": "Q1.1.8",
+      "situacao": "coleta_tecnica_sem_verificacao",
+      "execucoes": [
+        "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "q11-descoberta-2026-10-09T15-52-37-517Z-88eae50f",
+        "q11-descoberta-2026-10-09T15-51-41-789Z-dd0e4db7",
+        "q11-descoberta-2026-10-09T15-50-01-411Z-18773246"
+      ],
+      "navegacoes": [
+        {
+          "timestamp_utc": "2026-10-09T15:53:26.382Z",
+          "texto_link": "Comitê do Programa REM",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:29.217Z",
+          "texto_link": "Planos Estaduais",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:32.099Z",
+          "texto_link": "Projeto EVA",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        }
+      ],
+      "evidencias": [
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-20e57dd71107",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:16.652Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/20e57dd71107-000-homepage.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-0a82454f21e8",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:26.781Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "sha256": "0a82454f21e88510c812e94ddb364ab2e848e6dcdaa97edbabda8c43f4ff2203",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/0a82454f21e8-003-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-b0f2396a9171",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:29.601Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "sha256": "b0f2396a9171400196e0e7ede26d88c8e62b934e8934120e38f19338ba58e79b",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/b0f2396a9171-004-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-d409f9c384db",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:32.748Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "sha256": "d409f9c384db9d5fc85377b9343d95d1abdbc76507aee538afa11356f61af4d3",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/d409f9c384db-005-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        }
+      ],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
+    },
+    "Q1.1.9": {
+      "criterio_id": "Q1.1.9",
+      "situacao": "coleta_tecnica_sem_verificacao",
+      "execucoes": [
+        "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "q11-descoberta-2026-10-09T15-52-37-517Z-88eae50f",
+        "q11-descoberta-2026-10-09T15-51-41-789Z-dd0e4db7",
+        "q11-descoberta-2026-10-09T15-50-01-411Z-18773246"
+      ],
+      "navegacoes": [
+        {
+          "timestamp_utc": "2026-10-09T15:53:26.382Z",
+          "texto_link": "Comitê do Programa REM",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:29.217Z",
+          "texto_link": "Planos Estaduais",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        },
+        {
+          "timestamp_utc": "2026-10-09T15:53:32.099Z",
+          "texto_link": "Projeto EVA",
+          "url_candidata": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        }
+      ],
+      "evidencias": [
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-20e57dd71107",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:16.652Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/20e57dd71107-000-homepage.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-0a82454f21e8",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:26.781Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/decisao-colegiada/comite-do-programa-rem",
+          "sha256": "0a82454f21e88510c812e94ddb364ab2e848e6dcdaa97edbabda8c43f4ff2203",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/0a82454f21e8-003-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-b0f2396a9171",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:29.601Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/planos-estaduais2",
+          "sha256": "b0f2396a9171400196e0e7ede26d88c8e62b934e8934120e38f19338ba58e79b",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/b0f2396a9171-004-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-d409f9c384db",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:32.748Z",
+          "criterios": [
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento",
+          "sha256": "d409f9c384db9d5fc85377b9343d95d1abdbc76507aee538afa11356f61af4d3",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/d409f9c384db-005-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+          "compartilhada": true
+        }
+      ],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
+    },
+    "Q1.1.10": {
+      "criterio_id": "Q1.1.10",
+      "situacao": "coleta_tecnica_sem_verificacao",
+      "execucoes": [
+        "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+        "q11-descoberta-2026-10-09T15-52-37-517Z-88eae50f",
+        "q11-descoberta-2026-10-09T15-51-41-789Z-dd0e4db7",
+        "q11-descoberta-2026-10-09T15-50-01-411Z-18773246"
+      ],
+      "navegacoes": [
+        {
+          "timestamp_utc": "2026-10-09T15:53:19.898Z",
+          "texto_link": "Perguntas Frequentes",
+          "url_candidata": "http://www.sema.mt.gov.br/site/index.php/unidades-administrativas/educacao-ambiental/category/1077-perguntas-frequentes",
+          "url_final": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/educacao-ambiental/category/1077-perguntas-frequentes",
+          "criterios": [
+            "Q1.1.10"
+          ],
+          "observacao": "A URL final foi registrada e capturada; o conteúdo do critério não foi classificado pelo robô."
+        }
+      ],
+      "evidencias": [
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-20e57dd71107",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:16.652Z",
+          "criterios": [
+            "Q1.1.1",
+            "Q1.1.2",
+            "Q1.1.3",
+            "Q1.1.4",
+            "Q1.1.5",
+            "Q1.1.6",
+            "Q1.1.7",
+            "Q1.1.8",
+            "Q1.1.9",
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/",
+          "sha256": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/20e57dd71107-000-homepage.png",
+          "compartilhada": true
+        },
+        {
+          "id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357-a3cdd7fbd01b",
+          "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+          "timestamp_utc": "2026-10-09T15:53:20.687Z",
+          "criterios": [
+            "Q1.1.10"
+          ],
+          "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/educacao-ambiental/category/1077-perguntas-frequentes",
+          "sha256": "a3cdd7fbd01bdb95adfe7faffde1d82a93451c0362d39d83b16fd1ee472012b7",
+          "integridade_confirmada": true,
+          "visualizacao_autorizada": true,
+          "url_visualizacao": "/evidencias-autorizadas/a3cdd7fbd01b-001-Q1.1.10.png",
+          "compartilhada": false
+        }
+      ],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
+    },
+    "Q1.2.1": {
+      "criterio_id": "Q1.2.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.2.2": {
+      "criterio_id": "Q1.2.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.2.3": {
+      "criterio_id": "Q1.2.3",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.2.4": {
+      "criterio_id": "Q1.2.4",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.2.5": {
+      "criterio_id": "Q1.2.5",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.3.1": {
+      "criterio_id": "Q1.3.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.3.2": {
+      "criterio_id": "Q1.3.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.3.3": {
+      "criterio_id": "Q1.3.3",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.3.4": {
+      "criterio_id": "Q1.3.4",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.4.1": {
+      "criterio_id": "Q1.4.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.4.2": {
+      "criterio_id": "Q1.4.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.4.3": {
+      "criterio_id": "Q1.4.3",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.4.4": {
+      "criterio_id": "Q1.4.4",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.4.5": {
+      "criterio_id": "Q1.4.5",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.4.6": {
+      "criterio_id": "Q1.4.6",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.4.7": {
+      "criterio_id": "Q1.4.7",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.4.8": {
+      "criterio_id": "Q1.4.8",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.4.9": {
+      "criterio_id": "Q1.4.9",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.5.1": {
+      "criterio_id": "Q1.5.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.5.2": {
+      "criterio_id": "Q1.5.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.6.1": {
+      "criterio_id": "Q1.6.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.6.2": {
+      "criterio_id": "Q1.6.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.6.3": {
+      "criterio_id": "Q1.6.3",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.6.4": {
+      "criterio_id": "Q1.6.4",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q1.6.5": {
+      "criterio_id": "Q1.6.5",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.1.1": {
+      "criterio_id": "Q2.1.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.1.2": {
+      "criterio_id": "Q2.1.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.1.3": {
+      "criterio_id": "Q2.1.3",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.1.4": {
+      "criterio_id": "Q2.1.4",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.1.5": {
+      "criterio_id": "Q2.1.5",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.1.6": {
+      "criterio_id": "Q2.1.6",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.1.7": {
+      "criterio_id": "Q2.1.7",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.1.8": {
+      "criterio_id": "Q2.1.8",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.2.1": {
+      "criterio_id": "Q2.2.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.2.2": {
+      "criterio_id": "Q2.2.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.2.3": {
+      "criterio_id": "Q2.2.3",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.3.1": {
+      "criterio_id": "Q2.3.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.3.2": {
+      "criterio_id": "Q2.3.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.3.3": {
+      "criterio_id": "Q2.3.3",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.4.1": {
+      "criterio_id": "Q2.4.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.4.2": {
+      "criterio_id": "Q2.4.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.5.1": {
+      "criterio_id": "Q2.5.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.5.2": {
+      "criterio_id": "Q2.5.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.5.3": {
+      "criterio_id": "Q2.5.3",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.6.1": {
+      "criterio_id": "Q2.6.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.6.2": {
+      "criterio_id": "Q2.6.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.7.1": {
+      "criterio_id": "Q2.7.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.7.2": {
+      "criterio_id": "Q2.7.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q2.7.3": {
+      "criterio_id": "Q2.7.3",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.1.1": {
+      "criterio_id": "Q3.1.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.1.2": {
+      "criterio_id": "Q3.1.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.1.3": {
+      "criterio_id": "Q3.1.3",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.2.1": {
+      "criterio_id": "Q3.2.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.2.2": {
+      "criterio_id": "Q3.2.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.2.3": {
+      "criterio_id": "Q3.2.3",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.3.1": {
+      "criterio_id": "Q3.3.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.3.2": {
+      "criterio_id": "Q3.3.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.3.3": {
+      "criterio_id": "Q3.3.3",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.3.4": {
+      "criterio_id": "Q3.3.4",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.4.1": {
+      "criterio_id": "Q3.4.1",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.4.2": {
+      "criterio_id": "Q3.4.2",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.4.3": {
+      "criterio_id": "Q3.4.3",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    },
+    "Q3.4.4": {
+      "criterio_id": "Q3.4.4",
+      "situacao": "nao_verificado",
+      "execucoes": [],
+      "navegacoes": [],
+      "evidencias": [],
+      "informacao_encontrada": null,
+      "primeira_verificacao": null,
+      "segunda_verificacao": null,
+      "resultado_final": null,
+      "responsavel_validacao": null,
+      "observacao": "Não há coleta técnica nem verificação registrada para este critério."
+    }
+  }
+}

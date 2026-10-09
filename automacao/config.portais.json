@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "portais": {
+    "sema": {
+      "nome": "Sítio institucional da SEMA-MT",
+      "homepage": "https://www.sema.mt.gov.br/",
+      "dominios_permitidos": ["www.sema.mt.gov.br", "sema.mt.gov.br"],
+      "url_verificada_em": "2026-10-09",
+      "fonte_da_verificacao": "https://www.sema.mt.gov.br/",
+      "timeout_ms": 30000,
+      "intervalo_entre_acoes_ms": 750,
+      "maximo_paginas_por_execucao": 10
+    }
+  }
+}

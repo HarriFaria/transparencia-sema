@@ -1,0 +1,40 @@
+{
+  "name": "sema-transparencia",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "tsx scripts/verificar-build.ts",
+    "build": "next build --webpack",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --import tsx tests/**/*.test.ts",
+    "validate:data": "tsx scripts/validar-dados.ts",
+    "collect:q11": "tsx automacao/coletar-q11.ts coleta",
+    "discover:q11": "tsx automacao/coletar-q11.ts descoberta",
+    "review": "tsx scripts/revisar-resultado.ts",
+    "publish:data": "tsx scripts/publicar-resultados.ts",
+    "export:xlsx": "python scripts/exportar_excel.py",
+    "export:evidence": "tsx scripts/gerar-indice-evidencias.ts",
+    "export:panel": "tsx scripts/exportar-resultados-painel.ts",
+    "check:publication": "tsx scripts/verificar-build.ts",
+    "qa:ui": "tsx scripts/qa-interface.ts"
+  },
+  "dependencies": {
+    "next": "16.3.8",
+    "playwright": "1.56.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}

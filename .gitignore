@@ -1,0 +1,28 @@
+# Originais institucionais e dados restritos
+../arquivos/
+arquivos/
+private/
+exports/
+docs/originais/
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+
+# Dependências, caches e saídas
+node_modules/
+.next/
+out/
+public/evidencias-autorizadas/
+coverage/
+.tools/
+*.log
+*.tmp
+*.tsbuildinfo
+
+# Sistema operacional / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

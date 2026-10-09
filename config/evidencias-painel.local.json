@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "destino": "local",
+  "execucao_id": "q11-coleta-2026-10-09T15-53-09-274Z-fab24357",
+  "justificativa": "Seleção local das capturas da coleta Q1.1 solicitada na segunda etapa de integração do painel.",
+  "aprovacao_externa": null,
+  "arquivos": [
+    "screenshots/000-homepage.png",
+    "screenshots/001-Q1.1.10.png",
+    "screenshots/002-Q1.1.3-Q1.1.4-Q1.1.5.png",
+    "screenshots/003-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+    "screenshots/004-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+    "screenshots/005-Q1.1.6-Q1.1.7-Q1.1.8-Q1.1.9.png",
+    "screenshots/006-Q1.1.1.png",
+    "screenshots/007-Q1.1.2.png",
+    "screenshots/008-Q1.1.3-Q1.1.4-Q1.1.5.png",
+    "screenshots/009-Q1.1.3-Q1.1.4-Q1.1.5.png"
+  ]
+}

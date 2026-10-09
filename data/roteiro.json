@@ -1,0 +1,1117 @@
+{
+  "schema_version": 1,
+  "fonte": {
+    "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+    "sha256": "d60f77b902d5a0c22261e21c03d924acf996ee7dbf19c7cd6c703bc41b2b7cbe"
+  },
+  "regras_metodologicas": [
+    "Iniciar cada portal ou sistema pela página inicial.",
+    "Registrar a sequência de navegação e a URL exata.",
+    "Coletar captura datada quando localizar e quando não localizar.",
+    "Repetir a não localização em outra data, separada por alguns dias, sem prazo mínimo numérico inventado.",
+    "O item 17 ocorre somente após os itens 1 a 16.",
+    "Entrevistas dos itens 14 e 16 dependem de alinhamento com a supervisão."
+  ],
+  "total_itens": 17,
+  "total_passos": 66,
+  "itens": [
+    {
+      "numero": 1,
+      "grupo_id": "Q1.1",
+      "questao": 1,
+      "titulo": "Competências, estrutura, endereços, telefones, horários, programas/ações/obras e perguntas frequentes",
+      "onde_olhar": "Site da SEMA-MT, seções \"Institucional\" / \"A Secretaria\" e \"Perguntas Frequentes\"",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 9
+      },
+      "passos": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 2,
+      "grupo_id": "Q1.2",
+      "questao": 1,
+      "titulo": "Convênios, repasses e acordos nacionais/internacionais",
+      "onde_olhar": "Portal da Transparência da SEMA-MT (dentro do site institucional)",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 16
+      },
+      "passos": [
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 3,
+      "grupo_id": "Q1.3",
+      "questao": 1,
+      "titulo": "Licitações, editais, resultados e contratos",
+      "onde_olhar": "Site institucional, seção \"Licitações\" ou \"Contratos\"",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 22
+      },
+      "passos": [
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 4,
+      "grupo_id": "Q1.4",
+      "questao": 1,
+      "titulo": "Busca no site, formatos de arquivo, acesso automatizado e acessibilidade",
+      "onde_olhar": "Site institucional (testes de uso, não apenas leitura)",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 29
+      },
+      "passos": [
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 5,
+      "grupo_id": "Q1.5",
+      "questao": 1,
+      "titulo": "Plano de Dados Abertos (PDA) e conjuntos de dados",
+      "onde_olhar": "Site institucional + Plataforma Dados.MT (portal único do Governo de MT)",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 37
+      },
+      "passos": [
+        "P21",
+        "P22",
+        "P23",
+        "P24"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 6,
+      "grupo_id": "Q1.6",
+      "questao": 1,
+      "titulo": "Carta de Serviços ao Usuário",
+      "onde_olhar": "Site institucional",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 43
+      },
+      "passos": [
+        "P25",
+        "P26",
+        "P27"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 7,
+      "grupo_id": "Q2.1",
+      "questao": 2,
+      "titulo": "Licenciamento, supressão de vegetação, autos de infração, TAC, recursos administrativos e estudos de impacto ambiental",
+      "onde_olhar": "Site institucional + SIMLAM + Diário Oficial do Estado (quando necessário)",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 51
+      },
+      "passos": [
+        "P28",
+        "P29",
+        "P30",
+        "P31",
+        "P32"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 8,
+      "grupo_id": "Q2.2",
+      "questao": 2,
+      "titulo": "Relatórios anuais de qualidade do ar e da água",
+      "onde_olhar": "Site institucional",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 58
+      },
+      "passos": [
+        "P33",
+        "P34",
+        "P35"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 9,
+      "grupo_id": "Q2.3",
+      "questao": 2,
+      "titulo": "Cadastro Ambiental Rural (CAR)",
+      "onde_olhar": "SIMCAR (Sistema Mato-grossense de Cadastro Ambiental Rural)",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 63
+      },
+      "passos": [
+        "P36",
+        "P37",
+        "P38",
+        "P39"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 10,
+      "grupo_id": "Q2.4",
+      "questao": 2,
+      "titulo": "Unidades de conservação, plano de manejo e compensação ambiental",
+      "onde_olhar": "Site institucional + Geoportal da SEMA (SIMGEO)",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 69
+      },
+      "passos": [
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 11,
+      "grupo_id": "Q2.5",
+      "questao": 2,
+      "titulo": "Fundo Estadual do Meio Ambiente (FEMAM)",
+      "onde_olhar": "Site institucional",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 76
+      },
+      "passos": [
+        "P45",
+        "P46",
+        "P47",
+        "P48"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 12,
+      "grupo_id": "Q2.6",
+      "questao": 2,
+      "titulo": "Recursos hídricos",
+      "onde_olhar": "Site institucional",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 82
+      },
+      "passos": [
+        "P49",
+        "P50"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 13,
+      "grupo_id": "Q2.7",
+      "questao": 2,
+      "titulo": "Sistema Estadual de Informações sobre Meio Ambiente e Sinima",
+      "onde_olhar": "Site institucional + Portal Nacional de Licenciamento Ambiental (PNLA)",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 86
+      },
+      "passos": [
+        "P51",
+        "P52",
+        "P53"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 14,
+      "grupo_id": "Q3.1",
+      "questao": 3,
+      "titulo": "Autoridade responsável pela LAI (art. 40)",
+      "onde_olhar": "Regimento Interno da SEMA-MT + site institucional + comparação com o Quadro 1 do Relatório (PTA 2026)",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 94
+      },
+      "passos": [
+        "P54",
+        "P55",
+        "P56",
+        "P57"
+      ],
+      "restricao": "Entrevista somente após alinhamento com a supervisão."
+    },
+    {
+      "numero": 15,
+      "grupo_id": "Q3.2",
+      "questao": 3,
+      "titulo": "Encarregado de Proteção de Dados (DPO/LGPD)",
+      "onde_olhar": "Site institucional",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 101
+      },
+      "passos": [
+        "P58",
+        "P59",
+        "P60"
+      ],
+      "restricao": null
+    },
+    {
+      "numero": 16,
+      "grupo_id": "Q3.3",
+      "questao": 3,
+      "titulo": "Estrutura de governança da transparência (Unidade Estratégica de Transparência e Geoinformação)",
+      "onde_olhar": "Regimento Interno da SEMA-MT; entrevista com a unidade responsável, se necessário",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 106
+      },
+      "passos": [
+        "P61",
+        "P62",
+        "P63"
+      ],
+      "restricao": "Entrevista somente após alinhamento com a supervisão."
+    },
+    {
+      "numero": 17,
+      "grupo_id": "Q3.4",
+      "questao": 3,
+      "titulo": "Causas das falhas encontradas nas Questões 1 e 2",
+      "onde_olhar": null,
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo_titulo": 111
+      },
+      "passos": [
+        "P64",
+        "P65",
+        "P66"
+      ],
+      "restricao": "Executar somente depois dos itens 1 a 16; não é busca em site."
+    }
+  ],
+  "passos": [
+    {
+      "id": "P01",
+      "numero": 1,
+      "item": 1,
+      "grupo_id": "Q1.1",
+      "texto_literal": "Abra o site da SEMA-MT pela página inicial (não use um link salvo direto para a página interna).",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 11,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P02",
+      "numero": 2,
+      "item": 1,
+      "grupo_id": "Q1.1",
+      "texto_literal": "No menu \"Institucional\" ou \"A Secretaria\", veja se há uma página com a estrutura organizacional, endereços, telefones e horário de atendimento.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 12,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P03",
+      "numero": 3,
+      "item": 1,
+      "grupo_id": "Q1.1",
+      "texto_literal": "Veja se existe uma página de \"Perguntas Frequentes\" (FAQ) para o cidadão.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 13,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P04",
+      "numero": 4,
+      "item": 1,
+      "grupo_id": "Q1.1",
+      "texto_literal": "Procure se há alguma seção que mostre o andamento de programas, ações, projetos ou obras da Secretaria.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 14,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P05",
+      "numero": 5,
+      "item": 1,
+      "grupo_id": "Q1.1",
+      "texto_literal": "Para cada um desses pontos: anote o endereço exato (URL) da página e tire um print com a data. Se não encontrar algum item, anote isso também, com a data da busca.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 15,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P06",
+      "numero": 6,
+      "item": 2,
+      "grupo_id": "Q1.2",
+      "texto_literal": "Entre no Portal da Transparência da SEMA-MT.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 18,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P07",
+      "numero": 7,
+      "item": 2,
+      "grupo_id": "Q1.2",
+      "texto_literal": "Procure uma seção de \"Convênios\", \"Transferências\", \"Repasses\" ou \"Acordos Nacionais e Internacionais\".",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 19,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P08",
+      "numero": 8,
+      "item": 2,
+      "grupo_id": "Q1.2",
+      "texto_literal": "Veja se os convênios aparecem com informações completas (nome, valor, vigência) ou apenas uma lista vazia/genérica.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 20,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P09",
+      "numero": 9,
+      "item": 2,
+      "grupo_id": "Q1.2",
+      "texto_literal": "Print com data. Se a seção existir mas estiver vazia ou desatualizada, anote isso especificamente — é um ponto já sinalizado como possível falha antiga (Voto-Vista do Processo nº 7.810-7/2022).",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 21,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P10",
+      "numero": 10,
+      "item": 3,
+      "grupo_id": "Q1.3",
+      "texto_literal": "Procure no site uma seção \"Licitações\" ou \"Contratos\".",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 24,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P11",
+      "numero": 11,
+      "item": 3,
+      "grupo_id": "Q1.3",
+      "texto_literal": "Veja se aparecem editais, resultados de licitação e uma lista real de contratos vigentes (não apenas uma página genérica sem lista).",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 25,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P12",
+      "numero": 12,
+      "item": 3,
+      "grupo_id": "Q1.3",
+      "texto_literal": "Abra alguns desses documentos diretamente pelo site, sem precisar solicitar nada ao órgão, e confirme se eles realmente abrem ou podem ser baixados.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 26,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P13",
+      "numero": 13,
+      "item": 3,
+      "grupo_id": "Q1.3",
+      "texto_literal": "A equipe já ouviu, em reunião com a Comissão de Meio Ambiente, que contratos poderiam não estar publicados — preste atenção redobrada aqui.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 27,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P14",
+      "numero": 14,
+      "item": 3,
+      "grupo_id": "Q1.3",
+      "texto_literal": "Print com data. Se não achar, registre a URL onde a informação deveria estar e o fato de estar ausente.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 28,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P15",
+      "numero": 15,
+      "item": 4,
+      "grupo_id": "Q1.4",
+      "texto_literal": "Teste a ferramenta de busca do site: ela existe? Funciona? Retorna resultados relevantes?",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 31,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P16",
+      "numero": 16,
+      "item": 4,
+      "grupo_id": "Q1.4",
+      "texto_literal": "Baixe algum relatório ou dado publicado e veja em que formato ele está (PDF travado/escaneado, ou Excel/CSV que dá para reaproveitar).",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 32,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P17",
+      "numero": 17,
+      "item": 4,
+      "grupo_id": "Q1.4",
+      "texto_literal": "Veja se o site indica, de alguma forma, a autenticidade e a integridade dos documentos (por exemplo, assinatura digital ou hash) e a data da última atualização de cada página.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 33,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P18",
+      "numero": 18,
+      "item": 4,
+      "grupo_id": "Q1.4",
+      "texto_literal": "Veja se o site tem recursos de acessibilidade (ex.: alto contraste, Libras, leitor de tela).",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 34,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P19",
+      "numero": 19,
+      "item": 4,
+      "grupo_id": "Q1.4",
+      "texto_literal": "Veja se há um canal de contato visível (telefone, e-mail, formulário de fala conosco).",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 35,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P20",
+      "numero": 20,
+      "item": 4,
+      "grupo_id": "Q1.4",
+      "texto_literal": "Print de cada teste, com data.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 36,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P21",
+      "numero": 21,
+      "item": 5,
+      "grupo_id": "Q1.5",
+      "texto_literal": "Procure no site da SEMA se existe um \"Plano de Dados Abertos\" publicado.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 39,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P22",
+      "numero": 22,
+      "item": 5,
+      "grupo_id": "Q1.5",
+      "texto_literal": "Entre no portal Dados.MT e procure se a SEMA-MT tem conjuntos de dados (datasets) publicados lá.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 40,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P23",
+      "numero": 23,
+      "item": 5,
+      "grupo_id": "Q1.5",
+      "texto_literal": "Se encontrar o PDA, compare a lista de conjuntos de dados que ele promete com o que está de fato publicado no Dados.MT — veja se bate.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 41,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P24",
+      "numero": 24,
+      "item": 5,
+      "grupo_id": "Q1.5",
+      "texto_literal": "Print com data de cada verificação.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 42,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P25",
+      "numero": 25,
+      "item": 6,
+      "grupo_id": "Q1.6",
+      "texto_literal": "Procure \"Carta de Serviços\" no site.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 45,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P26",
+      "numero": 26,
+      "item": 6,
+      "grupo_id": "Q1.6",
+      "texto_literal": "Veja se ela lista os serviços prestados, como acessá-los, o que é exigido e os prazos.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 46,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P27",
+      "numero": 27,
+      "item": 6,
+      "grupo_id": "Q1.6",
+      "texto_literal": "Print com data.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 47,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P28",
+      "numero": 28,
+      "item": 7,
+      "grupo_id": "Q2.1",
+      "texto_literal": "No site, procure seções sobre documentos e processos administrativos ambientais em geral — licenciamento, supressão de vegetação, autos de infração, termos de ajustamento de conduta (TAC), recursos administrativos e estudos de impacto ambiental.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 53,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P29",
+      "numero": 29,
+      "item": 7,
+      "grupo_id": "Q2.1",
+      "texto_literal": "Entre no SIMLAM e veja se é possível consultar autos de infração e decisões das câmaras de julgamento.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 54,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P30",
+      "numero": 30,
+      "item": 7,
+      "grupo_id": "Q2.1",
+      "texto_literal": "Se precisar, pesquise no Diário Oficial do Estado por termos como \"auto de infração SEMA\" e veja se há, no próprio site, alguma indicação clara de onde encontrar o que foi publicado só no Diário.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 55,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P31",
+      "numero": 31,
+      "item": 7,
+      "grupo_id": "Q2.1",
+      "texto_literal": "A equipe já ouviu, em reunião, que pode haver fragilidade na publicidade desses itens — preste atenção redobrada.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 56,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P32",
+      "numero": 32,
+      "item": 7,
+      "grupo_id": "Q2.1",
+      "texto_literal": "Print com data de cada achado (ou ausência).",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 57,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P33",
+      "numero": 33,
+      "item": 8,
+      "grupo_id": "Q2.2",
+      "texto_literal": "Procure no site relatórios de qualidade do ar e da água.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 60,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P34",
+      "numero": 34,
+      "item": 8,
+      "grupo_id": "Q2.2",
+      "texto_literal": "Veja se há mais de um ano publicado (série histórica) e se o mais recente é atual.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 61,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P35",
+      "numero": 35,
+      "item": 8,
+      "grupo_id": "Q2.2",
+      "texto_literal": "Print com data.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 62,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P36",
+      "numero": 36,
+      "item": 9,
+      "grupo_id": "Q2.3",
+      "texto_literal": "Entre no SIMCAR e tente pesquisar um imóvel rural qualquer (por código ou por município, por exemplo).",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 65,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P37",
+      "numero": 37,
+      "item": 9,
+      "grupo_id": "Q2.3",
+      "texto_literal": "Veja se o filtro de pesquisa realmente funciona e retorna resultado.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 66,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P38",
+      "numero": 38,
+      "item": 9,
+      "grupo_id": "Q2.3",
+      "texto_literal": "Confirme se o resultado pode ser visto direto, sem precisar de login ou credencial interna, e se aparecem apenas informações que não são sigilosas.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 67,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P39",
+      "numero": 39,
+      "item": 9,
+      "grupo_id": "Q2.3",
+      "texto_literal": "Print com data.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 68,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P40",
+      "numero": 40,
+      "item": 10,
+      "grupo_id": "Q2.4",
+      "texto_literal": "Procure no site e no Geoportal uma lista das unidades de conservação estaduais.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 71,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P41",
+      "numero": 41,
+      "item": 10,
+      "grupo_id": "Q2.4",
+      "texto_literal": "Veja se cada unidade tem um plano de manejo publicado, ou se há a informação de que não tem.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 72,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P42",
+      "numero": 42,
+      "item": 10,
+      "grupo_id": "Q2.4",
+      "texto_literal": "Procure também, no site e no Geoportal, informações sobre compensação ambiental (recursos destinados às unidades de conservação em razão de empreendimentos).",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 73,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P43",
+      "numero": 43,
+      "item": 10,
+      "grupo_id": "Q2.4",
+      "texto_literal": "Compare o que encontrar com o que foi pedido no Ofício nº 53/2023 da COPMAS (sobre unidades de conservação estaduais, citado no Relatório) — veja se essa informação já está disponível por transparência ativa.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 74,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P44",
+      "numero": 44,
+      "item": 10,
+      "grupo_id": "Q2.4",
+      "texto_literal": "Print com data.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 75,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P45",
+      "numero": 45,
+      "item": 11,
+      "grupo_id": "Q2.5",
+      "texto_literal": "Procure no site informações sobre o FEMAM.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 78,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P46",
+      "numero": 46,
+      "item": 11,
+      "grupo_id": "Q2.5",
+      "texto_literal": "Veja se mostra as fontes de recursos do fundo, incluindo recursos internacionais.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 79,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P47",
+      "numero": 47,
+      "item": 11,
+      "grupo_id": "Q2.5",
+      "texto_literal": "Compare o que encontrar com o que foi pedido no Ofício nº 52/2023 da COPMAS (sobre fundos ambientais e auxílios financeiros, citado no Relatório) — veja se essa informação já está disponível por transparência ativa.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 80,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P48",
+      "numero": 48,
+      "item": 11,
+      "grupo_id": "Q2.5",
+      "texto_literal": "Print com data.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 81,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P49",
+      "numero": 49,
+      "item": 12,
+      "grupo_id": "Q2.6",
+      "texto_literal": "Procure no site informações relacionadas à gestão de recursos hídricos / Política Nacional de Recursos Hídricos.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 84,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P50",
+      "numero": 50,
+      "item": 12,
+      "grupo_id": "Q2.6",
+      "texto_literal": "Print com data.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 85,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P51",
+      "numero": 51,
+      "item": 13,
+      "grupo_id": "Q2.7",
+      "texto_literal": "Veja se o site da SEMA menciona um Sistema Estadual de Informações sobre Meio Ambiente.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 88,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P52",
+      "numero": 52,
+      "item": 13,
+      "grupo_id": "Q2.7",
+      "texto_literal": "Entre no Portal Nacional de Licenciamento Ambiental e veja se Mato Grosso/SEMA aparece alimentando dados lá.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 89,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P53",
+      "numero": 53,
+      "item": 13,
+      "grupo_id": "Q2.7",
+      "texto_literal": "Print com data.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 90,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P54",
+      "numero": 54,
+      "item": 14,
+      "grupo_id": "Q3.1",
+      "texto_literal": "Releia o art. 19 do Regimento Interno (Decreto 1.599/2025) e confirme que ele atribui à \"Unidade Estratégica de Transparência e Geoinformação\" a supervisão do Portal da Transparência e a coordenação da LAI (isso já está confirmado no Relatório).",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 96,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P55",
+      "numero": 55,
+      "item": 14,
+      "grupo_id": "Q3.1",
+      "texto_literal": "No site da SEMA, procure a seção institucional/organograma e veja se essa unidade aparece citada, com nome de responsável e contato.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 97,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P56",
+      "numero": 56,
+      "item": 14,
+      "grupo_id": "Q3.1",
+      "texto_literal": "Compare o que achar com os nomes do Quadro 1 do Relatório (PTA 2026, ex.: Gabriel Vitoreli de Oliveira). Se forem pessoas diferentes das indicadas no PTA, isso confirma a suspeita já registrada no Relatório.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 98,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P57",
+      "numero": 57,
+      "item": 14,
+      "grupo_id": "Q3.1",
+      "texto_literal": "Print com data de cada verificação.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 99,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P58",
+      "numero": 58,
+      "item": 15,
+      "grupo_id": "Q3.2",
+      "texto_literal": "Procure no site termos como \"Encarregado de Dados\", \"DPO\" ou \"Proteção de Dados\".",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 103,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P59",
+      "numero": 59,
+      "item": 15,
+      "grupo_id": "Q3.2",
+      "texto_literal": "Veja se há nome e contato publicados.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 104,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P60",
+      "numero": 60,
+      "item": 15,
+      "grupo_id": "Q3.2",
+      "texto_literal": "Print com data.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 105,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P61",
+      "numero": 61,
+      "item": 16,
+      "grupo_id": "Q3.3",
+      "texto_literal": "Releia o Regimento Interno e confirme, por escrito, o que ele diz sobre essa unidade: quem a coordena, do que ela cuida.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 108,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P62",
+      "numero": 62,
+      "item": 16,
+      "grupo_id": "Q3.3",
+      "texto_literal": "Veja se, na prática (site, organograma), a unidade realmente aparece estruturada como o Regimento descreve.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 109,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P63",
+      "numero": 63,
+      "item": 16,
+      "grupo_id": "Q3.3",
+      "texto_literal": "Só se restar dúvida depois disso, combine com a supervisão uma entrevista com quem hoje responde pelo Portal da Transparência na SEMA, para entender como funciona o dia a dia.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 110,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P64",
+      "numero": 64,
+      "item": 17,
+      "grupo_id": "Q3.4",
+      "texto_literal": "Reúna todos os resultados (encontrado / não encontrado / desatualizado) dos itens 1 a 16.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 113,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P65",
+      "numero": 65,
+      "item": 17,
+      "grupo_id": "Q3.4",
+      "texto_literal": "Observe se há um padrão: por exemplo, se a maior parte das lacunas é porque a página simplesmente não existe, ou porque existe mas está desatualizada, ou porque está em outro sistema de difícil acesso.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 114,
+        "estilo": "List Number"
+      }
+    },
+    {
+      "id": "P66",
+      "numero": 66,
+      "item": 17,
+      "grupo_id": "Q3.4",
+      "texto_literal": "Esse padrão é o que vai embasar a análise de causa — não é mais uma busca no site, é a etapa de juntar os pontos já levantados.",
+      "origem_docx": {
+        "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+        "paragrafo": 115,
+        "estilo": "List Number"
+      }
+    }
+  ]
+}

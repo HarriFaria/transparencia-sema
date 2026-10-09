@@ -1,0 +1,386 @@
+{
+  "schema_version": 1,
+  "gerado_em_utc": "2026-10-09T15:29:34.521281+00:00",
+  "documentos_localizados": [
+    {
+      "id": "88b173dfc0e3df7f",
+      "arquivo": "1. OFÍCIO_53_2023_Solicitação de informações sobre unidades de conservação..pdf",
+      "titulo": "Ofício nº 53/2023/CPMAS",
+      "data_documento": "2023-12-04",
+      "tipo": "ofício",
+      "sha256": "88b173dfc0e3df7f70e4c5719c96e128f6039276f583d4925a4fcbb0f13fb7bf",
+      "tamanho_bytes": 168565,
+      "status_leitura": "texto_extraido_integralmente",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        2,
+        3
+      ],
+      "resumo_documental": "Solicita informações sobre unidades de conservação, planos de manejo, conselhos e compensação ambiental.",
+      "grupos_vinculados": [
+        "Q2.4"
+      ],
+      "limitacoes": "O conteúdo documental não comprova a situação atual do portal em 2026."
+    },
+    {
+      "id": "3e3c37d053fe42fb",
+      "arquivo": "2. OFÍCIO_52_2023_Solicitação de informações sobre fundos ambientais e auxílios financeiros..pdf",
+      "titulo": "Ofício nº 52/2023/CPMAS",
+      "data_documento": "2023-12-04",
+      "tipo": "ofício",
+      "sha256": "3e3c37d053fe42fb1f0bd9b237d830540c496f3398bb9c1760bab6e45315612b",
+      "tamanho_bytes": 168234,
+      "status_leitura": "texto_extraido_integralmente",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        2,
+        3
+      ],
+      "resumo_documental": "Solicita informações sobre fundos ambientais, recursos internacionais, destinação, parcerias e acordos.",
+      "grupos_vinculados": [
+        "Q1.2",
+        "Q2.5"
+      ],
+      "limitacoes": "O conteúdo documental não comprova a situação atual do portal em 2026."
+    },
+    {
+      "id": "ac0e65fd56dbf523",
+      "arquivo": "3. OFÍCIO_51_2023_Solicitação de informações sobre desmatamento em Mato Grosso.pdf",
+      "titulo": "Ofício nº 51/2023/CPMAS",
+      "data_documento": "2023-12-04",
+      "tipo": "ofício",
+      "sha256": "ac0e65fd56dbf5230f218acce4d69da83c7d7065096aa80d2d9b3ed2df199597",
+      "tamanho_bytes": 172917,
+      "status_leitura": "texto_extraido_integralmente",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        2,
+        3
+      ],
+      "resumo_documental": "Solicita informações sobre desmatamento, multas, infrações e ações de fiscalização.",
+      "grupos_vinculados": [
+        "Q2.1"
+      ],
+      "limitacoes": "O conteúdo documental não comprova a situação atual do portal em 2026."
+    },
+    {
+      "id": "fdffd7922ef21e7a",
+      "arquivo": "4. OFÍCIO_50_2023_Solicitação de informações sobre o Sistema Mato-grossense de Cadastro Ambiental Rural – SIMCAR..pdf",
+      "titulo": "Ofício nº 50/2023/CPMAS",
+      "data_documento": "2023-12-04",
+      "tipo": "ofício",
+      "sha256": "fdffd7922ef21e7a612206ef17d5d2ec9a674ba91501fd90d0fcc5eacf8e61c3",
+      "tamanho_bytes": 200081,
+      "status_leitura": "texto_extraido_integralmente",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        2,
+        3
+      ],
+      "resumo_documental": "Solicita base e informações de funcionamento e produtividade do SIMCAR.",
+      "grupos_vinculados": [
+        "Q2.3"
+      ],
+      "limitacoes": "O conteúdo documental não comprova a situação atual do portal em 2026."
+    },
+    {
+      "id": "055abe2bc30ffdd5",
+      "arquivo": "78107-2022 SEMA - voto vista.pdf",
+      "titulo": "Voto-vista — Processo nº 7.810-7/2022",
+      "data_documento": "2023-06-21",
+      "tipo": "voto-vista",
+      "sha256": "055abe2bc30ffdd50c71c9f92fe021f30bbcfe440408fb8508b2d71707c4dbe0",
+      "tamanho_bytes": 500833,
+      "status_leitura": "texto_extraido_integralmente",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        3,
+        13,
+        14,
+        15
+      ],
+      "resumo_documental": "O conteúdo confirma que o nome 78107-2022 corresponde ao Processo nº 7.810-7/2022; registra antecedente sobre convênios no Portal Transparência.",
+      "grupos_vinculados": [
+        "Q1.2"
+      ],
+      "limitacoes": "O conteúdo documental não comprova a situação atual do portal em 2026."
+    },
+    {
+      "id": "68b855e7ae65c35d",
+      "arquivo": "Decreto 1427-2025.pdf",
+      "titulo": "Decreto Estadual nº 1.427/2025",
+      "data_documento": "2025-04-30",
+      "tipo": "decreto",
+      "sha256": "68b855e7ae65c35dc849fd362e8b7c1c78804b6629a8b86b6e9a606e37ed58f9",
+      "tamanho_bytes": 169912,
+      "status_leitura": "texto_extraido_integralmente",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "resumo_documental": "Regulamenta a proteção de dados pessoais no Executivo estadual e disciplina o encarregado/DPO.",
+      "grupos_vinculados": [
+        "Q3.2"
+      ],
+      "limitacoes": null
+    },
+    {
+      "id": "0a52f27a5c5bfc7f",
+      "arquivo": "Decreto 1691-2025.pdf",
+      "titulo": "Decreto Estadual nº 1.691/2025",
+      "data_documento": "2025-10-01",
+      "tipo": "decreto",
+      "sha256": "0a52f27a5c5bfc7f140b6ac17fa989f7df4c29268a3fe7d075152619b37dd655",
+      "tamanho_bytes": 152881,
+      "status_leitura": "texto_extraido_integralmente",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "resumo_documental": "Institui a Política de Dados Abertos estadual e disciplina o PDA e a plataforma de dados.",
+      "grupos_vinculados": [
+        "Q1.5"
+      ],
+      "limitacoes": null
+    },
+    {
+      "id": "de27cc586a1f8c84",
+      "arquivo": "Decreto 1973-2013.pdf",
+      "titulo": "Decreto Estadual nº 397/2020 (arquivo nomeado 'Decreto 1973-2013')",
+      "data_documento": "2020-03-11",
+      "tipo": "decreto",
+      "sha256": "de27cc586a1f8c84ad3ecb26d8f43ba502d4c23e4620fb93af1ec214b719b808",
+      "tamanho_bytes": 89823,
+      "status_leitura": "texto_e_ocr_local_extraidos",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        2
+      ],
+      "resumo_documental": "O conteúdo não é o Decreto nº 1.973/2013: é o Decreto nº 397/2020, que o altera. O Decreto nº 1.973/2013 foi revogado pelo Decreto nº 806/2021.",
+      "grupos_vinculados": [
+        "Q1.1",
+        "Q1.2",
+        "Q1.3",
+        "Q1.4"
+      ],
+      "limitacoes": null
+    },
+    {
+      "id": "f49bc80a51956326",
+      "arquivo": "Decreto 806-2021.pdf",
+      "titulo": "Decreto Estadual nº 806/2021",
+      "data_documento": "2021-01-22",
+      "tipo": "decreto",
+      "sha256": "f49bc80a519563267ba48a5f5aa27268bb15aa87da18f37fa45f711528035dfa",
+      "tamanho_bytes": 306806,
+      "status_leitura": "texto_extraido_integralmente",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        3,
+        4,
+        5,
+        19
+      ],
+      "resumo_documental": "Regulamenta a LAI no Executivo estadual; o PDF informa consolidação até o Decreto nº 1.051/2021.",
+      "grupos_vinculados": [
+        "Q1.1",
+        "Q1.2",
+        "Q1.3",
+        "Q1.4"
+      ],
+      "limitacoes": null
+    },
+    {
+      "id": "56a0ac733bb79e17",
+      "arquivo": "Decreto nº 1.599-2025 de 06-08-2025 Regimento Interno.pdf",
+      "titulo": "Decreto Estadual nº 1.599/2025 — Regimento Interno da SEMA",
+      "data_documento": "2025-08-06",
+      "tipo": "decreto/regimento",
+      "sha256": "56a0ac733bb79e17c972e34feedaea770f8017ed4528cd14deb87b3734c4b8b5",
+      "tamanho_bytes": 837379,
+      "status_leitura": "texto_extraido_integralmente",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        3,
+        14,
+        15
+      ],
+      "resumo_documental": "Aprova o Regimento Interno; o art. 19 atribui competências à Unidade Estratégica de Transparência e Geoinformação.",
+      "grupos_vinculados": [
+        "Q3.1",
+        "Q3.3"
+      ],
+      "limitacoes": null
+    },
+    {
+      "id": "2d2627770f22414a",
+      "arquivo": "L10650-2003.pdf",
+      "titulo": "Lei Federal nº 10.650/2003",
+      "data_documento": "2003-04-16",
+      "tipo": "lei",
+      "sha256": "2d2627770f22414a393b9726b58a5f8d07c9017858edd2a2a41265d03300009d",
+      "tamanho_bytes": 251025,
+      "status_leitura": "texto_extraido_integralmente",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        2
+      ],
+      "resumo_documental": "Dispõe sobre acesso público a dados e informações ambientais no Sisnama.",
+      "grupos_vinculados": [
+        "Q2.1",
+        "Q2.2"
+      ],
+      "limitacoes": null
+    },
+    {
+      "id": "f7f1a0e0e452f442",
+      "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+      "titulo": "Lei Federal nº 12.527/2011 — LAI",
+      "data_documento": "2011-11-18",
+      "tipo": "lei",
+      "sha256": "f7f1a0e0e452f442a6d9e6c127eab24fc8da3aefa2e7c87ce2369aef9a2271d4",
+      "tamanho_bytes": 264333,
+      "status_leitura": "texto_extraido_integralmente",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        3,
+        11
+      ],
+      "resumo_documental": "Regula o acesso a informações; contém os arts. 8º e 40 usados na matriz.",
+      "grupos_vinculados": [
+        "Q1.1",
+        "Q1.2",
+        "Q1.3",
+        "Q1.4",
+        "Q3.1"
+      ],
+      "limitacoes": null
+    },
+    {
+      "id": "5e173c3db3af66ae",
+      "arquivo": "Pedido de informação - fluxo e prazos.pdf",
+      "titulo": "Acesso à informação SEMA-MT — fluxo e prazos",
+      "data_documento": null,
+      "tipo": "material informativo",
+      "sha256": "5e173c3db3af66ae8fb65bc596ef7c30fcdf50d1188faa53b8bb632b80ec40ac",
+      "tamanho_bytes": 381710,
+      "status_leitura": "texto_e_ocr_local_extraidos",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "resumo_documental": "Apresenta transparência ativa/passiva, canais, prazos e fluxo recursal; cita o Decreto nº 1.973/2013, posteriormente revogado pelo Decreto nº 806/2021.",
+      "grupos_vinculados": [],
+      "limitacoes": null
+    },
+    {
+      "id": "66cb9fd292a80100",
+      "arquivo": "Unidade_NGER_PTA_PTA 2026 COMPLETO.pdf",
+      "titulo": "PLAN 20 — Relatório do PTA, exercício 2026, UO 27.101",
+      "data_documento": "2026",
+      "tipo": "relatório de planejamento",
+      "sha256": "66cb9fd292a8010012ee9f9a8442c7f141d8f5caf780745cbdb176c5ef5e0be4",
+      "tamanho_bytes": 347907,
+      "status_leitura": "texto_extraido_integralmente",
+      "paginas_ou_estrutura_pertinente": [
+        1,
+        68,
+        69,
+        87
+      ],
+      "resumo_documental": "Contém ação de fortalecimento da transparência e responsável nas páginas PDF 68–69. Não contém a expressão ou um quadro rotulado 'Quadro 1'.",
+      "grupos_vinculados": [
+        "Q3.1"
+      ],
+      "limitacoes": null
+    },
+    {
+      "id": "92a8c9dd701ddf62",
+      "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+      "titulo": "Lista de Verificação Eletrônica SEMA-MT",
+      "data_documento": null,
+      "tipo": "planilha metodológica",
+      "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+      "tamanho_bytes": 26941,
+      "status_leitura": "celulas_formulas_estilos_extraidos_integralmente",
+      "paginas_ou_estrutura_pertinente": [],
+      "resumo_documental": "Fonte primária dos 73 critérios; linhas 2–74. A linha 75 é exemplo e está fora das fórmulas do Resumo.",
+      "grupos_vinculados": [
+        "Q1.1",
+        "Q1.2",
+        "Q1.3",
+        "Q1.4",
+        "Q1.5",
+        "Q1.6",
+        "Q2.1",
+        "Q2.2",
+        "Q2.3",
+        "Q2.4",
+        "Q2.5",
+        "Q2.6",
+        "Q2.7",
+        "Q3.1",
+        "Q3.2",
+        "Q3.3",
+        "Q3.4"
+      ],
+      "limitacoes": null
+    },
+    {
+      "id": "d60f77b902d5a0c2",
+      "arquivo": "Roteiro_de_Execucao_Passo_a_Passo_SEMA-MT_atualizado 1.docx",
+      "titulo": "Roteiro de execução — passo a passo",
+      "data_documento": null,
+      "tipo": "roteiro metodológico",
+      "sha256": "d60f77b902d5a0c22261e21c03d924acf996ee7dbf19c7cd6c703bc41b2b7cbe",
+      "tamanho_bytes": 54516,
+      "status_leitura": "estrutura_extraida_integralmente",
+      "paginas_ou_estrutura_pertinente": [],
+      "resumo_documental": "Fonte primária dos 17 itens e 66 passos; exige início pela página inicial, URL exata e captura datada em sucesso e ausência.",
+      "grupos_vinculados": [
+        "Q1.1",
+        "Q1.2",
+        "Q1.3",
+        "Q1.4",
+        "Q1.5",
+        "Q1.6",
+        "Q2.1",
+        "Q2.2",
+        "Q2.3",
+        "Q2.4",
+        "Q2.5",
+        "Q2.6",
+        "Q2.7",
+        "Q3.1",
+        "Q3.2",
+        "Q3.3",
+        "Q3.4"
+      ],
+      "limitacoes": null
+    }
+  ],
+  "documentos_mencionados_na_metodologia_mas_ausentes": [
+    "Lei Complementar Estadual nº 38/1995",
+    "Lei Complementar Federal nº 140/2011",
+    "Lei Federal nº 12.651/2012",
+    "Lei Federal nº 13.460/2017",
+    "Lei Federal nº 13.709/2018",
+    "Lei Federal nº 9.433/1997",
+    "Lei Federal nº 9.985/2000",
+    "Matriz de Planejamento",
+    "Relatório de Visão Geral do Objeto"
+  ],
+  "verificacoes_criticas": {
+    "pta_quadro_1": "O PDF PTA 2026 foi localizado e processado em 87 páginas. Não contém a expressão nem elemento rotulado 'Quadro 1'; as páginas PDF 68–69 contêm a ação de transparência e o responsável citados no roteiro.",
+    "processo_78107": "Confirmado na página 1: o arquivo 78107-2022 é o voto-vista do Processo nº 7.810-7/2022.",
+    "decreto_1973": "O arquivo assim nomeado contém, na realidade, o Decreto nº 397/2020, que altera o Decreto nº 1.973/2013. O Decreto nº 806/2021 registra a revogação do nº 1.973/2013 em sua página 19."
+  }
+}

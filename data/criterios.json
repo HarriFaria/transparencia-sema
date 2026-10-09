@@ -1,0 +1,4629 @@
+{
+  "schema_version": 1,
+  "gerado_em_utc": "2026-10-09T15:29:34.521281+00:00",
+  "fonte": {
+    "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+    "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+    "linhas_importadas": "2:74",
+    "linha_exemplo_excluida": 75
+  },
+  "totais": {
+    "criterios": 73,
+    "questao_1": 35,
+    "questao_2": 24,
+    "questao_3": 14
+  },
+  "criterios": [
+    {
+      "ordem": 1,
+      "questao": 1,
+      "id": "Q1.1.1",
+      "grupo_id": "Q1.1",
+      "redacao_literal": "Competências.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, I, V e VI",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (seções institucional/estrutura e perguntas frequentes)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode abrir o site e navegar automaticamente a partir da página inicial, capturando telas das páginas encontradas; confirmar se esse é o caminho que um cidadão comum percorreria continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 2,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, I, V e VI"
+          ],
+          "relacao": "Fundamento da transparência ativa para competências, estrutura, contatos, programas e FAQ.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            3,
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 5º a 10"
+          ],
+          "relacao": "Regulamentação estadual de transparência ativa.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 2,
+      "questao": 1,
+      "id": "Q1.1.2",
+      "grupo_id": "Q1.1",
+      "redacao_literal": "Estrutura organizacional.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, I, V e VI",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (seções institucional/estrutura e perguntas frequentes)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode abrir o site e navegar automaticamente a partir da página inicial, capturando telas das páginas encontradas; confirmar se esse é o caminho que um cidadão comum percorreria continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 3,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, I, V e VI"
+          ],
+          "relacao": "Fundamento da transparência ativa para competências, estrutura, contatos, programas e FAQ.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            3,
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 5º a 10"
+          ],
+          "relacao": "Regulamentação estadual de transparência ativa.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 3,
+      "questao": 1,
+      "id": "Q1.1.3",
+      "grupo_id": "Q1.1",
+      "redacao_literal": "Endereços.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, I, V e VI",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (seções institucional/estrutura e perguntas frequentes)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode abrir o site e navegar automaticamente a partir da página inicial, capturando telas das páginas encontradas; confirmar se esse é o caminho que um cidadão comum percorreria continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 4,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, I, V e VI"
+          ],
+          "relacao": "Fundamento da transparência ativa para competências, estrutura, contatos, programas e FAQ.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            3,
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 5º a 10"
+          ],
+          "relacao": "Regulamentação estadual de transparência ativa.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 4,
+      "questao": 1,
+      "id": "Q1.1.4",
+      "grupo_id": "Q1.1",
+      "redacao_literal": "Telefones.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, I, V e VI",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (seções institucional/estrutura e perguntas frequentes)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode abrir o site e navegar automaticamente a partir da página inicial, capturando telas das páginas encontradas; confirmar se esse é o caminho que um cidadão comum percorreria continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 5,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, I, V e VI"
+          ],
+          "relacao": "Fundamento da transparência ativa para competências, estrutura, contatos, programas e FAQ.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            3,
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 5º a 10"
+          ],
+          "relacao": "Regulamentação estadual de transparência ativa.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 5,
+      "questao": 1,
+      "id": "Q1.1.5",
+      "grupo_id": "Q1.1",
+      "redacao_literal": "Horários de atendimento.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, I, V e VI",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (seções institucional/estrutura e perguntas frequentes)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode abrir o site e navegar automaticamente a partir da página inicial, capturando telas das páginas encontradas; confirmar se esse é o caminho que um cidadão comum percorreria continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 6,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, I, V e VI"
+          ],
+          "relacao": "Fundamento da transparência ativa para competências, estrutura, contatos, programas e FAQ.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            3,
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 5º a 10"
+          ],
+          "relacao": "Regulamentação estadual de transparência ativa.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 6,
+      "questao": 1,
+      "id": "Q1.1.6",
+      "grupo_id": "Q1.1",
+      "redacao_literal": "Programas.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, I, V e VI",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (seções institucional/estrutura e perguntas frequentes)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode abrir o site e navegar automaticamente a partir da página inicial, capturando telas das páginas encontradas; confirmar se esse é o caminho que um cidadão comum percorreria continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 7,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, I, V e VI"
+          ],
+          "relacao": "Fundamento da transparência ativa para competências, estrutura, contatos, programas e FAQ.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            3,
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 5º a 10"
+          ],
+          "relacao": "Regulamentação estadual de transparência ativa.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 7,
+      "questao": 1,
+      "id": "Q1.1.7",
+      "grupo_id": "Q1.1",
+      "redacao_literal": "Ações.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, I, V e VI",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (seções institucional/estrutura e perguntas frequentes)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode abrir o site e navegar automaticamente a partir da página inicial, capturando telas das páginas encontradas; confirmar se esse é o caminho que um cidadão comum percorreria continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 8,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, I, V e VI"
+          ],
+          "relacao": "Fundamento da transparência ativa para competências, estrutura, contatos, programas e FAQ.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            3,
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 5º a 10"
+          ],
+          "relacao": "Regulamentação estadual de transparência ativa.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 8,
+      "questao": 1,
+      "id": "Q1.1.8",
+      "grupo_id": "Q1.1",
+      "redacao_literal": "Projetos.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, I, V e VI",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (seções institucional/estrutura e perguntas frequentes)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode abrir o site e navegar automaticamente a partir da página inicial, capturando telas das páginas encontradas; confirmar se esse é o caminho que um cidadão comum percorreria continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 9,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, I, V e VI"
+          ],
+          "relacao": "Fundamento da transparência ativa para competências, estrutura, contatos, programas e FAQ.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            3,
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 5º a 10"
+          ],
+          "relacao": "Regulamentação estadual de transparência ativa.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 9,
+      "questao": 1,
+      "id": "Q1.1.9",
+      "grupo_id": "Q1.1",
+      "redacao_literal": "Obras.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, I, V e VI",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (seções institucional/estrutura e perguntas frequentes)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode abrir o site e navegar automaticamente a partir da página inicial, capturando telas das páginas encontradas; confirmar se esse é o caminho que um cidadão comum percorreria continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 10,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, I, V e VI"
+          ],
+          "relacao": "Fundamento da transparência ativa para competências, estrutura, contatos, programas e FAQ.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            3,
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 5º a 10"
+          ],
+          "relacao": "Regulamentação estadual de transparência ativa.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 10,
+      "questao": 1,
+      "id": "Q1.1.10",
+      "grupo_id": "Q1.1",
+      "redacao_literal": "Perguntas frequentes da sociedade (FAQ).",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, I, V e VI",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (seções institucional/estrutura e perguntas frequentes)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode abrir o site e navegar automaticamente a partir da página inicial, capturando telas das páginas encontradas; confirmar se esse é o caminho que um cidadão comum percorreria continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 11,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, I, V e VI"
+          ],
+          "relacao": "Fundamento da transparência ativa para competências, estrutura, contatos, programas e FAQ.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            3,
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 5º a 10"
+          ],
+          "relacao": "Regulamentação estadual de transparência ativa.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 11,
+      "questao": 1,
+      "id": "Q1.2.1",
+      "grupo_id": "Q1.2",
+      "redacao_literal": "Repasses de recursos financeiros.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, II",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (Portal da Transparência do órgão)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode extrair os dados publicados no Portal da Transparência; comparar com a lista real de convênios citada no Voto-Vista do Processo nº 7.810-7/2022 continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 12,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, II"
+          ],
+          "relacao": "Fundamento para repasses e transferências.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "055abe2bc30ffdd5",
+          "arquivo": "78107-2022 SEMA - voto vista.pdf",
+          "paginas_pdf": [
+            1,
+            3,
+            13,
+            14
+          ],
+          "artigos": [],
+          "relacao": "Antecedente de 2021/2023 sobre convênios; não comprova a situação de 2026.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "3e3c37d053fe42fb",
+          "arquivo": "2. OFÍCIO_52_2023_Solicitação de informações sobre fundos ambientais e auxílios financeiros..pdf",
+          "paginas_pdf": [
+            2
+          ],
+          "artigos": [],
+          "relacao": "Antecedente de solicitação sobre fundos, parcerias e acordos; não comprova a situação de 2026.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 12,
+      "questao": 1,
+      "id": "Q1.2.2",
+      "grupo_id": "Q1.2",
+      "redacao_literal": "Transferências de recursos financeiros.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, II",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (Portal da Transparência do órgão)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode extrair os dados publicados no Portal da Transparência; comparar com a lista real de convênios citada no Voto-Vista do Processo nº 7.810-7/2022 continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 13,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, II"
+          ],
+          "relacao": "Fundamento para repasses e transferências.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "055abe2bc30ffdd5",
+          "arquivo": "78107-2022 SEMA - voto vista.pdf",
+          "paginas_pdf": [
+            1,
+            3,
+            13,
+            14
+          ],
+          "artigos": [],
+          "relacao": "Antecedente de 2021/2023 sobre convênios; não comprova a situação de 2026.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "3e3c37d053fe42fb",
+          "arquivo": "2. OFÍCIO_52_2023_Solicitação de informações sobre fundos ambientais e auxílios financeiros..pdf",
+          "paginas_pdf": [
+            2
+          ],
+          "artigos": [],
+          "relacao": "Antecedente de solicitação sobre fundos, parcerias e acordos; não comprova a situação de 2026.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 13,
+      "questao": 1,
+      "id": "Q1.2.3",
+      "grupo_id": "Q1.2",
+      "redacao_literal": "Convênios.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, II",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (Portal da Transparência do órgão)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode extrair os dados publicados no Portal da Transparência; comparar com a lista real de convênios citada no Voto-Vista do Processo nº 7.810-7/2022 continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 14,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, II"
+          ],
+          "relacao": "Fundamento para repasses e transferências.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "055abe2bc30ffdd5",
+          "arquivo": "78107-2022 SEMA - voto vista.pdf",
+          "paginas_pdf": [
+            1,
+            3,
+            13,
+            14
+          ],
+          "artigos": [],
+          "relacao": "Antecedente de 2021/2023 sobre convênios; não comprova a situação de 2026.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "3e3c37d053fe42fb",
+          "arquivo": "2. OFÍCIO_52_2023_Solicitação de informações sobre fundos ambientais e auxílios financeiros..pdf",
+          "paginas_pdf": [
+            2
+          ],
+          "artigos": [],
+          "relacao": "Antecedente de solicitação sobre fundos, parcerias e acordos; não comprova a situação de 2026.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 14,
+      "questao": 1,
+      "id": "Q1.2.4",
+      "grupo_id": "Q1.2",
+      "redacao_literal": "Compromissos nacionais e internacionais.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, II",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (Portal da Transparência do órgão)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode extrair os dados publicados no Portal da Transparência; comparar com a lista real de convênios citada no Voto-Vista do Processo nº 7.810-7/2022 continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 15,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, II"
+          ],
+          "relacao": "Fundamento para repasses e transferências.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "055abe2bc30ffdd5",
+          "arquivo": "78107-2022 SEMA - voto vista.pdf",
+          "paginas_pdf": [
+            1,
+            3,
+            13,
+            14
+          ],
+          "artigos": [],
+          "relacao": "Antecedente de 2021/2023 sobre convênios; não comprova a situação de 2026.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "3e3c37d053fe42fb",
+          "arquivo": "2. OFÍCIO_52_2023_Solicitação de informações sobre fundos ambientais e auxílios financeiros..pdf",
+          "paginas_pdf": [
+            2
+          ],
+          "artigos": [],
+          "relacao": "Antecedente de solicitação sobre fundos, parcerias e acordos; não comprova a situação de 2026.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 15,
+      "questao": 1,
+      "id": "Q1.2.5",
+      "grupo_id": "Q1.2",
+      "redacao_literal": "Acordos nacionais e internacionais.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, II",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT (Portal da Transparência do órgão)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode extrair os dados publicados no Portal da Transparência; comparar com a lista real de convênios citada no Voto-Vista do Processo nº 7.810-7/2022 continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 16,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P06",
+        "P07",
+        "P08",
+        "P09"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, II"
+          ],
+          "relacao": "Fundamento para repasses e transferências.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "055abe2bc30ffdd5",
+          "arquivo": "78107-2022 SEMA - voto vista.pdf",
+          "paginas_pdf": [
+            1,
+            3,
+            13,
+            14
+          ],
+          "artigos": [],
+          "relacao": "Antecedente de 2021/2023 sobre convênios; não comprova a situação de 2026.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "3e3c37d053fe42fb",
+          "arquivo": "2. OFÍCIO_52_2023_Solicitação de informações sobre fundos ambientais e auxílios financeiros..pdf",
+          "paginas_pdf": [
+            2
+          ],
+          "artigos": [],
+          "relacao": "Antecedente de solicitação sobre fundos, parcerias e acordos; não comprova a situação de 2026.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 16,
+      "questao": 1,
+      "id": "Q1.3.1",
+      "grupo_id": "Q1.3",
+      "redacao_literal": "Procedimentos licitatórios.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, IV",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode varrer a página de licitações/contratos, listar o que está publicado e testar se os documentos realmente abrem ou podem ser baixados; dizer se algo está faltando continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 17,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, IV"
+          ],
+          "relacao": "Fundamento para licitações, editais, resultados e contratos.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 17,
+      "questao": 1,
+      "id": "Q1.3.2",
+      "grupo_id": "Q1.3",
+      "redacao_literal": "Editais.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, IV",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode varrer a página de licitações/contratos, listar o que está publicado e testar se os documentos realmente abrem ou podem ser baixados; dizer se algo está faltando continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 18,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, IV"
+          ],
+          "relacao": "Fundamento para licitações, editais, resultados e contratos.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 18,
+      "questao": 1,
+      "id": "Q1.3.3",
+      "grupo_id": "Q1.3",
+      "redacao_literal": "Resultados das licitações.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, IV",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode varrer a página de licitações/contratos, listar o que está publicado e testar se os documentos realmente abrem ou podem ser baixados; dizer se algo está faltando continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 19,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, IV"
+          ],
+          "relacao": "Fundamento para licitações, editais, resultados e contratos.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 19,
+      "questao": 1,
+      "id": "Q1.3.4",
+      "grupo_id": "Q1.3",
+      "redacao_literal": "Contratos celebrados pela SEMA-MT.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 1º, IV",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "set.-out./2026",
+      "orientacao_ti_literal": "O robô pode varrer a página de licitações/contratos, listar o que está publicado e testar se os documentos realmente abrem ou podem ser baixados; dizer se algo está faltando continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 20,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P10",
+        "P11",
+        "P12",
+        "P13",
+        "P14"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 1º, IV"
+          ],
+          "relacao": "Fundamento para licitações, editais, resultados e contratos.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 20,
+      "questao": 1,
+      "id": "Q1.4.1",
+      "grupo_id": "Q1.4",
+      "redacao_literal": "Existência e funcionamento de ferramenta de pesquisa.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 3º, I a VIII",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — testar a busca do site, identificar os formatos de arquivo disponíveis, rodar um scanner de acessibilidade (padrão WCAG) e checar indicações de autenticidade/integridade e data de atualização são tarefas automatizáveis.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 21,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 3º, I a VIII"
+          ],
+          "relacao": "Requisitos técnicos mínimos dos sítios oficiais.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 7º a 10"
+          ],
+          "relacao": "Requisitos estaduais do Portal Transparência.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 21,
+      "questao": 1,
+      "id": "Q1.4.2",
+      "grupo_id": "Q1.4",
+      "redacao_literal": "Possibilidade de gravação de relatórios em formatos eletrônicos abertos.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 3º, I a VIII",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — testar a busca do site, identificar os formatos de arquivo disponíveis, rodar um scanner de acessibilidade (padrão WCAG) e checar indicações de autenticidade/integridade e data de atualização são tarefas automatizáveis.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 22,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 3º, I a VIII"
+          ],
+          "relacao": "Requisitos técnicos mínimos dos sítios oficiais.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 7º a 10"
+          ],
+          "relacao": "Requisitos estaduais do Portal Transparência.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 22,
+      "questao": 1,
+      "id": "Q1.4.3",
+      "grupo_id": "Q1.4",
+      "redacao_literal": "Acesso automatizado por sistemas externos.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 3º, I a VIII",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — testar a busca do site, identificar os formatos de arquivo disponíveis, rodar um scanner de acessibilidade (padrão WCAG) e checar indicações de autenticidade/integridade e data de atualização são tarefas automatizáveis.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 23,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 3º, I a VIII"
+          ],
+          "relacao": "Requisitos técnicos mínimos dos sítios oficiais.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 7º a 10"
+          ],
+          "relacao": "Requisitos estaduais do Portal Transparência.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 23,
+      "questao": 1,
+      "id": "Q1.4.4",
+      "grupo_id": "Q1.4",
+      "redacao_literal": "Mecanismo de autenticidade das informações.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 3º, I a VIII",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — testar a busca do site, identificar os formatos de arquivo disponíveis, rodar um scanner de acessibilidade (padrão WCAG) e checar indicações de autenticidade/integridade e data de atualização são tarefas automatizáveis.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 24,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 3º, I a VIII"
+          ],
+          "relacao": "Requisitos técnicos mínimos dos sítios oficiais.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 7º a 10"
+          ],
+          "relacao": "Requisitos estaduais do Portal Transparência.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 24,
+      "questao": 1,
+      "id": "Q1.4.5",
+      "grupo_id": "Q1.4",
+      "redacao_literal": "Mecanismo de integridade das informações.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 3º, I a VIII",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — testar a busca do site, identificar os formatos de arquivo disponíveis, rodar um scanner de acessibilidade (padrão WCAG) e checar indicações de autenticidade/integridade e data de atualização são tarefas automatizáveis.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 25,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 3º, I a VIII"
+          ],
+          "relacao": "Requisitos técnicos mínimos dos sítios oficiais.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 7º a 10"
+          ],
+          "relacao": "Requisitos estaduais do Portal Transparência.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 25,
+      "questao": 1,
+      "id": "Q1.4.6",
+      "grupo_id": "Q1.4",
+      "redacao_literal": "Atualização das informações.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 3º, I a VIII",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — testar a busca do site, identificar os formatos de arquivo disponíveis, rodar um scanner de acessibilidade (padrão WCAG) e checar indicações de autenticidade/integridade e data de atualização são tarefas automatizáveis.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 26,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 3º, I a VIII"
+          ],
+          "relacao": "Requisitos técnicos mínimos dos sítios oficiais.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 7º a 10"
+          ],
+          "relacao": "Requisitos estaduais do Portal Transparência.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 26,
+      "questao": 1,
+      "id": "Q1.4.7",
+      "grupo_id": "Q1.4",
+      "redacao_literal": "Canal de contato.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 3º, I a VIII",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — testar a busca do site, identificar os formatos de arquivo disponíveis, rodar um scanner de acessibilidade (padrão WCAG) e checar indicações de autenticidade/integridade e data de atualização são tarefas automatizáveis.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 27,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 3º, I a VIII"
+          ],
+          "relacao": "Requisitos técnicos mínimos dos sítios oficiais.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 7º a 10"
+          ],
+          "relacao": "Requisitos estaduais do Portal Transparência.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 27,
+      "questao": 1,
+      "id": "Q1.4.8",
+      "grupo_id": "Q1.4",
+      "redacao_literal": "Acessibilidade para pessoas com deficiência.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 3º, I a VIII",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — testar a busca do site, identificar os formatos de arquivo disponíveis, rodar um scanner de acessibilidade (padrão WCAG) e checar indicações de autenticidade/integridade e data de atualização são tarefas automatizáveis.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 28,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 3º, I a VIII"
+          ],
+          "relacao": "Requisitos técnicos mínimos dos sítios oficiais.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 7º a 10"
+          ],
+          "relacao": "Requisitos estaduais do Portal Transparência.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 28,
+      "questao": 1,
+      "id": "Q1.4.9",
+      "grupo_id": "Q1.4",
+      "redacao_literal": "Demais requisitos do art. 8º, § 3º, I a VIII, da LAI aplicáveis ao sítio.",
+      "norma_dispositivo_literal": "LAI, art. 8º, § 3º, I a VIII",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — testar a busca do site, identificar os formatos de arquivo disponíveis, rodar um scanner de acessibilidade (padrão WCAG) e checar indicações de autenticidade/integridade e data de atualização são tarefas automatizáveis.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 29,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P15",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P20"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            3
+          ],
+          "artigos": [
+            "art. 8º, § 3º, I a VIII"
+          ],
+          "relacao": "Requisitos técnicos mínimos dos sítios oficiais.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "f49bc80a51956326",
+          "arquivo": "Decreto 806-2021.pdf",
+          "paginas_pdf": [
+            4,
+            5
+          ],
+          "artigos": [
+            "arts. 7º a 10"
+          ],
+          "relacao": "Requisitos estaduais do Portal Transparência.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 29,
+      "questao": 1,
+      "id": "Q1.5.1",
+      "grupo_id": "Q1.5",
+      "redacao_literal": "Plano de Dados Abertos (PDA) da SEMA-MT.",
+      "norma_dispositivo_literal": "Decreto Estadual nº 1.691/2025, art. 5º, V, e art. 7º, III",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; Portal Unificado de Dados do Governo de Mato Grosso (Dados.MT)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se a página do PDA existe, se a SEMA tem conjuntos de dados publicados no Dados.MT e comparar automaticamente a lista do PDA com o que está de fato publicado são checagens automatizáveis.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 30,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P21",
+        "P22",
+        "P23",
+        "P24"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "0a52f27a5c5bfc7f",
+          "arquivo": "Decreto 1691-2025.pdf",
+          "paginas_pdf": [
+            2,
+            3
+          ],
+          "artigos": [
+            "arts. 4º, 5º e 7º"
+          ],
+          "relacao": "Define PDA e exige sua publicação e a publicação de dados na plataforma estadual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 30,
+      "questao": 1,
+      "id": "Q1.5.2",
+      "grupo_id": "Q1.5",
+      "redacao_literal": "Conjuntos de dados da SEMA-MT previstos no PDA na Plataforma de Dados Abertos.",
+      "norma_dispositivo_literal": "Decreto Estadual nº 1.691/2025, art. 5º, V, e art. 7º, III",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; Portal Unificado de Dados do Governo de Mato Grosso (Dados.MT)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se a página do PDA existe, se a SEMA tem conjuntos de dados publicados no Dados.MT e comparar automaticamente a lista do PDA com o que está de fato publicado são checagens automatizáveis.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 31,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P21",
+        "P22",
+        "P23",
+        "P24"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "0a52f27a5c5bfc7f",
+          "arquivo": "Decreto 1691-2025.pdf",
+          "paginas_pdf": [
+            2,
+            3
+          ],
+          "artigos": [
+            "arts. 4º, 5º e 7º"
+          ],
+          "relacao": "Define PDA e exige sua publicação e a publicação de dados na plataforma estadual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 31,
+      "questao": 1,
+      "id": "Q1.6.1",
+      "grupo_id": "Q1.6",
+      "redacao_literal": "Publicação da Carta de Serviços ao Usuário.",
+      "norma_dispositivo_literal": "Lei Federal nº 13.460/2017, arts. 7º e 8º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se a página da Carta de Serviços existe e tem conteúdo é automatizável.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 32,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P25",
+        "P26",
+        "P27"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 13.460/2017",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 13.460/2017"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 32,
+      "questao": 1,
+      "id": "Q1.6.2",
+      "grupo_id": "Q1.6",
+      "redacao_literal": "Serviços prestados.",
+      "norma_dispositivo_literal": "Lei Federal nº 13.460/2017, arts. 7º e 8º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se a página da Carta de Serviços existe e tem conteúdo é automatizável.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 33,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P25",
+        "P26",
+        "P27"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 13.460/2017",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 13.460/2017"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 33,
+      "questao": 1,
+      "id": "Q1.6.3",
+      "grupo_id": "Q1.6",
+      "redacao_literal": "Formas de acesso.",
+      "norma_dispositivo_literal": "Lei Federal nº 13.460/2017, arts. 7º e 8º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se a página da Carta de Serviços existe e tem conteúdo é automatizável.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 34,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P25",
+        "P26",
+        "P27"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 13.460/2017",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 13.460/2017"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 34,
+      "questao": 1,
+      "id": "Q1.6.4",
+      "grupo_id": "Q1.6",
+      "redacao_literal": "Requisitos.",
+      "norma_dispositivo_literal": "Lei Federal nº 13.460/2017, arts. 7º e 8º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se a página da Carta de Serviços existe e tem conteúdo é automatizável.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 35,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P25",
+        "P26",
+        "P27"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 13.460/2017",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 13.460/2017"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 35,
+      "questao": 1,
+      "id": "Q1.6.5",
+      "grupo_id": "Q1.6",
+      "redacao_literal": "Prazos relacionados aos serviços.",
+      "norma_dispositivo_literal": "Lei Federal nº 13.460/2017, arts. 7º e 8º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se a página da Carta de Serviços existe e tem conteúdo é automatizável.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 36,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P25",
+        "P26",
+        "P27"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 13.460/2017",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 13.460/2017"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 36,
+      "questao": 2,
+      "id": "Q2.1.1",
+      "grupo_id": "Q2.1",
+      "redacao_literal": "Documentos administrativos ambientais.",
+      "norma_dispositivo_literal": "Lei Federal nº 10.650/2003, arts. 2º e 4º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; SIMLAM; Diário Oficial do Estado",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out.-nov./2026",
+      "orientacao_ti_literal": "O robô pode checar se há registros publicados no site e no SIMLAM; avaliar se a publicidade é \"frágil\" ou insuficiente, e distinguir entre as diferentes categorias (licenciamento, supressão de vegetação, autos de infração etc.), continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 37,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P28",
+        "P29",
+        "P30",
+        "P31",
+        "P32"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "2d2627770f22414a",
+          "arquivo": "L10650-2003.pdf",
+          "paginas_pdf": [
+            1,
+            2
+          ],
+          "artigos": [
+            "arts. 2º e 4º"
+          ],
+          "relacao": "Acesso público a documentos/processos ambientais e publicação de listagens.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "ac0e65fd56dbf523",
+          "arquivo": "3. OFÍCIO_51_2023_Solicitação de informações sobre desmatamento em Mato Grosso.pdf",
+          "paginas_pdf": [
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente sobre multas, infrações e desmatamento; não comprova publicidade atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 37,
+      "questao": 2,
+      "id": "Q2.1.2",
+      "grupo_id": "Q2.1",
+      "redacao_literal": "Processos administrativos ambientais.",
+      "norma_dispositivo_literal": "Lei Federal nº 10.650/2003, arts. 2º e 4º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; SIMLAM; Diário Oficial do Estado",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out.-nov./2026",
+      "orientacao_ti_literal": "O robô pode checar se há registros publicados no site e no SIMLAM; avaliar se a publicidade é \"frágil\" ou insuficiente, e distinguir entre as diferentes categorias (licenciamento, supressão de vegetação, autos de infração etc.), continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 38,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P28",
+        "P29",
+        "P30",
+        "P31",
+        "P32"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "2d2627770f22414a",
+          "arquivo": "L10650-2003.pdf",
+          "paginas_pdf": [
+            1,
+            2
+          ],
+          "artigos": [
+            "arts. 2º e 4º"
+          ],
+          "relacao": "Acesso público a documentos/processos ambientais e publicação de listagens.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "ac0e65fd56dbf523",
+          "arquivo": "3. OFÍCIO_51_2023_Solicitação de informações sobre desmatamento em Mato Grosso.pdf",
+          "paginas_pdf": [
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente sobre multas, infrações e desmatamento; não comprova publicidade atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 38,
+      "questao": 2,
+      "id": "Q2.1.3",
+      "grupo_id": "Q2.1",
+      "redacao_literal": "Listagens de licenciamento.",
+      "norma_dispositivo_literal": "Lei Federal nº 10.650/2003, arts. 2º e 4º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; SIMLAM; Diário Oficial do Estado",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out.-nov./2026",
+      "orientacao_ti_literal": "O robô pode checar se há registros publicados no site e no SIMLAM; avaliar se a publicidade é \"frágil\" ou insuficiente, e distinguir entre as diferentes categorias (licenciamento, supressão de vegetação, autos de infração etc.), continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 39,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P28",
+        "P29",
+        "P30",
+        "P31",
+        "P32"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "2d2627770f22414a",
+          "arquivo": "L10650-2003.pdf",
+          "paginas_pdf": [
+            1,
+            2
+          ],
+          "artigos": [
+            "arts. 2º e 4º"
+          ],
+          "relacao": "Acesso público a documentos/processos ambientais e publicação de listagens.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "ac0e65fd56dbf523",
+          "arquivo": "3. OFÍCIO_51_2023_Solicitação de informações sobre desmatamento em Mato Grosso.pdf",
+          "paginas_pdf": [
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente sobre multas, infrações e desmatamento; não comprova publicidade atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 39,
+      "questao": 2,
+      "id": "Q2.1.4",
+      "grupo_id": "Q2.1",
+      "redacao_literal": "Informações sobre supressão de vegetação.",
+      "norma_dispositivo_literal": "Lei Federal nº 10.650/2003, arts. 2º e 4º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; SIMLAM; Diário Oficial do Estado",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out.-nov./2026",
+      "orientacao_ti_literal": "O robô pode checar se há registros publicados no site e no SIMLAM; avaliar se a publicidade é \"frágil\" ou insuficiente, e distinguir entre as diferentes categorias (licenciamento, supressão de vegetação, autos de infração etc.), continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 40,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P28",
+        "P29",
+        "P30",
+        "P31",
+        "P32"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "2d2627770f22414a",
+          "arquivo": "L10650-2003.pdf",
+          "paginas_pdf": [
+            1,
+            2
+          ],
+          "artigos": [
+            "arts. 2º e 4º"
+          ],
+          "relacao": "Acesso público a documentos/processos ambientais e publicação de listagens.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "ac0e65fd56dbf523",
+          "arquivo": "3. OFÍCIO_51_2023_Solicitação de informações sobre desmatamento em Mato Grosso.pdf",
+          "paginas_pdf": [
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente sobre multas, infrações e desmatamento; não comprova publicidade atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 40,
+      "questao": 2,
+      "id": "Q2.1.5",
+      "grupo_id": "Q2.1",
+      "redacao_literal": "Autos de infração.",
+      "norma_dispositivo_literal": "Lei Federal nº 10.650/2003, arts. 2º e 4º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; SIMLAM; Diário Oficial do Estado",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out.-nov./2026",
+      "orientacao_ti_literal": "O robô pode checar se há registros publicados no site e no SIMLAM; avaliar se a publicidade é \"frágil\" ou insuficiente, e distinguir entre as diferentes categorias (licenciamento, supressão de vegetação, autos de infração etc.), continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 41,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P28",
+        "P29",
+        "P30",
+        "P31",
+        "P32"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "2d2627770f22414a",
+          "arquivo": "L10650-2003.pdf",
+          "paginas_pdf": [
+            1,
+            2
+          ],
+          "artigos": [
+            "arts. 2º e 4º"
+          ],
+          "relacao": "Acesso público a documentos/processos ambientais e publicação de listagens.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "ac0e65fd56dbf523",
+          "arquivo": "3. OFÍCIO_51_2023_Solicitação de informações sobre desmatamento em Mato Grosso.pdf",
+          "paginas_pdf": [
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente sobre multas, infrações e desmatamento; não comprova publicidade atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 41,
+      "questao": 2,
+      "id": "Q2.1.6",
+      "grupo_id": "Q2.1",
+      "redacao_literal": "Termos de ajustamento de conduta (TAC).",
+      "norma_dispositivo_literal": "Lei Federal nº 10.650/2003, arts. 2º e 4º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; SIMLAM; Diário Oficial do Estado",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out.-nov./2026",
+      "orientacao_ti_literal": "O robô pode checar se há registros publicados no site e no SIMLAM; avaliar se a publicidade é \"frágil\" ou insuficiente, e distinguir entre as diferentes categorias (licenciamento, supressão de vegetação, autos de infração etc.), continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 42,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P28",
+        "P29",
+        "P30",
+        "P31",
+        "P32"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "2d2627770f22414a",
+          "arquivo": "L10650-2003.pdf",
+          "paginas_pdf": [
+            1,
+            2
+          ],
+          "artigos": [
+            "arts. 2º e 4º"
+          ],
+          "relacao": "Acesso público a documentos/processos ambientais e publicação de listagens.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "ac0e65fd56dbf523",
+          "arquivo": "3. OFÍCIO_51_2023_Solicitação de informações sobre desmatamento em Mato Grosso.pdf",
+          "paginas_pdf": [
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente sobre multas, infrações e desmatamento; não comprova publicidade atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 42,
+      "questao": 2,
+      "id": "Q2.1.7",
+      "grupo_id": "Q2.1",
+      "redacao_literal": "Recursos administrativos.",
+      "norma_dispositivo_literal": "Lei Federal nº 10.650/2003, arts. 2º e 4º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; SIMLAM; Diário Oficial do Estado",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out.-nov./2026",
+      "orientacao_ti_literal": "O robô pode checar se há registros publicados no site e no SIMLAM; avaliar se a publicidade é \"frágil\" ou insuficiente, e distinguir entre as diferentes categorias (licenciamento, supressão de vegetação, autos de infração etc.), continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 43,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P28",
+        "P29",
+        "P30",
+        "P31",
+        "P32"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "2d2627770f22414a",
+          "arquivo": "L10650-2003.pdf",
+          "paginas_pdf": [
+            1,
+            2
+          ],
+          "artigos": [
+            "arts. 2º e 4º"
+          ],
+          "relacao": "Acesso público a documentos/processos ambientais e publicação de listagens.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "ac0e65fd56dbf523",
+          "arquivo": "3. OFÍCIO_51_2023_Solicitação de informações sobre desmatamento em Mato Grosso.pdf",
+          "paginas_pdf": [
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente sobre multas, infrações e desmatamento; não comprova publicidade atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 43,
+      "questao": 2,
+      "id": "Q2.1.8",
+      "grupo_id": "Q2.1",
+      "redacao_literal": "Estudos de impacto ambiental.",
+      "norma_dispositivo_literal": "Lei Federal nº 10.650/2003, arts. 2º e 4º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; SIMLAM; Diário Oficial do Estado",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out.-nov./2026",
+      "orientacao_ti_literal": "O robô pode checar se há registros publicados no site e no SIMLAM; avaliar se a publicidade é \"frágil\" ou insuficiente, e distinguir entre as diferentes categorias (licenciamento, supressão de vegetação, autos de infração etc.), continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 44,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P28",
+        "P29",
+        "P30",
+        "P31",
+        "P32"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "2d2627770f22414a",
+          "arquivo": "L10650-2003.pdf",
+          "paginas_pdf": [
+            1,
+            2
+          ],
+          "artigos": [
+            "arts. 2º e 4º"
+          ],
+          "relacao": "Acesso público a documentos/processos ambientais e publicação de listagens.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "ac0e65fd56dbf523",
+          "arquivo": "3. OFÍCIO_51_2023_Solicitação de informações sobre desmatamento em Mato Grosso.pdf",
+          "paginas_pdf": [
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente sobre multas, infrações e desmatamento; não comprova publicidade atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 44,
+      "questao": 2,
+      "id": "Q2.2.1",
+      "grupo_id": "Q2.2",
+      "redacao_literal": "Relatório anual sobre qualidade do ar.",
+      "norma_dispositivo_literal": "Lei Federal nº 10.650/2003, art. 8º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "nov./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se os relatórios existem e se a série histórica está completa é automatizável.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 45,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P33",
+        "P34",
+        "P35"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "2d2627770f22414a",
+          "arquivo": "L10650-2003.pdf",
+          "paginas_pdf": [
+            2
+          ],
+          "artigos": [
+            "art. 8º"
+          ],
+          "relacao": "Exige relatórios anuais de qualidade do ar e da água.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 45,
+      "questao": 2,
+      "id": "Q2.2.2",
+      "grupo_id": "Q2.2",
+      "redacao_literal": "Relatório anual sobre qualidade da água.",
+      "norma_dispositivo_literal": "Lei Federal nº 10.650/2003, art. 8º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "nov./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se os relatórios existem e se a série histórica está completa é automatizável.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 46,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P33",
+        "P34",
+        "P35"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "2d2627770f22414a",
+          "arquivo": "L10650-2003.pdf",
+          "paginas_pdf": [
+            2
+          ],
+          "artigos": [
+            "art. 8º"
+          ],
+          "relacao": "Exige relatórios anuais de qualidade do ar e da água.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 46,
+      "questao": 2,
+      "id": "Q2.2.3",
+      "grupo_id": "Q2.2",
+      "redacao_literal": "Sequência temporal compatível com a periodicidade anual.",
+      "norma_dispositivo_literal": "Lei Federal nº 10.650/2003, art. 8º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "nov./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se os relatórios existem e se a série histórica está completa é automatizável.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 47,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P33",
+        "P34",
+        "P35"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "2d2627770f22414a",
+          "arquivo": "L10650-2003.pdf",
+          "paginas_pdf": [
+            2
+          ],
+          "artigos": [
+            "art. 8º"
+          ],
+          "relacao": "Exige relatórios anuais de qualidade do ar e da água.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 47,
+      "questao": 2,
+      "id": "Q2.3.1",
+      "grupo_id": "Q2.3",
+      "redacao_literal": "Disponibilidade pública das informações não sigilosas do Cadastro Ambiental Rural.",
+      "norma_dispositivo_literal": "Lei Federal nº 12.651/2012 (Código Florestal), art. 29",
+      "fonte_informacao_literal": "Sistema Mato-grossense de Cadastro Ambiental Rural (SIMCAR)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out.-nov./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — testar se o filtro de pesquisa do SIMCAR funciona e se o resultado aparece sem exigir login é automatizável; confirmar que nenhuma informação sigilosa é exibida continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 48,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P36",
+        "P37",
+        "P38",
+        "P39"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "fdffd7922ef21e7a",
+          "arquivo": "4. OFÍCIO_50_2023_Solicitação de informações sobre o Sistema Mato-grossense de Cadastro Ambiental Rural – SIMCAR..pdf",
+          "paginas_pdf": [
+            1,
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente de solicitação sobre SIMCAR; não comprova acesso público atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 12.651/2012",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 12.651/2012"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 48,
+      "questao": 2,
+      "id": "Q2.3.2",
+      "grupo_id": "Q2.3",
+      "redacao_literal": "Mecanismo funcional de consulta/pesquisa.",
+      "norma_dispositivo_literal": "Lei Federal nº 12.651/2012 (Código Florestal), art. 29",
+      "fonte_informacao_literal": "Sistema Mato-grossense de Cadastro Ambiental Rural (SIMCAR)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out.-nov./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — testar se o filtro de pesquisa do SIMCAR funciona e se o resultado aparece sem exigir login é automatizável; confirmar que nenhuma informação sigilosa é exibida continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 49,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P36",
+        "P37",
+        "P38",
+        "P39"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "fdffd7922ef21e7a",
+          "arquivo": "4. OFÍCIO_50_2023_Solicitação de informações sobre o Sistema Mato-grossense de Cadastro Ambiental Rural – SIMCAR..pdf",
+          "paginas_pdf": [
+            1,
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente de solicitação sobre SIMCAR; não comprova acesso público atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 12.651/2012",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 12.651/2012"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 49,
+      "questao": 2,
+      "id": "Q2.3.3",
+      "grupo_id": "Q2.3",
+      "redacao_literal": "Possibilidade de acesso aos resultados da consulta pelo cidadão.",
+      "norma_dispositivo_literal": "Lei Federal nº 12.651/2012 (Código Florestal), art. 29",
+      "fonte_informacao_literal": "Sistema Mato-grossense de Cadastro Ambiental Rural (SIMCAR)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "out.-nov./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — testar se o filtro de pesquisa do SIMCAR funciona e se o resultado aparece sem exigir login é automatizável; confirmar que nenhuma informação sigilosa é exibida continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 50,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P36",
+        "P37",
+        "P38",
+        "P39"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "fdffd7922ef21e7a",
+          "arquivo": "4. OFÍCIO_50_2023_Solicitação de informações sobre o Sistema Mato-grossense de Cadastro Ambiental Rural – SIMCAR..pdf",
+          "paginas_pdf": [
+            1,
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente de solicitação sobre SIMCAR; não comprova acesso público atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 12.651/2012",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 12.651/2012"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 50,
+      "questao": 2,
+      "id": "Q2.4.1",
+      "grupo_id": "Q2.4",
+      "redacao_literal": "Planos de manejo das unidades de conservação estaduais.",
+      "norma_dispositivo_literal": "Lei Federal nº 9.985/2000 (SNUC), arts. 27 e 36",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; Geoportal da SEMA-MT (SIMGEO)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "nov./2026",
+      "orientacao_ti_literal": "O robô pode levantar o que está publicado no site e no Geoportal, inclusive sobre compensação ambiental; cruzar com o Ofício nº 53/2023 da COPMAS continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 51,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "88b173dfc0e3df7f",
+          "arquivo": "1. OFÍCIO_53_2023_Solicitação de informações sobre unidades de conservação..pdf",
+          "paginas_pdf": [
+            1,
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente sobre unidades, planos de manejo e compensação; não comprova publicidade atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 9.985/2000",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 9.985/2000"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 51,
+      "questao": 2,
+      "id": "Q2.4.2",
+      "grupo_id": "Q2.4",
+      "redacao_literal": "Informações relativas à compensação ambiental.",
+      "norma_dispositivo_literal": "Lei Federal nº 9.985/2000 (SNUC), arts. 27 e 36",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; Geoportal da SEMA-MT (SIMGEO)",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "nov./2026",
+      "orientacao_ti_literal": "O robô pode levantar o que está publicado no site e no Geoportal, inclusive sobre compensação ambiental; cruzar com o Ofício nº 53/2023 da COPMAS continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 52,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P40",
+        "P41",
+        "P42",
+        "P43",
+        "P44"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "88b173dfc0e3df7f",
+          "arquivo": "1. OFÍCIO_53_2023_Solicitação de informações sobre unidades de conservação..pdf",
+          "paginas_pdf": [
+            1,
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente sobre unidades, planos de manejo e compensação; não comprova publicidade atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 9.985/2000",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 9.985/2000"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 52,
+      "questao": 2,
+      "id": "Q2.5.1",
+      "grupo_id": "Q2.5",
+      "redacao_literal": "Informações sobre o FEMAM.",
+      "norma_dispositivo_literal": "Lei Complementar Estadual nº 38/1995, arts. 8º e 9º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "nov./2026",
+      "orientacao_ti_literal": "O robô pode levantar o que está no site sobre o FEMAM; cruzar com o Ofício nº 52/2023 da COPMAS continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 53,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P45",
+        "P46",
+        "P47",
+        "P48"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "3e3c37d053fe42fb",
+          "arquivo": "2. OFÍCIO_52_2023_Solicitação de informações sobre fundos ambientais e auxílios financeiros..pdf",
+          "paginas_pdf": [
+            1,
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente sobre fundos e recursos; não comprova publicidade atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Complementar Estadual nº 38/1995",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Complementar Estadual nº 38/1995"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 53,
+      "questao": 2,
+      "id": "Q2.5.2",
+      "grupo_id": "Q2.5",
+      "redacao_literal": "Fontes de recursos do Fundo.",
+      "norma_dispositivo_literal": "Lei Complementar Estadual nº 38/1995, arts. 8º e 9º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "nov./2026",
+      "orientacao_ti_literal": "O robô pode levantar o que está no site sobre o FEMAM; cruzar com o Ofício nº 52/2023 da COPMAS continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 54,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P45",
+        "P46",
+        "P47",
+        "P48"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "3e3c37d053fe42fb",
+          "arquivo": "2. OFÍCIO_52_2023_Solicitação de informações sobre fundos ambientais e auxílios financeiros..pdf",
+          "paginas_pdf": [
+            1,
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente sobre fundos e recursos; não comprova publicidade atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Complementar Estadual nº 38/1995",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Complementar Estadual nº 38/1995"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 54,
+      "questao": 2,
+      "id": "Q2.5.3",
+      "grupo_id": "Q2.5",
+      "redacao_literal": "Informações financeiras do Fundo objeto de transparência ativa.",
+      "norma_dispositivo_literal": "Lei Complementar Estadual nº 38/1995, arts. 8º e 9º",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "nov./2026",
+      "orientacao_ti_literal": "O robô pode levantar o que está no site sobre o FEMAM; cruzar com o Ofício nº 52/2023 da COPMAS continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 55,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P45",
+        "P46",
+        "P47",
+        "P48"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "3e3c37d053fe42fb",
+          "arquivo": "2. OFÍCIO_52_2023_Solicitação de informações sobre fundos ambientais e auxílios financeiros..pdf",
+          "paginas_pdf": [
+            1,
+            2,
+            3
+          ],
+          "artigos": [],
+          "relacao": "Antecedente sobre fundos e recursos; não comprova publicidade atual.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Complementar Estadual nº 38/1995",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Complementar Estadual nº 38/1995"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 55,
+      "questao": 2,
+      "id": "Q2.6.1",
+      "grupo_id": "Q2.6",
+      "redacao_literal": "Informações sobre recursos hídricos sob competência da SEMA-MT.",
+      "norma_dispositivo_literal": "Lei Federal nº 9.433/1997",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "nov./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se a página existe é automatizável.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 56,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P49",
+        "P50"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 9.433/1997",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 9.433/1997"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 56,
+      "questao": 2,
+      "id": "Q2.6.2",
+      "grupo_id": "Q2.6",
+      "redacao_literal": "Seção, sistema ou conjunto de documentos que permita ao cidadão localizar essas informações.",
+      "norma_dispositivo_literal": "Lei Federal nº 9.433/1997",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "nov./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se a página existe é automatizável.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 57,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P49",
+        "P50"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 9.433/1997",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 9.433/1997"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 57,
+      "questao": 2,
+      "id": "Q2.7.1",
+      "grupo_id": "Q2.7",
+      "redacao_literal": "Sistema estadual de informações sobre meio ambiente.",
+      "norma_dispositivo_literal": "Lei Complementar Federal nº 140/2011, art. 8º, VII e VIII",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; Portal Nacional de Licenciamento Ambiental",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "nov./2026",
+      "orientacao_ti_literal": "O robô pode checar se a SEMA aparece no Portal Nacional de Licenciamento Ambiental; avaliar se a alimentação é adequada continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 58,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P51",
+        "P52",
+        "P53"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Complementar Federal nº 140/2011",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Complementar Federal nº 140/2011"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 58,
+      "questao": 2,
+      "id": "Q2.7.2",
+      "grupo_id": "Q2.7",
+      "redacao_literal": "Prestação de informações à União para formação e atualização do Sinima.",
+      "norma_dispositivo_literal": "Lei Complementar Federal nº 140/2011, art. 8º, VII e VIII",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; Portal Nacional de Licenciamento Ambiental",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "nov./2026",
+      "orientacao_ti_literal": "O robô pode checar se a SEMA aparece no Portal Nacional de Licenciamento Ambiental; avaliar se a alimentação é adequada continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 59,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P51",
+        "P52",
+        "P53"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Complementar Federal nº 140/2011",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Complementar Federal nº 140/2011"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 59,
+      "questao": 2,
+      "id": "Q2.7.3",
+      "grupo_id": "Q2.7",
+      "redacao_literal": "Alimentação dos sistemas nacionais pertinentes, inclusive do Portal Nacional de Licenciamento Ambiental.",
+      "norma_dispositivo_literal": "Lei Complementar Federal nº 140/2011, art. 8º, VII e VIII",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT; Portal Nacional de Licenciamento Ambiental",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "nov./2026",
+      "orientacao_ti_literal": "O robô pode checar se a SEMA aparece no Portal Nacional de Licenciamento Ambiental; avaliar se a alimentação é adequada continua sendo da equipe.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 60,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P51",
+        "P52",
+        "P53"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Complementar Federal nº 140/2011",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "parcialmente_automatizavel",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Complementar Federal nº 140/2011"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 60,
+      "questao": 3,
+      "id": "Q3.1.1",
+      "grupo_id": "Q3.1",
+      "redacao_literal": "Designação formal da autoridade responsável pelo monitoramento da implementação da LAI.",
+      "norma_dispositivo_literal": "LAI, arts. 6º e 40",
+      "fonte_informacao_literal": "Regimento Interno da SEMA-MT (Decreto Estadual nº 1.599/2025); Plano de Trabalho Anual (PTA) 2026",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Isso é checagem de documento (Regimento Interno, PTA) e comparação de nomes — não tem como automatizar; a TI não ajuda aqui.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 61,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P54",
+        "P55",
+        "P56",
+        "P57"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            11
+          ],
+          "artigos": [
+            "art. 40"
+          ],
+          "relacao": "Prevê designação e atribuições da autoridade de monitoramento.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "56a0ac733bb79e17",
+          "arquivo": "Decreto nº 1.599-2025 de 06-08-2025 Regimento Interno.pdf",
+          "paginas_pdf": [
+            3,
+            14,
+            15
+          ],
+          "artigos": [
+            "art. 19"
+          ],
+          "relacao": "Estrutura e competências da Unidade Estratégica de Transparência e Geoinformação.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "66cb9fd292a80100",
+          "arquivo": "Unidade_NGER_PTA_PTA 2026 COMPLETO.pdf",
+          "paginas_pdf": [
+            68,
+            69
+          ],
+          "artigos": [],
+          "relacao": "Relatório PTA identifica responsável por ação e entregas do Portal da Transparência; não há elemento literalmente rotulado 'Quadro 1'.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 61,
+      "questao": 3,
+      "id": "Q3.1.2",
+      "grupo_id": "Q3.1",
+      "redacao_literal": "Atribuições da autoridade designada.",
+      "norma_dispositivo_literal": "LAI, arts. 6º e 40",
+      "fonte_informacao_literal": "Regimento Interno da SEMA-MT (Decreto Estadual nº 1.599/2025); Plano de Trabalho Anual (PTA) 2026",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Isso é checagem de documento (Regimento Interno, PTA) e comparação de nomes — não tem como automatizar; a TI não ajuda aqui.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 62,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P54",
+        "P55",
+        "P56",
+        "P57"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            11
+          ],
+          "artigos": [
+            "art. 40"
+          ],
+          "relacao": "Prevê designação e atribuições da autoridade de monitoramento.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "56a0ac733bb79e17",
+          "arquivo": "Decreto nº 1.599-2025 de 06-08-2025 Regimento Interno.pdf",
+          "paginas_pdf": [
+            3,
+            14,
+            15
+          ],
+          "artigos": [
+            "art. 19"
+          ],
+          "relacao": "Estrutura e competências da Unidade Estratégica de Transparência e Geoinformação.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "66cb9fd292a80100",
+          "arquivo": "Unidade_NGER_PTA_PTA 2026 COMPLETO.pdf",
+          "paginas_pdf": [
+            68,
+            69
+          ],
+          "artigos": [],
+          "relacao": "Relatório PTA identifica responsável por ação e entregas do Portal da Transparência; não há elemento literalmente rotulado 'Quadro 1'.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 62,
+      "questao": 3,
+      "id": "Q3.1.3",
+      "grupo_id": "Q3.1",
+      "redacao_literal": "Compatibilidade entre a autoridade designada e as responsabilidades do PTA 2026.",
+      "norma_dispositivo_literal": "LAI, arts. 6º e 40",
+      "fonte_informacao_literal": "Regimento Interno da SEMA-MT (Decreto Estadual nº 1.599/2025); Plano de Trabalho Anual (PTA) 2026",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Isso é checagem de documento (Regimento Interno, PTA) e comparação de nomes — não tem como automatizar; a TI não ajuda aqui.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 63,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P54",
+        "P55",
+        "P56",
+        "P57"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "f7f1a0e0e452f442",
+          "arquivo": "L12527-2011 Regulamento acesso a informações.pdf",
+          "paginas_pdf": [
+            11
+          ],
+          "artigos": [
+            "art. 40"
+          ],
+          "relacao": "Prevê designação e atribuições da autoridade de monitoramento.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "56a0ac733bb79e17",
+          "arquivo": "Decreto nº 1.599-2025 de 06-08-2025 Regimento Interno.pdf",
+          "paginas_pdf": [
+            3,
+            14,
+            15
+          ],
+          "artigos": [
+            "art. 19"
+          ],
+          "relacao": "Estrutura e competências da Unidade Estratégica de Transparência e Geoinformação.",
+          "status": "confirmada"
+        },
+        {
+          "documento_id": "66cb9fd292a80100",
+          "arquivo": "Unidade_NGER_PTA_PTA 2026 COMPLETO.pdf",
+          "paginas_pdf": [
+            68,
+            69
+          ],
+          "artigos": [],
+          "relacao": "Relatório PTA identifica responsável por ação e entregas do Portal da Transparência; não há elemento literalmente rotulado 'Quadro 1'.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 63,
+      "questao": 3,
+      "id": "Q3.2.1",
+      "grupo_id": "Q3.2",
+      "redacao_literal": "Designação do Encarregado de Proteção de Dados.",
+      "norma_dispositivo_literal": "Lei Federal nº 13.709/2018 (LGPD), art. 41",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se há nome e contato do encarregado publicados é automatizável.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 64,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P58",
+        "P59",
+        "P60"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "68b855e7ae65c35d",
+          "arquivo": "Decreto 1427-2025.pdf",
+          "paginas_pdf": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "artigos": [
+            "arts. 7º, 10, 12 e 14"
+          ],
+          "relacao": "Regulamentação estadual do encarregado/DPO; a LGPD citada na matriz não integra a pasta.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 13.709/2018",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 13.709/2018"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 64,
+      "questao": 3,
+      "id": "Q3.2.2",
+      "grupo_id": "Q3.2",
+      "redacao_literal": "Identificação pública do encarregado.",
+      "norma_dispositivo_literal": "Lei Federal nº 13.709/2018 (LGPD), art. 41",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se há nome e contato do encarregado publicados é automatizável.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 65,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P58",
+        "P59",
+        "P60"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "68b855e7ae65c35d",
+          "arquivo": "Decreto 1427-2025.pdf",
+          "paginas_pdf": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "artigos": [
+            "arts. 7º, 10, 12 e 14"
+          ],
+          "relacao": "Regulamentação estadual do encarregado/DPO; a LGPD citada na matriz não integra a pasta.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 13.709/2018",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 13.709/2018"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 65,
+      "questao": 3,
+      "id": "Q3.2.3",
+      "grupo_id": "Q3.2",
+      "redacao_literal": "Informações de contato do encarregado.",
+      "norma_dispositivo_literal": "Lei Federal nº 13.709/2018 (LGPD), art. 41",
+      "fonte_informacao_literal": "Sítio institucional da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Dá para pedir pronto — checar se há nome e contato do encarregado publicados é automatizável.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 66,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P58",
+        "P59",
+        "P60"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "68b855e7ae65c35d",
+          "arquivo": "Decreto 1427-2025.pdf",
+          "paginas_pdf": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "artigos": [
+            "arts. 7º, 10, 12 e 14"
+          ],
+          "relacao": "Regulamentação estadual do encarregado/DPO; a LGPD citada na matriz não integra a pasta.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Lei Federal nº 13.709/2018",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "automatizavel_com_validacao_humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Lei Federal nº 13.709/2018"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 66,
+      "questao": 3,
+      "id": "Q3.3.1",
+      "grupo_id": "Q3.3",
+      "redacao_literal": "Competências formais da Unidade Estratégica de Transparência e Geoinformação.",
+      "norma_dispositivo_literal": "Decreto Estadual nº 1.599/2025, art. 19",
+      "fonte_informacao_literal": "Regimento Interno da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Isso depende de leitura do Regimento Interno e, se necessário, entrevista — não tem como automatizar; a TI não ajuda aqui.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 67,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P61",
+        "P62",
+        "P63"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "56a0ac733bb79e17",
+          "arquivo": "Decreto nº 1.599-2025 de 06-08-2025 Regimento Interno.pdf",
+          "paginas_pdf": [
+            3,
+            14,
+            15
+          ],
+          "artigos": [
+            "art. 19"
+          ],
+          "relacao": "Estrutura e competências formais de transparência e LAI.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 67,
+      "questao": 3,
+      "id": "Q3.3.2",
+      "grupo_id": "Q3.3",
+      "redacao_literal": "Responsabilidade pela supervisão do Portal da Transparência.",
+      "norma_dispositivo_literal": "Decreto Estadual nº 1.599/2025, art. 19",
+      "fonte_informacao_literal": "Regimento Interno da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Isso depende de leitura do Regimento Interno e, se necessário, entrevista — não tem como automatizar; a TI não ajuda aqui.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 68,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P61",
+        "P62",
+        "P63"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "56a0ac733bb79e17",
+          "arquivo": "Decreto nº 1.599-2025 de 06-08-2025 Regimento Interno.pdf",
+          "paginas_pdf": [
+            3,
+            14,
+            15
+          ],
+          "artigos": [
+            "art. 19"
+          ],
+          "relacao": "Estrutura e competências formais de transparência e LAI.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 68,
+      "questao": 3,
+      "id": "Q3.3.3",
+      "grupo_id": "Q3.3",
+      "redacao_literal": "Responsabilidade pela coordenação da implementação da LAI.",
+      "norma_dispositivo_literal": "Decreto Estadual nº 1.599/2025, art. 19",
+      "fonte_informacao_literal": "Regimento Interno da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Isso depende de leitura do Regimento Interno e, se necessário, entrevista — não tem como automatizar; a TI não ajuda aqui.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 69,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P61",
+        "P62",
+        "P63"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "56a0ac733bb79e17",
+          "arquivo": "Decreto nº 1.599-2025 de 06-08-2025 Regimento Interno.pdf",
+          "paginas_pdf": [
+            3,
+            14,
+            15
+          ],
+          "artigos": [
+            "art. 19"
+          ],
+          "relacao": "Estrutura e competências formais de transparência e LAI.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 69,
+      "questao": 3,
+      "id": "Q3.3.4",
+      "grupo_id": "Q3.3",
+      "redacao_literal": "Sobreposição ou lacuna de competências.",
+      "norma_dispositivo_literal": "Decreto Estadual nº 1.599/2025, art. 19",
+      "fonte_informacao_literal": "Regimento Interno da SEMA-MT",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Isso depende de leitura do Regimento Interno e, se necessário, entrevista — não tem como automatizar; a TI não ajuda aqui.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 70,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P61",
+        "P62",
+        "P63"
+      ],
+      "referencias_documentais": [
+        {
+          "documento_id": "56a0ac733bb79e17",
+          "arquivo": "Decreto nº 1.599-2025 de 06-08-2025 Regimento Interno.pdf",
+          "paginas_pdf": [
+            3,
+            14,
+            15
+          ],
+          "artigos": [
+            "art. 19"
+          ],
+          "relacao": "Estrutura e competências formais de transparência e LAI.",
+          "status": "confirmada"
+        }
+      ],
+      "referencias_ausentes_ou_a_confirmar": [],
+      "automacao": {
+        "nivel": "humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 70,
+      "questao": 3,
+      "id": "Q3.4.1",
+      "grupo_id": "Q3.4",
+      "redacao_literal": "Falhas de publicidade ativa consolidadas nas verificações anteriores.",
+      "norma_dispositivo_literal": "-",
+      "fonte_informacao_literal": "Resultados consolidados da lista de verificação eletrônica das Questões 1 e 2",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Isso é a etapa de juntar e interpretar os resultados já levantados — não tem como automatizar; a TI não ajuda aqui.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 71,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P64",
+        "P65",
+        "P66"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Resultados consolidados das Questões 1 e 2 — ainda inexistentes",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Resultados consolidados das Questões 1 e 2 — ainda inexistentes"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 71,
+      "questao": 3,
+      "id": "Q3.4.2",
+      "grupo_id": "Q3.4",
+      "redacao_literal": "Unidades responsáveis pelos conteúdos não publicados ou publicados de forma incompleta.",
+      "norma_dispositivo_literal": "-",
+      "fonte_informacao_literal": "Resultados consolidados da lista de verificação eletrônica das Questões 1 e 2",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Isso é a etapa de juntar e interpretar os resultados já levantados — não tem como automatizar; a TI não ajuda aqui.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 72,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P64",
+        "P65",
+        "P66"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Resultados consolidados das Questões 1 e 2 — ainda inexistentes",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Resultados consolidados das Questões 1 e 2 — ainda inexistentes"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 72,
+      "questao": 3,
+      "id": "Q3.4.3",
+      "grupo_id": "Q3.4",
+      "redacao_literal": "Rotinas, controles ou fluxos de atualização relacionados às falhas.",
+      "norma_dispositivo_literal": "-",
+      "fonte_informacao_literal": "Resultados consolidados da lista de verificação eletrônica das Questões 1 e 2",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Isso é a etapa de juntar e interpretar os resultados já levantados — não tem como automatizar; a TI não ajuda aqui.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 73,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P64",
+        "P65",
+        "P66"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Resultados consolidados das Questões 1 e 2 — ainda inexistentes",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Resultados consolidados das Questões 1 e 2 — ainda inexistentes"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    },
+    {
+      "ordem": 73,
+      "questao": 3,
+      "id": "Q3.4.4",
+      "grupo_id": "Q3.4",
+      "redacao_literal": "Fatores recorrentes associados às não conformidades identificadas.",
+      "norma_dispositivo_literal": "-",
+      "fonte_informacao_literal": "Resultados consolidados da lista de verificação eletrônica das Questões 1 e 2",
+      "url_confirmada": null,
+      "exigibilidade": "Exigível",
+      "periodo_previsto": "dez./2026",
+      "orientacao_ti_literal": "Isso é a etapa de juntar e interpretar os resultados já levantados — não tem como automatizar; a TI não ajuda aqui.",
+      "origem_xlsx": {
+        "arquivo": "Lista_de_Verificacao_Eletronica_SEMA-MT_item_a_item ATUALIZADA 1.xlsx",
+        "sha256": "92a8c9dd701ddf624877ce912c455e10e35a4f112d70acd7373defe6b9e30e6f",
+        "aba": "Lista de Verificação",
+        "linha": 74,
+        "colunas_referencia": "A:H,T"
+      },
+      "passos_roteiro": [
+        "P64",
+        "P65",
+        "P66"
+      ],
+      "referencias_documentais": [],
+      "referencias_ausentes_ou_a_confirmar": [
+        {
+          "status": "a_verificar",
+          "documento": "Resultados consolidados das Questões 1 e 2 — ainda inexistentes",
+          "motivo": "Citado na matriz, mas não localizado entre os 16 originais."
+        }
+      ],
+      "automacao": {
+        "nivel": "humana",
+        "limites": "Automação apenas apoia localização e coleta; atendimento e interpretação dependem de revisão humana."
+      },
+      "evidencia_exigida": [
+        "URL exata ou justificativa de não localização",
+        "data e hora reais",
+        "sequência de navegação desde a página inicial",
+        "captura bruta datada em localização e não localização"
+      ],
+      "verificacao_humana_obrigatoria": true,
+      "pendencias_documentais": [
+        "Resultados consolidados das Questões 1 e 2 — ainda inexistentes"
+      ],
+      "status_operacional": "nao_iniciado",
+      "resultado_final": null
+    }
+  ]
+}
