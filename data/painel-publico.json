@@ -1,0 +1,471 @@
+{
+  "schemaVersion": 1,
+  "geradoEm": "2026-10-09T16:22:20.985Z",
+  "escopo": {
+    "criterios": 73,
+    "questoes": {
+      "1": 35,
+      "2": 24,
+      "3": 14
+    },
+    "grupos": 17,
+    "passos": 66
+  },
+  "resultados": {
+    "validados": 0,
+    "atendidos": 0,
+    "parciais": 0,
+    "naoAtendidos": 0,
+    "naoApurados": 73,
+    "percentualOficial": 0
+  },
+  "coleta": {
+    "ultimaColetaEm": "2026-10-09T15:53:52.694Z",
+    "ultimaValidacaoEm": null,
+    "gruposComColeta": 1,
+    "criteriosComColetaTecnica": 10,
+    "evidenciasRegistradas": 13,
+    "evidenciasPublicadas": 10,
+    "execucoes": 4
+  },
+  "situacoes": {
+    "Q1.1.1": {
+      "situacaoOperacional": "coleta_realizada",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-09T15:53:35.204Z"
+    },
+    "Q1.1.2": {
+      "situacaoOperacional": "coleta_realizada",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-09T15:53:38.077Z"
+    },
+    "Q1.1.3": {
+      "situacaoOperacional": "coleta_realizada",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": "2026-10-09T15:53:43.885Z"
+    },
+    "Q1.1.4": {
+      "situacaoOperacional": "coleta_realizada",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": "2026-10-09T15:53:43.885Z"
+    },
+    "Q1.1.5": {
+      "situacaoOperacional": "coleta_realizada",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": "2026-10-09T15:53:43.885Z"
+    },
+    "Q1.1.6": {
+      "situacaoOperacional": "coleta_realizada",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": "2026-10-09T15:53:32.099Z"
+    },
+    "Q1.1.7": {
+      "situacaoOperacional": "coleta_realizada",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": "2026-10-09T15:53:32.099Z"
+    },
+    "Q1.1.8": {
+      "situacaoOperacional": "coleta_realizada",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": "2026-10-09T15:53:32.099Z"
+    },
+    "Q1.1.9": {
+      "situacaoOperacional": "coleta_realizada",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": "2026-10-09T15:53:32.099Z"
+    },
+    "Q1.1.10": {
+      "situacaoOperacional": "coleta_realizada",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-09T15:53:19.898Z"
+    },
+    "Q1.2.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.2.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.2.3": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.2.4": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.2.5": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.3.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.3.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.3.3": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.3.4": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.4.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.4.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.4.3": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.4.4": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.4.5": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.4.6": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.4.7": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.4.8": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.4.9": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.5.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.5.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.6.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.6.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.6.3": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.6.4": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q1.6.5": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.1.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.1.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.1.3": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.1.4": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.1.5": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.1.6": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.1.7": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.1.8": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.2.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.2.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.2.3": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.3.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.3.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.3.3": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.4.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.4.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.5.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.5.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.5.3": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.6.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.6.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.7.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.7.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q2.7.3": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.1.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.1.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.1.3": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.2.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.2.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.2.3": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.3.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.3.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.3.3": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.3.4": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.4.1": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.4.2": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.4.3": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    },
+    "Q3.4.4": {
+      "situacaoOperacional": "nao_iniciado",
+      "resultadoFinal": null,
+      "evidenciasPublicas": 0,
+      "ultimaVerificacao": null
+    }
+  }
+}

@@ -1,7 +1,6 @@
-import { coletas, criterios, grupos } from "@/lib/data";
 import { CriteriaExplorer } from "@/componentes/criteria-explorer";
+import { criterios, grupos, painelPublico } from "@/lib/data";
 
 export default function CriteriosPage() {
-  const situacoes = Object.fromEntries(Object.entries(coletas.criterios).map(([id, item]) => [id, item.situacao]));
-  return <div className="container page"><p className="eyebrow">Matriz de rastreabilidade</p><div className="page-title"><div><h1>73 critérios, na ordem original</h1><p>Campos de referência da planilha preservados; resultados permanecem vazios até validação humana.</p></div><span className="tag warning">73 não apurados</span></div><CriteriaExplorer criterios={criterios} grupos={grupos} situacoes={situacoes} /></div>;
+  return <div className="container page-shell"><header className="page-header"><div><p className="kicker">Matriz oficial</p><h1>Matriz de critérios</h1><p>Os 73 critérios preservam a redação, a fonte e o fundamento da planilha oficial. Filtros operacionais não alteram nem inferem resultados finais.</p></div><div className="header-stat"><strong>73</strong><span>critérios únicos</span><small>35 · 24 · 14 por questão</small></div></header><div className="scope-strip"><span><strong>17</strong> grupos</span><span><strong>66</strong> passos de roteiro</span><span><strong>{painelPublico.resultados.validados}</strong> resultados validados</span><span><strong>{painelPublico.coleta.evidenciasPublicadas}</strong> capturas públicas</span></div><CriteriaExplorer criterios={criterios} grupos={grupos} situacoes={painelPublico.situacoes} /></div>;
 }

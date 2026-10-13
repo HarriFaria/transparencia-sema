@@ -1,102 +1,93 @@
-# Plataforma de Apoio à Fiscalização de Transparência Ativa da SEMA-MT
+# Auditoria de Transparência — SEMA-MT
 
-Aplicação local e estática para apoiar a Ordem de Serviço nº 4618/2026. O sistema organiza 73 critérios, 17 grupos, 66 passos, referências documentais e evidências. Não usa banco de dados e não substitui o julgamento profissional dos auditores.
+Painel executivo e estático de apoio à fiscalização da transparência ativa da SEMA-MT, vinculada à OS nº 4618/2026. A aplicação organiza a matriz oficial de 73 critérios, 17 grupos, 66 passos de roteiro e as coletas técnicas preservadas, sem converter navegação automatizada em conclusão de auditoria.
 
-## Estado desta iteração
+## Estado público atual
 
-- 16 originais inventariados sem modificação: 14 PDFs, um XLSX e um DOCX;
-- 251 páginas PDF extraídas individualmente; OCR local complementar em três páginas de baixo texto;
-- 73 critérios importados das linhas 2–74; linha 75 de exemplo excluída;
-- 17 itens e 66 passos importados do roteiro;
-- painel estático com dashboard, resultados reais, busca/filtros, detalhe, roteiro, documentos e metodologia;
-- descoberta e coleta técnica Q1.1 executadas a partir da homepage, sem resultado final automático;
-- extrato sanitizado de quatro execuções, com 13 evidências registradas e dez cópias locais selecionadas da coleta final;
-- `data/resultados-publicados.json` vazio, pois não há revisão humana aprovada.
+- 73 critérios únicos importados das linhas 2–74 da planilha oficial, distribuídos em 35/24/14 nas Questões 1/2/3;
+- zero resultados finais validados e 73 critérios não apurados;
+- quatro execuções técnicas Q1.1 preservadas localmente, com 13 capturas brutas registradas;
+- dez capturas da coleta final aprovadas após inspeção visual, copiadas para `public/evidencias/` e exibidas no painel;
+- três capturas redundantes das execuções de descoberta retidas fora do Git;
+- exportação estática Next.js, sem banco de dados, API Route ou arquivo privado em runtime.
 
-## Segurança e diretórios
+## Regra da verdade
 
-`../arquivos/`, `private/` e `exports/` estão excluídos do Git. Transcrições, traces, revisões e relatórios restritos nunca são importados pelo frontend. A única exceção controlada são cópias PNG selecionadas por `npm run export:panel`, gravadas em `public/evidencias-autorizadas/`, que também permanece ignorado pelo Git.
+Os únicos resultados finais permitidos são `Atendido`, `Não atendido` e `Atendido parcialmente`, sempre após revisão humana independente. Sem validação, `resultado_final` permanece nulo. Coleta técnica, informação localizada, falha de navegação e parecer final são estados diferentes.
 
-Em ambientes com pouco espaço, `.tools/`, `node_modules/`, `private/` e `out/` podem ser redirecionados por junções locais para outro volume. Esses caminhos são ignorados e não fazem parte do código versionável.
+O percentual oficial é `Atendidos ÷ 73`. Resultados parciais não entram no numerador.
 
-## Requisitos
+## Instalação e desenvolvimento
 
-- Node.js 24 LTS ou superior;
-- Python 3.13 com `openpyxl`, `python-docx` e `pdfplumber` para regenerar os dados documentais;
-- Chromium do Playwright para coleta/QA.
-
-## Instalação e painel
+Requisitos: Node.js 24 ou superior; Python 3 para servir o export; Chromium do Playwright para QA e geração das miniaturas.
 
 ```powershell
-npm install
-npx playwright install chromium
-npm run validate:data
-npm run typecheck
-npm test
-$env:PAINEL_DESTINO = "local"
-npm run build
-npm run dev
+npm.cmd ci
+npx.cmd playwright install chromium
+npm.cmd run validate:data
+npm.cmd run typecheck
+npm.cmd run lint
+npm.cmd test
+npm.cmd run dev
 ```
 
-O build é inteiramente estático (`output: "export"`) e gera `out/`. Não há API Routes, Server Actions ou persistência web.
+Neste checkout, `node_modules` pode ser uma junção para o volume `D:` devido ao espaço disponível. Se o Webpack rejeitar uma junção entre volumes, faça o build em uma cópia sanitizada no mesmo volume das dependências, conforme `docs-tecnicos/PUBLICACAO_GITHUB_VERCEL.md`. Isso não afeta a Vercel, que instala as dependências no próprio ambiente.
 
-## Extração e consolidação documental
+## Atualização do snapshot público
+
+O arquivo `private/aprovacao-evidencias.json` é a allowlist local e permanece ignorado. Ausência de `publicar: true` significa não publicar.
 
 ```powershell
-python scripts/extrair_documentos.py
-python scripts/gerar_dados.py
+npm.cmd run prepare:public-evidence
+npm.cmd run prepare:public-data
+npm.cmd run verify:public-evidence
+npm.cmd run verify:public
 ```
 
-Para habilitar o OCR local nas páginas marcadas como insuficientes, disponibilize `PyMuPDF` e `rapidocr_onnxruntime` no ambiente e execute com `ENABLE_LOCAL_OCR=1`.
+`prepare:public-evidence` confere os hashes originais, copia somente as imagens aprovadas, cria miniaturas separadas e gera `data/evidencias-publicas.json` e `public/data/evidencias-publicas.json`. `prepare:public-data` gera o snapshot determinístico consumido pelo dashboard. O build remoto usa apenas esses artefatos versionados.
 
-## Q1.1 — descoberta e coleta
+## Build e preview do export
 
-Identifique explicitamente o operador. Os comandos não produzem resultado final:
+```powershell
+npm.cmd run build
+python -m http.server 4173 --directory out --bind 127.0.0.1
+```
+
+Abra `http://127.0.0.1:4173/`. Um `ERR_CONNECTION_REFUSED` normalmente indica que o servidor foi encerrado.
+
+## Coleta e revisão controlada
 
 ```powershell
 $env:AUDITOR_NOME = "Nome do operador"
-npm run discover:q11
-npm run collect:q11
+npm.cmd run discover:q11
+npm.cmd run collect:q11
+npm.cmd run review -- --input C:\caminho\revisao.json
+npm.cmd run publish:data
 ```
 
-Cada execução cria `private/execucoes/<id>/manifest.json`, `eventos.jsonl`, `mapa-links.json`, screenshots brutos com SHA-256, `trace.zip` e um resumo que mantém `resultado_final: null`.
+Esses comandos preservam JSON/JSONL, screenshots, hashes e traces em `private/`. A publicação de dados não aciona deploy e não cria resultado automaticamente.
 
-## Integração das coletas com o painel
+## GitHub e Vercel
 
-O comando abaixo lê os JSON/JSONL originais, confere os hashes, produz `data/resultados-coletas.json` sem caminhos absolutos e copia somente os PNG listados no manifesto de seleção:
+O remoto existente é `origin` (`https://github.com/HarriFaria/transparencia-sema.git`) e a branch de produção utilizada nesta entrega é `main`. O push nessa branch aciona a integração GitHub→Vercel já existente; não é necessário criar projeto ou executar deploy manual.
+
+Antes de publicar:
 
 ```powershell
-npm run export:panel -- --selecao config/evidencias-painel.local.json
+git status --short
+git diff --check
+npm.cmd run verify:public
+git check-ignore -v public/evidencias/Q1.1/q11-coleta-2026-10-09T15-53-09-274Z-fab24357/ev-q11-001.png
+git diff --cached --name-status
+git push origin main
 ```
 
-O manifesto atual autoriza apenas uso local e não contém aprovação externa. Enquanto as cópias estiverem em `public/evidencias-autorizadas/`, o `prebuild` bloqueia builds sem `PAINEL_DESTINO=local`. Uma publicação futura exige novo manifesto com `destino: "publicacao"` e `aprovacao_externa` expressa; não reutilize a autorização local.
+## Documentação
 
-Semântica dos indicadores:
-
-- **coleta técnica:** existe evento original que associa URL ou captura ao critério;
-- **critério verificado:** existe verificação de conteúdo registrada por responsável;
-- **resultado final:** existe revisão humana independente publicada em `data/resultados-publicados.json`.
-
-Sucesso ou falha de navegação nunca é convertido automaticamente em atendimento. No estado atual, dez critérios têm coleta técnica, nenhum foi efetivamente verificado e nenhum tem resultado final.
-
-## Revisão, publicação sanitizada e Excel
-
-Crie um JSON local compatível com `reviewInputSchema` em `lib/schemas.ts` e execute:
-
-```powershell
-npm run review -- --input C:\caminho\revisao.json
-npm run publish:data
-npm run export:xlsx
-npm run export:evidence
-```
-
-O revisor deve ser diferente do primeiro responsável. Quando a primeira busca resultar em `nao_localizado`, a segunda verificação deve ser em data posterior; nenhum prazo mínimo numérico é inventado. `Não atendido` exige captura anexada. A publicação copia apenas campos aprovados e sanitizados para o JSON público e nunca aciona deploy. A exportação gera XLSX, CSV UTF-8 com BOM e índice local de evidências com reverificação dos hashes.
-
-## Documentação técnica
-
-- [Inventário documental](docs-tecnicos/INVENTARIO_DOCUMENTAL.md)
-- [Análise documental integrada](docs-tecnicos/ANALISE_DOCUMENTAL_INTEGRADA.md)
-- [Matriz de rastreabilidade](docs-tecnicos/MATRIZ_DE_RASTREABILIDADE.md)
+- [Revisão das evidências públicas](docs-tecnicos/REVISAO_PUBLICACAO_EVIDENCIAS.md)
+- [Relatório do redesenho](docs-tecnicos/RELATORIO_REDESIGN.md)
+- [Publicação GitHub e Vercel](docs-tecnicos/PUBLICACAO_GITHUB_VERCEL.md)
 - [Arquitetura](docs-tecnicos/ARQUITETURA.md)
-- [Plano de execução](docs-tecnicos/PLANO_DE_EXECUCAO.md)
-- [Relatório de testes](docs-tecnicos/RELATORIO_DE_TESTES.md)
+- [Matriz de rastreabilidade](docs-tecnicos/MATRIZ_DE_RASTREABILIDADE.md)
+
+`../arquivos/`, `private/`, `exports/`, traces, logs, planilhas, DOCX e PDFs originais permanecem fora do Git e do bundle público.

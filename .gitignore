@@ -15,6 +15,10 @@ node_modules/
 .next/
 out/
 public/evidencias-autorizadas/
+!public/evidencias/
+!public/evidencias/**
+!public/data/
+!public/data/**
 coverage/
 .tools/
 *.log

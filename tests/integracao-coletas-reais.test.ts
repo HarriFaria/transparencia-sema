@@ -4,6 +4,8 @@ import { createHash } from "node:crypto";
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import panel from "../data/resultados-coletas.json" with { type: "json" };
+import publicEvidence from "../data/evidencias-publicas.json" with { type: "json" };
+import publicPanel from "../data/painel-publico.json" with { type: "json" };
 
 const root = process.cwd();
 const executionId = "q11-coleta-2026-10-09T15-53-09-274Z-fab24357";
@@ -40,21 +42,31 @@ test("indicadores distinguem coleta, verificação e resultado final", () => {
   assert.equal(Object.values(panel.criterios).filter((item) => item.situacao === "nao_verificado").length, 63);
 });
 
-test("cópias autorizadas existem e preservam os hashes", async () => {
-  const evidenceRoot = path.join(root, "public", "evidencias-autorizadas");
-  const manifest = JSON.parse(await readFile(path.join(evidenceRoot, "manifest.json"), "utf8"));
-  assert.equal(manifest.destino, "local");
-  assert.equal(manifest.aprovacao_externa, null);
-  assert.equal(manifest.arquivos.length, 10);
-  for (const evidence of panel.ultima_execucao!.evidencias.filter((item) => item.visualizacao_autorizada)) {
-    const file = path.join(root, "public", evidence.url_visualizacao!.replace(/^\//, ""));
+test("cópias aprovadas existem e preservam os hashes", async () => {
+  assert.equal(publicEvidence.totais.encontradas, 13);
+  assert.equal(publicEvidence.totais.publicadas, 10);
+  assert.equal(publicEvidence.totais.retidas, 3);
+  for (const evidence of publicEvidence.evidencias) {
+    const file = path.join(root, "public", evidence.arquivo.replace(/^\//, ""));
     const hash = createHash("sha256").update(await readFile(file)).digest("hex");
-    assert.equal(hash, evidence.sha256);
+    assert.equal(hash, evidence.sha256Publicado);
+    await readFile(path.join(root, "public", evidence.miniatura.replace(/^\//, "")));
   }
+});
+
+test("snapshot público mantém resultados finais vazios", () => {
+  assert.equal(publicPanel.resultados.validados, 0);
+  assert.equal(publicPanel.resultados.atendidos, 0);
+  assert.equal(publicPanel.resultados.parciais, 0);
+  assert.equal(publicPanel.resultados.naoAtendidos, 0);
+  assert.equal(publicPanel.resultados.naoApurados, 73);
+  assert.equal(publicEvidence.evidencias.filter((item) => item.nivelAssociacao === "criterio").length, 3);
+  assert.equal(publicEvidence.evidencias.filter((item) => item.nivelAssociacao !== "criterio").every((item) => item.criteriosIds.length === 0), true);
 });
 
 test("extrato não expõe caminhos locais nem artefatos restritos", () => {
   const serialized = JSON.stringify(panel);
   assert.doesNotMatch(serialized, /[A-Z]:\\/i);
   assert.doesNotMatch(serialized, /trace\.zip|eventos\.jsonl|private[\\/]/i);
+  assert.doesNotMatch(JSON.stringify(publicEvidence), /[A-Z]:\\|arquivoOriginalLocal|private[\\/]/i);
 });

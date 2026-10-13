@@ -126,3 +126,43 @@ export interface PainelColetas {
   execucoes: ExecucaoPainel[];
   criterios: Record<string, ResultadoCriterioPainel>;
 }
+
+export interface EvidenciaPublica {
+  id: string;
+  execucaoId: string;
+  grupoId: string;
+  criteriosIds: string[];
+  nivelAssociacao: "execucao" | "grupo" | "criterio";
+  titulo: string;
+  descricao: string;
+  urlOrigem: string;
+  capturadoEm: string;
+  arquivo: string;
+  miniatura: string;
+  statusRevisao: "aprovado";
+  saneada: boolean;
+  sha256Original: string;
+  sha256Publicado: string;
+  sha256Miniatura: string;
+  tamanhoBytes: number;
+  tamanhoMiniaturaBytes: number;
+}
+
+export interface EvidenciasPublicas {
+  schemaVersion: number;
+  revisadoEm: string;
+  geradoEm: string | null;
+  nota: string;
+  totais: { encontradas: number; aprovadas: number; publicadas: number; retidas: number };
+  retencao: string;
+  evidencias: EvidenciaPublica[];
+}
+
+export interface PainelPublico {
+  schemaVersion: number;
+  geradoEm: string;
+  escopo: { criterios: number; questoes: Record<string, number>; grupos: number; passos: number };
+  resultados: { validados: number; atendidos: number; parciais: number; naoAtendidos: number; naoApurados: number; percentualOficial: number };
+  coleta: { ultimaColetaEm: string | null; ultimaValidacaoEm: string | null; gruposComColeta: number; criteriosComColetaTecnica: number; evidenciasRegistradas: number; evidenciasPublicadas: number; execucoes: number };
+  situacoes: Record<string, { situacaoOperacional: "nao_iniciado" | "coleta_realizada" | "validado"; resultadoFinal: ResultadoFinal | null; evidenciasPublicas: number; ultimaVerificacao: string | null }>;
+}

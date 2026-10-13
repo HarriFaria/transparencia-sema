@@ -1,0 +1,5 @@
+import { painelPublico } from "@/lib/data";
+
+export default function RecomendacoesPage() {
+  return <div className="container page-shell"><header className="page-header"><div><p className="kicker">Recomendações</p><h1>Encaminhamentos da auditoria</h1><p>Esta seção publica apenas recomendações com fonte atribuída ou validação formal do auditor.</p></div><span className="badge badge-neutral large-badge">Etapa futura</span></header><section className="surface editorial-empty"><span className="empty-icon" aria-hidden="true">◇</span><div><p className="kicker">Estado atual</p><h2>Nenhuma recomendação validada</h2><p>Não há pareceres finais registrados nos {painelPublico.escopo.criterios} critérios. Por isso, o painel não antecipa medidas corretivas nem transforma hipóteses documentais em conclusão nova.</p><div className="empty-requirements"><span>Depende da conclusão das verificações</span><span>Exige revisão humana</span><span>Deve citar fonte e data</span></div><a className="button button-secondary" href="/metodologia/">Consultar metodologia</a></div></section></div>;
+}
