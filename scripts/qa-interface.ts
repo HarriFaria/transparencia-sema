@@ -1,47 +1,81 @@
 import { mkdir } from "node:fs/promises";
 import path from "node:path";
-import { chromium } from "playwright";
-import criteriaData from "../data/criterios.json" with { type: "json" };
+import { chromium, type Page } from "playwright";
 
 const baseUrl = process.env.QA_BASE_URL ?? "http://127.0.0.1:4173";
-const output = path.resolve(process.env.QA_SCREENSHOT_DIR ?? ".tools/qa-resultados");
-const uncollected = criteriaData.criterios.find((item) => item.questao === 2);
-if (!uncollected) throw new Error("Critério sem coleta não encontrado.");
+const output = path.resolve(process.env.QA_SCREENSHOT_DIR ?? "private/qa-q11");
 await mkdir(output, { recursive: true });
+const browser = await chromium.launch({ headless: true, executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH || undefined });
+const errors: string[] = [];
+const failedResponses: string[] = [];
+const watch = (page: Page) => {
+  page.on("console", (message) => { if (message.type() === "error" && !message.text().includes("Failed to load resource")) errors.push(message.text()); });
+  page.on("pageerror", (error) => errors.push(error.message));
+  page.on("response", (response) => { if (response.status() >= 400) failedResponses.push(`${response.status()} ${response.url()}`); });
+};
+const assertNoOverflow = async (page: Page, label: string) => {
+  const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 1);
+  if (overflow) throw new Error(`Overflow horizontal em ${label}.`);
+};
+const open = async (page: Page, route: string) => {
+  const response = await page.goto(`${baseUrl}${route}`, { waitUntil: "networkidle" });
+  if (!response || response.status() !== 200) throw new Error(`${route} retornou ${response?.status() ?? "sem resposta"}.`);
+};
 
-const browser = await chromium.launch({ headless: true });
 try {
   const desktop = await browser.newPage({ viewport: { width: 1440, height: 1000 }, deviceScaleFactor: 1 });
-  await desktop.goto(`${baseUrl}/resultados/`, { waitUntil: "networkidle" });
-  await desktop.getByRole("heading", { name: "Acompanhamento das verificações" }).waitFor();
-  const evidenceCount = await desktop.locator(".evidence-card").count();
-  if (evidenceCount !== 10) throw new Error(`Esperadas 10 evidências visíveis; obtidas ${evidenceCount}.`);
-  for (const image of await desktop.locator(".evidence-card img").all()) await image.scrollIntoViewIfNeeded();
-  await desktop.waitForFunction(() => [...document.querySelectorAll<HTMLImageElement>(".evidence-card img")].every((image) => image.complete));
-  const brokenImages = await desktop.locator(".evidence-card img").evaluateAll((images) => images.filter((image) => !(image as HTMLImageElement).complete || (image as HTMLImageElement).naturalWidth === 0).length);
-  if (brokenImages) throw new Error(`${brokenImages} evidência(s) não abriram.`);
-  const desktopOverflow = await desktop.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 1);
-  if (desktopOverflow) throw new Error("Overflow horizontal na página Resultados em desktop.");
-  await desktop.screenshot({ path: path.join(output, "resultados-desktop.png"), fullPage: true });
+  watch(desktop);
+  await open(desktop, "/");
+  await desktop.getByText("10", { exact: true }).first().waitFor();
+  await assertNoOverflow(desktop, "homepage desktop");
+  await desktop.screenshot({ path: path.join(output, "homepage-desktop.png"), fullPage: true });
+
+  await open(desktop, "/criterios/");
+  await desktop.getByLabel("Buscar na matriz").fill("Q1.1.9");
+  await desktop.getByText("1 de 73 critérios exibidos").waitFor();
+  const filteredStatus = desktop.locator(".matrix-row .badge").first();
+  await filteredStatus.waitFor();
+  if ((await filteredStatus.innerText()).trim() !== "Análise preliminar") throw new Error(`Situação inesperada para Q1.1.9: ${await filteredStatus.innerText()}`);
+  await desktop.screenshot({ path: path.join(output, "matriz-filtro-q119-desktop.png"), fullPage: true });
+
+  await open(desktop, "/resultados/");
+  const evidenceCount = await desktop.locator(".evidence-tile").count();
+  if (evidenceCount !== 18) throw new Error(`Esperadas 18 evidências; obtidas ${evidenceCount}.`);
+  await desktop.getByLabel("Critério comprovado").selectOption("Q1.1.2");
+  await desktop.getByText("3 capturas públicas disponíveis").waitFor();
+  await desktop.locator(".evidence-preview").first().click();
+  await desktop.getByRole("dialog").waitFor();
+  await desktop.waitForFunction(() => {
+    const image = document.querySelector<HTMLImageElement>(".lightbox-image img");
+    return Boolean(image?.complete && image.naturalWidth > 0);
+  });
+  await desktop.screenshot({ path: path.join(output, "resultados-lightbox-desktop.png"), fullPage: false });
+  await desktop.keyboard.press("Escape");
+
+  await open(desktop, "/criterios/Q1.1.9/");
+  await desktop.getByText("Não localizada nesta busca", { exact: true }).waitFor();
+  await desktop.getByText("Obrigatória em outra data", { exact: true }).waitFor();
+  await desktop.getByText("Não apurado", { exact: true }).first().waitFor();
+  await desktop.screenshot({ path: path.join(output, "criterio-q119-desktop.png"), fullPage: true });
 
   const mobile = await browser.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1 });
-  await mobile.goto(`${baseUrl}/resultados/`, { waitUntil: "networkidle" });
-  await mobile.getByRole("heading", { name: "Acompanhamento das verificações" }).waitFor();
-  for (const image of await mobile.locator(".evidence-card img").all()) await image.scrollIntoViewIfNeeded();
-  await mobile.waitForFunction(() => [...document.querySelectorAll<HTMLImageElement>(".evidence-card img")].every((image) => image.complete && image.naturalWidth > 0));
-  const mobileOverflow = await mobile.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 1);
-  if (mobileOverflow) throw new Error("Overflow horizontal na página Resultados em mobile.");
-  await mobile.screenshot({ path: path.join(output, "resultados-mobile.png"), fullPage: true });
+  watch(mobile);
+  await open(mobile, "/criterios/");
+  await mobile.getByLabel("Situação operacional").selectOption("analise_preliminar");
+  await mobile.getByText("10 de 73 critérios exibidos").waitFor();
+  await assertNoOverflow(mobile, "matriz mobile");
+  await mobile.screenshot({ path: path.join(output, "matriz-analise-mobile.png"), fullPage: true });
 
-  await desktop.goto(`${baseUrl}/criterios/Q1.1.1/`, { waitUntil: "networkidle" });
-  await desktop.getByText("Coleta técnica sem verificação", { exact: true }).first().waitFor();
-  await desktop.getByText("Não determinada pela coleta técnica", { exact: false }).waitFor();
-
-  await mobile.goto(`${baseUrl}/criterios/${uncollected.id}/`, { waitUntil: "networkidle" });
+  await open(mobile, "/criterios/Q2.1.1/");
+  await mobile.getByText("Ainda não analisado", { exact: true }).waitFor();
   await mobile.getByText("Não verificado", { exact: true }).first().waitFor();
+  await assertNoOverflow(mobile, "critério sem coleta mobile");
   await mobile.screenshot({ path: path.join(output, "criterio-nao-verificado-mobile.png"), fullPage: true });
 
-  console.log(`QA aprovada: desktop e mobile sem overflow, ${evidenceCount} evidências abertas e estados de critérios conferidos.`);
+  if (errors.length) throw new Error(`Erros de console: ${errors.join(" | ")}`);
+  const relevantFailures = failedResponses.filter((entry) => !entry.endsWith("/favicon.ico"));
+  if (relevantFailures.length) throw new Error(`Respostas HTTP com erro: ${relevantFailures.join(" | ")}`);
+  console.log(`QA aprovada: 18 evidências, filtros desktop/mobile, análise Q1.1, estado não verificado e lightbox funcional.`);
 } finally {
   await browser.close();
 }

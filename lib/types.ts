@@ -163,6 +163,6 @@ export interface PainelPublico {
   geradoEm: string;
   escopo: { criterios: number; questoes: Record<string, number>; grupos: number; passos: number };
   resultados: { validados: number; atendidos: number; parciais: number; naoAtendidos: number; naoApurados: number; percentualOficial: number };
-  coleta: { ultimaColetaEm: string | null; ultimaValidacaoEm: string | null; gruposComColeta: number; criteriosComColetaTecnica: number; evidenciasRegistradas: number; evidenciasPublicadas: number; execucoes: number };
-  situacoes: Record<string, { situacaoOperacional: "nao_iniciado" | "coleta_realizada" | "validado"; resultadoFinal: ResultadoFinal | null; evidenciasPublicas: number; ultimaVerificacao: string | null }>;
+  coleta: { ultimaColetaEm: string | null; ultimaValidacaoEm: string | null; gruposComColeta: number; criteriosComColetaTecnica: number; criteriosComDiagnostico: number; aguardandoValidacao: number; evidenciasRegistradas: number; evidenciasPublicadas: number; execucoes: number };
+  situacoes: Record<string, { situacaoOperacional: "nao_iniciado" | "coleta_realizada" | "analise_preliminar" | "validado"; resultadoFinal: ResultadoFinal | null; evidenciasPublicas: number; ultimaVerificacao: string | null }>;
 }

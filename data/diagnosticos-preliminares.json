@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "geradoEm": "2026-10-13T14:08:52.799Z",
+  "execucaoId": "q11-conteudo-2026-10-13T14-08-20-786Z-57a31c35",
+  "grupoId": "Q1.1",
+  "metodo": "Leitura controlada de conteúdo visível em páginas públicas, iniciada pela homepage, confrontada com a matriz e o roteiro P01–P05. Não produz conclusão de auditoria.",
+  "totais": { "analisados": 10, "aguardandoValidacao": 10, "homologados": 0 },
+  "diagnosticos": [
+    {
+      "criterioId": "Q1.1.1", "grupoId": "Q1.1", "execucaoId": "q11-conteudo-2026-10-13T14-08-20-786Z-57a31c35", "geradoEm": "2026-10-13T14:08:52.799Z", "metodo": "Leitura da página Quem Somos e confronto com a redação literal da matriz.", "versaoSchema": 1,
+      "requisitosAtomicos": [{ "id": "Q1.1.1-R1", "texto": "Divulgar as competências da SEMA-MT.", "origemMatriz": "Lista de Verificação, linha 2, critério Q1.1.1" }],
+      "observacoes": [{ "id": "Q1.1.1-O1", "fato": "A página Quem Somos descreve a finalidade institucional e atividades gerais da Secretaria.", "trecho": "promover o controle, a preservação, a conservação e a recuperação ambiental", "fonte": "Quem Somos", "url": "https://www.sema.mt.gov.br/site/index.php/sema/quem-somos", "consultadoEm": "2026-10-13T14:08:24.593Z", "evidenciasIds": ["EV-Q11-007"] }],
+      "localizacao": "localizada", "completude": "parcial", "atualidade": "sem_data_comprovada", "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": ["LAI, art. 8º, § 1º, I, V e VI"], "limitacoes": ["A descrição observada é geral e não foi confrontada com todas as competências formais do órgão."], "pendencias": ["Revisão humana da abrangência e confronto com os atos organizacionais vigentes."], "necessidadeSegundaVerificacao": false, "situacaoValidacao": "aguardando_validacao_humana", "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q1.1.2", "grupoId": "Q1.1", "execucaoId": "q11-conteudo-2026-10-13T14-08-20-786Z-57a31c35", "geradoEm": "2026-10-13T14:08:52.799Z", "metodo": "Leitura das páginas Unidades Administrativas, Organograma e Estrutura.", "versaoSchema": 1,
+      "requisitosAtomicos": [{ "id": "Q1.1.2-R1", "texto": "Divulgar a estrutura organizacional da SEMA-MT.", "origemMatriz": "Lista de Verificação, linha 3, critério Q1.1.2" }],
+      "observacoes": [{ "id": "Q1.1.2-O1", "fato": "Há listagem de unidades administrativas e páginas próprias de organograma e estrutura.", "trecho": "ORGANOGRAMA INSTITUCIONAL ... Decreto nº 2.224, de 11/08/2026", "fonte": "Organograma", "url": "https://www.sema.mt.gov.br/site/index.php/sema/quem-somos/organograma", "consultadoEm": "2026-10-13T14:08:28.487Z", "evidenciasIds": ["EV-Q11-008", "EV-Q11-011", "EV-Q11-012"] }],
+      "localizacao": "localizada", "completude": "completa", "atualidade": "aparentemente_atual", "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": ["LAI, art. 8º, § 1º, I, V e VI"], "limitacoes": ["A consistência interna dos documentos e do organograma não foi homologada por auditor."], "pendencias": ["Validar se o Decreto nº 2.224/2026 é o ato vigente e se a representação coincide com ele."], "necessidadeSegundaVerificacao": false, "situacaoValidacao": "aguardando_validacao_humana", "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q1.1.3", "grupoId": "Q1.1", "execucaoId": "q11-conteudo-2026-10-13T14-08-20-786Z-57a31c35", "geradoEm": "2026-10-13T14:08:52.799Z", "metodo": "Leitura do diretório Contatos Sema e da página da Ouvidoria.", "versaoSchema": 1,
+      "requisitosAtomicos": [{ "id": "Q1.1.3-R1", "texto": "Divulgar endereços de atendimento.", "origemMatriz": "Lista de Verificação, linha 4, critério Q1.1.3" }],
+      "observacoes": [{ "id": "Q1.1.3-O1", "fato": "O endereço da sede e o endereço da Ouvidoria estão visíveis; a página também enumera regionais.", "trecho": "Rua C esquina com rua F, Centro Político Administrativo", "fonte": "Contatos Sema e Ouvidoria", "url": "https://www.sema.mt.gov.br/site/index.php/sema/%C3%BAltimos-avisos/5259-contatos-sema", "consultadoEm": "2026-10-13T14:08:32.962Z", "evidenciasIds": ["EV-Q11-013", "EV-Q11-014"] }],
+      "localizacao": "localizada", "completude": "parcial", "atualidade": "nao_avaliavel", "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": ["LAI, art. 8º, § 1º, I, V e VI"], "limitacoes": ["A coleta não confirmou endereço individual de todas as unidades e regionais listadas."], "pendencias": ["Conferir a abrangência territorial e os endereços das unidades regionais."], "necessidadeSegundaVerificacao": false, "situacaoValidacao": "aguardando_validacao_humana", "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q1.1.4", "grupoId": "Q1.1", "execucaoId": "q11-conteudo-2026-10-13T14-08-20-786Z-57a31c35", "geradoEm": "2026-10-13T14:08:52.799Z", "metodo": "Leitura do diretório Contatos Sema e da página da Ouvidoria.", "versaoSchema": 1,
+      "requisitosAtomicos": [{ "id": "Q1.1.4-R1", "texto": "Divulgar telefones de atendimento.", "origemMatriz": "Lista de Verificação, linha 5, critério Q1.1.4" }],
+      "observacoes": [{ "id": "Q1.1.4-O1", "fato": "O diretório publica telefone geral, Ouvidoria e telefones de unidades regionais.", "trecho": "0800 647 0111; 65 3645-4916 / 4917 / 4918 / 4919", "fonte": "Contatos Sema", "url": "https://www.sema.mt.gov.br/site/index.php/sema/%C3%BAltimos-avisos/5259-contatos-sema", "consultadoEm": "2026-10-13T14:08:32.962Z", "evidenciasIds": ["EV-Q11-013", "EV-Q11-014"] }],
+      "localizacao": "localizada", "completude": "completa", "atualidade": "nao_avaliavel", "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": ["LAI, art. 8º, § 1º, I, V e VI"], "limitacoes": ["A coleta verificou publicação, não funcionamento ou atualização de cada número."], "pendencias": ["Validação humana da suficiência e eventual teste amostral dos canais."], "necessidadeSegundaVerificacao": false, "situacaoValidacao": "aguardando_validacao_humana", "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q1.1.5", "grupoId": "Q1.1", "execucaoId": "q11-conteudo-2026-10-13T14-08-20-786Z-57a31c35", "geradoEm": "2026-10-13T14:08:52.799Z", "metodo": "Leitura do diretório Contatos Sema e da página da Ouvidoria.", "versaoSchema": 1,
+      "requisitosAtomicos": [{ "id": "Q1.1.5-R1", "texto": "Divulgar horários de atendimento.", "origemMatriz": "Lista de Verificação, linha 6, critério Q1.1.5" }],
+      "observacoes": [{ "id": "Q1.1.5-O1", "fato": "Há horário geral, horário presencial de protocolo e horário da Ouvidoria.", "trecho": "Horário Geral de Atendimento da Sema: das 8h às 17:30", "fonte": "Contatos Sema", "url": "https://www.sema.mt.gov.br/site/index.php/sema/%C3%BAltimos-avisos/5259-contatos-sema", "consultadoEm": "2026-10-13T14:08:32.962Z", "evidenciasIds": ["EV-Q11-013", "EV-Q11-014"] }],
+      "localizacao": "localizada", "completude": "parcial", "atualidade": "nao_avaliavel", "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": ["LAI, art. 8º, § 1º, I, V e VI"], "limitacoes": ["Nem todas as unidades listadas apresentam horário próprio no conteúdo coletado."], "pendencias": ["Confirmar se o horário geral se aplica às unidades sem horário individual."], "necessidadeSegundaVerificacao": false, "situacaoValidacao": "aguardando_validacao_humana", "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q1.1.6", "grupoId": "Q1.1", "execucaoId": "q11-conteudo-2026-10-13T14-08-20-786Z-57a31c35", "geradoEm": "2026-10-13T14:08:52.799Z", "metodo": "Leitura de páginas de programas/projetos estratégicos, Programa REM e Projeto EVA.", "versaoSchema": 1,
+      "requisitosAtomicos": [{ "id": "Q1.1.6-R1", "texto": "Divulgar informações sobre programas.", "origemMatriz": "Lista de Verificação, linha 7, critério Q1.1.6" }],
+      "observacoes": [{ "id": "Q1.1.6-O1", "fato": "A página estratégica enumera Programa ARPA e outros projetos; páginas REM e EVA trazem conteúdo adicional.", "trecho": "Programa Arpa; Projeto Aquabio; Projeto GEF Noroeste", "fonte": "Programas e Projetos Estratégicos", "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/programas-e-projetos-estrategicos", "consultadoEm": "2026-10-13T14:08:39.539Z", "evidenciasIds": ["EV-Q11-004", "EV-Q11-015", "EV-Q11-018"] }],
+      "localizacao": "localizada", "completude": "parcial", "atualidade": "sem_data_comprovada", "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": ["LAI, art. 8º, § 1º, I, V e VI"], "limitacoes": ["A enumeração não demonstra cobertura integral, metas, resultados ou andamento de todos os programas."], "pendencias": ["Verificar páginas internas e andamento de cada programa relevante."], "necessidadeSegundaVerificacao": false, "situacaoValidacao": "aguardando_validacao_humana", "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q1.1.7", "grupoId": "Q1.1", "execucaoId": "q11-conteudo-2026-10-13T14-08-20-786Z-57a31c35", "geradoEm": "2026-10-13T14:08:52.799Z", "metodo": "Leitura das páginas Ações e Projetos, Ouvidoria e Projeto EVA.", "versaoSchema": 1,
+      "requisitosAtomicos": [{ "id": "Q1.1.7-R1", "texto": "Divulgar informações sobre ações.", "origemMatriz": "Lista de Verificação, linha 8, critério Q1.1.7" }],
+      "observacoes": [{ "id": "Q1.1.7-O1", "fato": "O Projeto EVA descreve ações previstas; a página de educação ambiental mostra um item datado de 2019.", "trecho": "diagnóstico institucional, capacitação continuada e protocolos padronizados", "fonte": "Projeto EVA", "url": "https://www.sema.mt.gov.br/site/index.php/projeto-eva-encontro,-vozes,-ativa,-empoderamento,-valoriza%C3%A7%C3%A3o-e-acolhimento", "consultadoEm": "2026-10-13T14:08:49.567Z", "evidenciasIds": ["EV-Q11-017", "EV-Q11-018"] }],
+      "localizacao": "localizada", "completude": "parcial", "atualidade": "nao_avaliavel", "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": ["LAI, art. 8º, § 1º, I, V e VI"], "limitacoes": ["Parte do conteúdo descreve ações previstas, sem comprovar execução ou cobertura institucional completa."], "pendencias": ["Distinguir ações planejadas, em execução e concluídas; revisar o item de 2019."], "necessidadeSegundaVerificacao": false, "situacaoValidacao": "aguardando_validacao_humana", "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q1.1.8", "grupoId": "Q1.1", "execucaoId": "q11-conteudo-2026-10-13T14-08-20-786Z-57a31c35", "geradoEm": "2026-10-13T14:08:52.799Z", "metodo": "Leitura de páginas de programas e projetos estratégicos, educação ambiental e Projeto EVA.", "versaoSchema": 1,
+      "requisitosAtomicos": [{ "id": "Q1.1.8-R1", "texto": "Divulgar informações sobre projetos.", "origemMatriz": "Lista de Verificação, linha 9, critério Q1.1.8" }],
+      "observacoes": [{ "id": "Q1.1.8-O1", "fato": "Há projetos nominados e uma página detalhada do Projeto EVA com finalidade e documentos de 2026.", "trecho": "Projeto EVA; Projeto Aquabio; Projeto GEF Noroeste", "fonte": "Programas e Projetos Estratégicos e Projeto EVA", "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/programas-e-projetos-estrategicos", "consultadoEm": "2026-10-13T14:08:39.539Z", "evidenciasIds": ["EV-Q11-006", "EV-Q11-015", "EV-Q11-017", "EV-Q11-018"] }],
+      "localizacao": "localizada", "completude": "parcial", "atualidade": "aparentemente_atual", "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": ["LAI, art. 8º, § 1º, I, V e VI"], "limitacoes": ["A coleta não comprovou que a listagem seja integral nem o andamento de todos os projetos."], "pendencias": ["Avaliar cobertura, metas, cronogramas e resultados dos projetos listados."], "necessidadeSegundaVerificacao": false, "situacaoValidacao": "aguardando_validacao_humana", "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q1.1.9", "grupoId": "Q1.1", "execucaoId": "q11-conteudo-2026-10-13T14-08-20-786Z-57a31c35", "geradoEm": "2026-10-13T14:08:52.799Z", "metodo": "Busca controlada nos links e conteúdos das páginas institucionais coletadas para Q1.1.", "versaoSchema": 1,
+      "requisitosAtomicos": [{ "id": "Q1.1.9-R1", "texto": "Divulgar informações sobre obras.", "origemMatriz": "Lista de Verificação, linha 10, critério Q1.1.9" }],
+      "observacoes": [],
+      "localizacao": "nao_localizada_nesta_busca", "completude": "nao_demonstrada", "atualidade": "nao_avaliavel", "aderenciaPreliminar": "insuficiente_para_concluir",
+      "fundamentosNormativos": ["LAI, art. 8º, § 1º, I, V e VI"], "limitacoes": ["A ausência na trilha e nas páginas examinadas não prova inexistência nem descumprimento."], "pendencias": ["Executar segunda verificação em outra data, por validador diferente, com busca direcionada e captura positiva ou negativa."], "necessidadeSegundaVerificacao": true, "situacaoValidacao": "aguardando_validacao_humana", "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q1.1.10", "grupoId": "Q1.1", "execucaoId": "q11-conteudo-2026-10-13T14-08-20-786Z-57a31c35", "geradoEm": "2026-10-13T14:08:52.799Z", "metodo": "Leitura da página Perguntas Frequentes e confronto com a redação literal da matriz.", "versaoSchema": 1,
+      "requisitosAtomicos": [{ "id": "Q1.1.10-R1", "texto": "Divulgar perguntas frequentes da sociedade e respectivas respostas.", "origemMatriz": "Lista de Verificação, linha 11, critério Q1.1.10" }],
+      "observacoes": [{ "id": "Q1.1.10-O1", "fato": "A página contém perguntas e respostas sobre atendimento e recursos hídricos.", "trecho": "Em quais contatos falo com a Sema?", "fonte": "Perguntas Frequentes", "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/educacao-ambiental/category/1077-perguntas-frequentes", "consultadoEm": "2026-10-13T14:08:51.884Z", "evidenciasIds": ["EV-Q11-002"] }],
+      "localizacao": "localizada", "completude": "completa", "atualidade": "sem_data_comprovada", "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": ["LAI, art. 8º, § 1º, I, V e VI"], "limitacoes": ["Não há data de atualização visível no conteúdo coletado; atualidade não foi comprovada."], "pendencias": ["Validação humana da abrangência e atualidade das respostas."], "necessidadeSegundaVerificacao": false, "situacaoValidacao": "aguardando_validacao_humana", "resultadoFinal": null
+    }
+  ]
+}

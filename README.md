@@ -6,9 +6,10 @@ Painel executivo e estático de apoio à fiscalização da transparência ativa 
 
 - 73 critérios únicos importados das linhas 2–74 da planilha oficial, distribuídos em 35/24/14 nas Questões 1/2/3;
 - zero resultados finais validados e 73 critérios não apurados;
-- quatro execuções técnicas Q1.1 preservadas localmente, com 13 capturas brutas registradas;
-- dez capturas da coleta final aprovadas após inspeção visual, copiadas para `public/evidencias/` e exibidas no painel;
-- três capturas redundantes das execuções de descoberta retidas fora do Git;
+- sete execuções técnicas Q1.1 preservadas localmente, com 43 capturas brutas registradas;
+- dez diagnósticos substantivos preliminares de Q1.1, todos aguardando validação humana e com `resultado_final = null`;
+- 18 capturas aprovadas após inspeção visual, copiadas para `public/evidencias/` e exibidas no painel;
+- 25 capturas não allowlisted ou redundantes retidas fora do Git;
 - exportação estática Next.js, sem banco de dados, API Route ou arquivo privado em runtime.
 
 ## Regra da verdade
@@ -39,12 +40,13 @@ O arquivo `private/aprovacao-evidencias.json` é a allowlist local e permanece i
 
 ```powershell
 npm.cmd run prepare:public-evidence
+npm.cmd run prepare:q11-diagnostics
 npm.cmd run prepare:public-data
 npm.cmd run verify:public-evidence
 npm.cmd run verify:public
 ```
 
-`prepare:public-evidence` confere os hashes originais, copia somente as imagens aprovadas, cria miniaturas separadas e gera `data/evidencias-publicas.json` e `public/data/evidencias-publicas.json`. `prepare:public-data` gera o snapshot determinístico consumido pelo dashboard. O build remoto usa apenas esses artefatos versionados.
+`prepare:public-evidence` confere os hashes originais, copia somente as imagens aprovadas, cria miniaturas separadas e gera o manifesto público. `prepare:q11-diagnostics` valida os dez diagnósticos, preserva o histórico privado e gera o snapshot sanitizado. `prepare:public-data` recalcula os indicadores consumidos pelo dashboard. O build remoto usa apenas os artefatos versionados.
 
 ## Build e preview do export
 
@@ -61,6 +63,7 @@ Abra `http://127.0.0.1:4173/`. Um `ERR_CONNECTION_REFUSED` normalmente indica qu
 $env:AUDITOR_NOME = "Nome do operador"
 npm.cmd run discover:q11
 npm.cmd run collect:q11
+npm.cmd run collect:q11-content
 npm.cmd run review -- --input C:\caminho\revisao.json
 npm.cmd run publish:data
 ```
@@ -85,6 +88,7 @@ git push origin main
 ## Documentação
 
 - [Revisão das evidências públicas](docs-tecnicos/REVISAO_PUBLICACAO_EVIDENCIAS.md)
+- [Análise preliminar substantiva de Q1.1](docs-tecnicos/ANALISE_PRELIMINAR_Q11.md)
 - [Relatório do redesenho](docs-tecnicos/RELATORIO_REDESIGN.md)
 - [Publicação GitHub e Vercel](docs-tecnicos/PUBLICACAO_GITHUB_VERCEL.md)
 - [Arquitetura](docs-tecnicos/ARQUITETURA.md)

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "geradoEm": "2026-10-09T16:22:20.985Z",
+  "geradoEm": "2026-10-13T14:08:49.567Z",
   "escopo": {
     "criterios": 73,
     "questoes": {
@@ -20,74 +20,76 @@
     "percentualOficial": 0
   },
   "coleta": {
-    "ultimaColetaEm": "2026-10-09T15:53:52.694Z",
+    "ultimaColetaEm": "2026-10-13T14:08:52.799Z",
     "ultimaValidacaoEm": null,
     "gruposComColeta": 1,
     "criteriosComColetaTecnica": 10,
-    "evidenciasRegistradas": 13,
-    "evidenciasPublicadas": 10,
-    "execucoes": 4
+    "criteriosComDiagnostico": 10,
+    "aguardandoValidacao": 10,
+    "evidenciasRegistradas": 43,
+    "evidenciasPublicadas": 18,
+    "execucoes": 8
   },
   "situacoes": {
     "Q1.1.1": {
-      "situacaoOperacional": "coleta_realizada",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
       "evidenciasPublicas": 1,
-      "ultimaVerificacao": "2026-10-09T15:53:35.204Z"
+      "ultimaVerificacao": "2026-10-13T14:08:52.799Z"
     },
     "Q1.1.2": {
-      "situacaoOperacional": "coleta_realizada",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 1,
-      "ultimaVerificacao": "2026-10-09T15:53:38.077Z"
+      "evidenciasPublicas": 3,
+      "ultimaVerificacao": "2026-10-13T14:08:52.799Z"
     },
     "Q1.1.3": {
-      "situacaoOperacional": "coleta_realizada",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": "2026-10-09T15:53:43.885Z"
+      "evidenciasPublicas": 2,
+      "ultimaVerificacao": "2026-10-13T14:08:52.799Z"
     },
     "Q1.1.4": {
-      "situacaoOperacional": "coleta_realizada",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": "2026-10-09T15:53:43.885Z"
+      "evidenciasPublicas": 2,
+      "ultimaVerificacao": "2026-10-13T14:08:52.799Z"
     },
     "Q1.1.5": {
-      "situacaoOperacional": "coleta_realizada",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": "2026-10-09T15:53:43.885Z"
+      "evidenciasPublicas": 2,
+      "ultimaVerificacao": "2026-10-13T14:08:52.799Z"
     },
     "Q1.1.6": {
-      "situacaoOperacional": "coleta_realizada",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": "2026-10-09T15:53:32.099Z"
+      "evidenciasPublicas": 2,
+      "ultimaVerificacao": "2026-10-13T14:08:52.799Z"
     },
     "Q1.1.7": {
-      "situacaoOperacional": "coleta_realizada",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": "2026-10-09T15:53:32.099Z"
+      "evidenciasPublicas": 2,
+      "ultimaVerificacao": "2026-10-13T14:08:52.799Z"
     },
     "Q1.1.8": {
-      "situacaoOperacional": "coleta_realizada",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": "2026-10-09T15:53:32.099Z"
+      "evidenciasPublicas": 3,
+      "ultimaVerificacao": "2026-10-13T14:08:52.799Z"
     },
     "Q1.1.9": {
-      "situacaoOperacional": "coleta_realizada",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
       "evidenciasPublicas": 0,
-      "ultimaVerificacao": "2026-10-09T15:53:32.099Z"
+      "ultimaVerificacao": "2026-10-13T14:08:52.799Z"
     },
     "Q1.1.10": {
-      "situacaoOperacional": "coleta_realizada",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
       "evidenciasPublicas": 1,
-      "ultimaVerificacao": "2026-10-09T15:53:19.898Z"
+      "ultimaVerificacao": "2026-10-13T14:08:52.799Z"
     },
     "Q1.2.1": {
       "situacaoOperacional": "nao_iniciado",

@@ -6,6 +6,7 @@ import { projectRoot } from "@/lib/persistencia";
 
 type ApprovalItem = {
   id: string;
+  execucao_id?: string;
   arquivo: string;
   publicar: boolean;
   titulo: string;
@@ -62,15 +63,14 @@ if (approval.schema_version !== 1 || !approval.execucao_id || !approval.grupo_id
 if (!approval.itens.length || approval.itens.some((item) => !item.id || !item.justificativa)) throw new Error("A allowlist precisa conter IDs e justificativas explícitas.");
 if (new Set(approval.itens.map((item) => item.id)).size !== approval.itens.length) throw new Error("IDs duplicados na allowlist.");
 
-const executionRoot = path.join(projectRoot, "private", "execucoes", approval.execucao_id);
-const events = (await readFile(path.join(executionRoot, "eventos.jsonl"), "utf8"))
-  .split(/\r?\n/).filter(Boolean).map((line) => JSON.parse(line));
-const evidenceEvents = new Map(events.filter((item) => item.tipo === "evidencia_capturada").map((item) => [String(item.arquivo).replaceAll("\\", "/"), item]));
-const targetRoot = path.join(projectRoot, "public", "evidencias", approval.grupo_id, approval.execucao_id);
 const dataRoot = path.join(projectRoot, "public", "data");
-if (!targetRoot.startsWith(path.join(projectRoot, "public", "evidencias") + path.sep)) throw new Error("Destino público inesperado.");
-await rm(targetRoot, { recursive: true, force: true });
-await mkdir(path.join(targetRoot, "miniaturas"), { recursive: true });
+const executionIds = [...new Set(approval.itens.filter((item) => item.publicar).map((item) => item.execucao_id ?? approval.execucao_id))];
+for (const executionId of executionIds) {
+  const targetRoot = path.join(projectRoot, "public", "evidencias", approval.grupo_id, executionId);
+  if (!targetRoot.startsWith(path.join(projectRoot, "public", "evidencias") + path.sep)) throw new Error("Destino público inesperado.");
+  await rm(targetRoot, { recursive: true, force: true });
+  await mkdir(path.join(targetRoot, "miniaturas"), { recursive: true });
+}
 await mkdir(dataRoot, { recursive: true });
 
 const executablePath = await localChromiumExecutable();
@@ -80,8 +80,15 @@ const published = [];
 
 try {
   for (const item of approval.itens.filter((entry) => entry.publicar)) {
+    const executionId = item.execucao_id ?? approval.execucao_id;
+    const executionRoot = path.join(projectRoot, "private", "execucoes", executionId);
     const relative = item.arquivo.replaceAll("\\", "/");
     if (!relative.startsWith("screenshots/") || relative.includes("..") || path.extname(relative).toLowerCase() !== ".png") throw new Error(`Fonte fora do escopo: ${relative}`);
+    const rawEvents = await readFile(path.join(executionRoot, "eventos.jsonl"), "utf8").catch(() => "");
+    const events = rawEvents.split(/\r?\n/).filter(Boolean).map((line) => JSON.parse(line));
+    const content = await readJson<any>(path.join(executionRoot, "conteudo-visivel.json")).catch(() => null);
+    const evidenceEvents = new Map(events.filter((entry) => entry.tipo === "evidencia_capturada").map((entry) => [String(entry.arquivo).replaceAll("\\", "/"), entry]));
+    for (const record of content?.registros ?? []) evidenceEvents.set(String(record.screenshot), { url: record.url_final, timestamp_utc: record.capturado_em_utc, sha256: record.screenshot_sha256 });
     const event = evidenceEvents.get(relative);
     if (!event) throw new Error(`Captura sem evento técnico correspondente: ${relative}`);
     const source = path.resolve(executionRoot, relative);
@@ -92,6 +99,7 @@ try {
 
     const publicName = `${item.id.toLowerCase()}.png`;
     const thumbName = `${item.id.toLowerCase()}-thumb.png`;
+    const targetRoot = path.join(projectRoot, "public", "evidencias", approval.grupo_id, executionId);
     const publicPath = path.join(targetRoot, publicName);
     const thumbPath = path.join(targetRoot, "miniaturas", thumbName);
     await copyFile(source, publicPath);
@@ -102,7 +110,7 @@ try {
     const thumb = await readFile(thumbPath);
     published.push({
       id: item.id,
-      execucaoId: approval.execucao_id,
+      execucaoId: executionId,
       grupoId: approval.grupo_id,
       criteriosIds: item.criterios_ids,
       nivelAssociacao: item.nivel_associacao,
@@ -110,8 +118,8 @@ try {
       descricao: item.justificativa,
       urlOrigem: sanitizeUrl(event.url),
       capturadoEm: event.timestamp_utc,
-      arquivo: `/evidencias/${approval.grupo_id}/${approval.execucao_id}/${publicName}`,
-      miniatura: `/evidencias/${approval.grupo_id}/${approval.execucao_id}/miniaturas/${thumbName}`,
+      arquivo: `/evidencias/${approval.grupo_id}/${executionId}/${publicName}`,
+      miniatura: `/evidencias/${approval.grupo_id}/${executionId}/miniaturas/${thumbName}`,
       statusRevisao: "aprovado",
       saneada: false,
       sha256Original: originalHash,

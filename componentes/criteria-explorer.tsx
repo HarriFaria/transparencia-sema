@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import type { Criterio, Grupo, PainelPublico } from "@/lib/types";
 
 type SortKey = "ordem" | "id" | "grupo" | "situacao";
-const operationalLabel = { nao_iniciado: "Não iniciado", coleta_realizada: "Coleta realizada", validado: "Validado" } as const;
+const operationalLabel = { nao_iniciado: "Não iniciado", coleta_realizada: "Coleta realizada", analise_preliminar: "Análise preliminar", validado: "Validado" } as const;
 
 export function CriteriaExplorer({ criterios, grupos, situacoes }: { criterios: Criterio[]; grupos: Grupo[]; situacoes: PainelPublico["situacoes"] }) {
   const [query, setQuery] = useState("");
@@ -44,7 +44,7 @@ export function CriteriaExplorer({ criterios, grupos, situacoes }: { criterios: 
       <label className="field field-search"><span>Buscar na matriz</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="ID, critério, norma, fonte ou documento" /></label>
       <label className="field"><span>Questão</span><select value={question} onChange={(event) => setQuestion(event.target.value)}><option value="">Todas</option><option value="1">Questão 1</option><option value="2">Questão 2</option><option value="3">Questão 3</option></select></label>
       <label className="field"><span>Grupo</span><select value={group} onChange={(event) => setGroup(event.target.value)}><option value="">Todos</option>{grupos.map((item) => <option key={item.id} value={item.id}>{item.id} · {item.titulo}</option>)}</select></label>
-      <label className="field"><span>Situação operacional</span><select value={operational} onChange={(event) => setOperational(event.target.value)}><option value="">Todas</option><option value="nao_iniciado">Não iniciado</option><option value="coleta_realizada">Coleta realizada</option><option value="validado">Validado</option></select></label>
+      <label className="field"><span>Situação operacional</span><select value={operational} onChange={(event) => setOperational(event.target.value)}><option value="">Todas</option><option value="nao_iniciado">Não iniciado</option><option value="coleta_realizada">Coleta realizada</option><option value="analise_preliminar">Análise preliminar</option><option value="validado">Validado</option></select></label>
       <label className="field"><span>Resultado final</span><select value={result} onChange={(event) => setResult(event.target.value)}><option value="">Todos</option><option value="nao_apurado">Não apurado</option><option value="Atendido">Atendido</option><option value="Atendido parcialmente">Atendido parcialmente</option><option value="Não atendido">Não atendido</option></select></label>
       <label className="field"><span>Exigibilidade</span><select value={requirement} onChange={(event) => setRequirement(event.target.value)}><option value="">Todas</option>{requirements.map((item) => <option key={item}>{item}</option>)}</select></label>
       <label className="field"><span>Evidência publicada</span><select value={evidence} onChange={(event) => setEvidence(event.target.value)}><option value="">Todas</option><option value="com">Com evidência</option><option value="sem">Sem evidência</option></select></label>
@@ -58,7 +58,7 @@ export function CriteriaExplorer({ criterios, grupos, situacoes }: { criterios: 
         return <article className="matrix-row" role="row" key={item.id}>
           <div className="matrix-id" role="cell"><strong>{item.id}</strong><small>{item.grupo_id}</small></div>
           <div className="matrix-criterion" role="cell"><strong>{item.redacao_literal}</strong><span>{item.norma_dispositivo_literal}</span><small>{item.fonte_informacao_literal}</small></div>
-          <div role="cell" data-label="Situação"><span className={`badge ${state.situacaoOperacional === "coleta_realizada" ? "badge-info" : state.situacaoOperacional === "validado" ? "badge-success" : "badge-neutral"}`}>{operationalLabel[state.situacaoOperacional]}</span><small>{state.ultimaVerificacao ? new Intl.DateTimeFormat("pt-BR", { dateStyle: "short", timeZone: "America/Cuiaba" }).format(new Date(state.ultimaVerificacao)) : "Sem verificação"}</small></div>
+          <div role="cell" data-label="Situação"><span className={`badge ${state.situacaoOperacional === "analise_preliminar" ? "badge-warning" : state.situacaoOperacional === "coleta_realizada" ? "badge-info" : state.situacaoOperacional === "validado" ? "badge-success" : "badge-neutral"}`}>{operationalLabel[state.situacaoOperacional]}</span><small>{state.ultimaVerificacao ? new Intl.DateTimeFormat("pt-BR", { dateStyle: "short", timeZone: "America/Cuiaba" }).format(new Date(state.ultimaVerificacao)) : "Sem verificação"}</small></div>
           <div role="cell" data-label="Resultado"><span className="badge badge-pending">{state.resultadoFinal ?? "Não apurado"}</span></div>
           <div role="cell" data-label="Evidências"><strong>{state.evidenciasPublicas}</strong><small>{state.evidenciasPublicas === 1 ? "print público" : "prints públicos"}</small></div>
           <div role="cell"><a className="row-action" href={`/criterios/${item.id}/`}>Ver detalhes <span aria-hidden="true">→</span></a></div>

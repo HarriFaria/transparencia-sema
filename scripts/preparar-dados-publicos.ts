@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { projectRoot } from "@/lib/persistencia";
 
@@ -9,6 +9,10 @@ const roteiro = await readJson<{ total_passos: number }>(path.join(projectRoot, 
 const resultados = await readJson<any[]>(path.join(projectRoot, "data", "resultados-publicados.json"));
 const coletas = await readJson<any>(path.join(projectRoot, "data", "resultados-coletas.json"));
 const evidencias = await readJson<any>(path.join(projectRoot, "data", "evidencias-publicas.json"));
+const diagnosticos = await readJson<any>(path.join(projectRoot, "data", "diagnosticos-preliminares.json"));
+const diagnosticsByCriterion = new Map(diagnosticos.diagnosticos.map((item: any) => [item.criterioId, item]));
+const executionEntries = await readdir(path.join(projectRoot, "private", "execucoes"), { withFileTypes: true }).catch(() => []);
+const totalExecutions = executionEntries.filter((entry) => entry.isDirectory()).length;
 
 const ids = criterios.map((item) => item.id);
 const byQuestion = [1, 2, 3].map((questao) => criterios.filter((item) => item.questao === questao).length);
@@ -23,9 +27,10 @@ for (const evidence of evidencias.evidencias) for (const id of evidence.criterio
 const situacoes = Object.fromEntries(criterios.map((item) => {
   const collected = coletas.criterios[item.id];
   const final = resultados.find((entry) => entry.criterio_id === item.id);
-  const timestamps = (collected?.navegacoes ?? []).map((entry: any) => entry.timestamp_utc).filter(Boolean).sort();
+  const diagnostic: any = diagnosticsByCriterion.get(item.id);
+  const timestamps = [...(collected?.navegacoes ?? []).map((entry: any) => entry.timestamp_utc), diagnostic?.geradoEm].filter(Boolean).sort();
   return [item.id, {
-    situacaoOperacional: final ? "validado" : collected?.situacao === "coleta_tecnica_sem_verificacao" ? "coleta_realizada" : "nao_iniciado",
+    situacaoOperacional: final ? "validado" : diagnosticsByCriterion.has(item.id) ? "analise_preliminar" : collected?.situacao === "coleta_tecnica_sem_verificacao" ? "coleta_realizada" : "nao_iniciado",
     resultadoFinal: final?.resultado_final ?? null,
     evidenciasPublicas: evidenceByCriterion.get(item.id) ?? 0,
     ultimaVerificacao: final?.validado_em_utc ?? timestamps.at(-1) ?? null,
@@ -45,13 +50,15 @@ const painel = {
     percentualOficial: criterios.length ? Number(((count("Atendido") / criterios.length) * 100).toFixed(1)) : 0,
   },
   coleta: {
-    ultimaColetaEm: coletas.ultima_execucao?.encerrado_em_utc ?? coletas.ultima_execucao?.criado_em_utc ?? null,
+    ultimaColetaEm: [coletas.ultima_execucao?.encerrado_em_utc, coletas.ultima_execucao?.criado_em_utc, diagnosticos.geradoEm].filter(Boolean).sort().at(-1) ?? null,
     ultimaValidacaoEm,
     gruposComColeta: coletas.totais.grupos_com_coleta,
     criteriosComColetaTecnica: coletas.totais.criterios_com_coleta_tecnica,
-    evidenciasRegistradas: coletas.totais.evidencias_registradas,
+    criteriosComDiagnostico: diagnosticos.totais.analisados,
+    aguardandoValidacao: diagnosticos.totais.aguardandoValidacao,
+    evidenciasRegistradas: evidencias.totais.encontradas,
     evidenciasPublicadas: evidencias.totais.publicadas,
-    execucoes: coletas.totais.execucoes,
+    execucoes: totalExecutions || coletas.totais.execucoes,
   },
   situacoes,
 };

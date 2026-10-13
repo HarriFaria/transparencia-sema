@@ -1,12 +1,13 @@
 import { notFound } from "next/navigation";
 import { EvidenceGallery } from "@/componentes/evidence-gallery";
-import { coletas, criterios, evidenciasPublicas, painelPublico, roteiro } from "@/lib/data";
+import { coletas, criterios, diagnosticosQ11, evidenciasPublicas, painelPublico, roteiro } from "@/lib/data";
 
 export const dynamicParams = false;
 export function generateStaticParams() { return criterios.map((item) => ({ id: item.id })); }
 
 const dateTime = (value: string) => new Intl.DateTimeFormat("pt-BR", { dateStyle: "short", timeStyle: "short", timeZone: "America/Cuiaba" }).format(new Date(value));
-const operationalLabel = { nao_iniciado: "Não iniciado", coleta_realizada: "Coleta realizada", validado: "Validado" } as const;
+const operationalLabel = { nao_iniciado: "Não iniciado", coleta_realizada: "Coleta realizada", analise_preliminar: "Análise preliminar", validado: "Validado" } as const;
+const dimensionLabel = { completa: "Completa", parcial: "Parcial", nao_demonstrada: "Não demonstrada", nao_avaliavel: "Não avaliável", aparentemente_atual: "Aparentemente atual", indicio_desatualizacao: "Indício de desatualização", sem_data_comprovada: "Sem data comprovada", evidencia_compativel: "Evidência compatível", indicios_de_lacuna: "Indícios de lacuna", insuficiente_para_concluir: "Insuficiente para concluir" } as const;
 
 function VerificationCard({ title, value }: { title: string; value: Record<string, unknown> | null }) {
   if (!value) return <article className="verification-card empty"><span>○</span><div><strong>{title}</strong><p>Não registrada</p></div></article>;
@@ -19,6 +20,7 @@ export default async function CriterioPage({ params }: { params: Promise<{ id: s
   if (!item) notFound();
   const collected = coletas.criterios[item.id];
   const state = painelPublico.situacoes[item.id];
+  const diagnostic = diagnosticosQ11.diagnosticos.find((entry) => entry.criterioId === item.id);
   const steps = roteiro.passos.filter((step) => item.passos_roteiro.includes(step.id));
   const criterionEvidence = evidenciasPublicas.evidencias.filter((entry) => entry.criteriosIds.includes(item.id));
   const groupEvidence = evidenciasPublicas.evidencias.filter((entry) => entry.grupoId === item.grupo_id && entry.nivelAssociacao !== "criterio");
@@ -27,6 +29,8 @@ export default async function CriterioPage({ params }: { params: Promise<{ id: s
     <header className="detail-header"><div><div className="detail-labels"><span className="criterion-code">{item.id}</span><span>Questão {item.questao}</span><span>{item.grupo_id}</span></div><h1>{item.redacao_literal}</h1><p>{item.fonte_informacao_literal}</p></div><aside className="detail-status"><div><span>Situação operacional</span><strong>{operationalLabel[state.situacaoOperacional]}</strong></div><div><span>Resultado final validado</span><strong>{state.resultadoFinal ?? "Não apurado"}</strong></div><small>{state.ultimaVerificacao ? `Último registro técnico: ${dateTime(state.ultimaVerificacao)}` : "Sem verificação registrada"}</small></aside></header>
 
     <section className="detail-summary"><article><span>Fundamento</span><strong>{item.norma_dispositivo_literal}</strong></article><article><span>Exigibilidade</span><strong>{item.exigibilidade}</strong></article><article><span>Período previsto</span><strong>{item.periodo_previsto}</strong></article><article><span>Evidências públicas</span><strong>{criterionEvidence.length}</strong></article></section>
+
+    <section className="surface preliminary-analysis" id="analise-preliminar"><div className="surface-head"><div><p className="kicker">Análise preliminar</p><h2>{diagnostic ? "Conteúdo confrontado com o requisito" : "Ainda não analisado"}</h2></div><span className={`badge ${diagnostic ? "badge-warning" : "badge-neutral"}`}>{diagnostic ? "aguardando validação" : "não verificado"}</span></div>{diagnostic ? <><div className="dimension-grid"><article><span>Localização</span><strong>{diagnostic.localizacao === "nao_localizada_nesta_busca" ? "Não localizada nesta busca" : "Localizada"}</strong></article><article><span>Completude</span><strong>{dimensionLabel[diagnostic.completude]}</strong></article><article><span>Atualidade</span><strong>{dimensionLabel[diagnostic.atualidade]}</strong></article><article><span>Aderência</span><strong>{dimensionLabel[diagnostic.aderenciaPreliminar]}</strong></article></div><div className="analysis-columns"><div><h3>O que a matriz exige</h3><ul>{diagnostic.requisitosAtomicos.map((requirement) => <li key={requirement.id}><strong>{requirement.texto}</strong><small>{requirement.origemMatriz}</small></li>)}</ul><h3>O que foi encontrado</h3>{diagnostic.observacoes.length ? <ul>{diagnostic.observacoes.map((observation) => <li key={observation.id}><p>{observation.fato}</p><blockquote>“{observation.trecho}”</blockquote><a href={observation.url} target="_blank" rel="noreferrer">Abrir fonte pública ↗</a></li>)}</ul> : <p className="analysis-empty">Nenhum elemento material foi localizado nesta busca.</p>}</div><div><h3>Limitações e pendências</h3><ul>{[...diagnostic.limitacoes, ...diagnostic.pendencias].map((entry) => <li key={entry}>{entry}</li>)}</ul><div className="second-check"><span>Segunda verificação</span><strong>{diagnostic.necessidadeSegundaVerificacao ? "Obrigatória em outra data" : "Não acionada por ausência"}</strong></div><p className="analysis-disclaimer">Resultado final: <strong>não registrado</strong>. A análise técnica não substitui validação humana independente.</p></div></div></> : <div className="empty-state compact"><strong>Não verificado</strong><p>Este critério não integra o escopo substantivo inicial de Q1.1.</p></div>}</section>
 
     <div className="detail-columns"><div>
       <section className="surface prose-card"><div className="surface-head"><div><p className="kicker">Critério oficial</p><h2>Redação integral e rastreabilidade</h2></div><span className="badge badge-neutral">linha {item.origem_xlsx.linha}</span></div><p className="criterion-full">{item.redacao_literal}</p><dl className="definition-list"><div><dt>Norma / dispositivo</dt><dd>{item.norma_dispositivo_literal}</dd></div><div><dt>Fonte prevista</dt><dd>{item.fonte_informacao_literal}</dd></div><div><dt>Orientação técnica</dt><dd>{item.orientacao_ti_literal}</dd></div><div><dt>Origem controlada</dt><dd>{item.origem_xlsx.aba}, linha {item.origem_xlsx.linha}, colunas {item.origem_xlsx.colunas_referencia}</dd></div></dl></section>

@@ -6,7 +6,9 @@ import resultadosData from "@/data/resultados-publicados.json";
 import coletasData from "@/data/resultados-coletas.json";
 import painelPublicoData from "@/data/painel-publico.json";
 import evidenciasPublicasData from "@/data/evidencias-publicas.json";
+import diagnosticosData from "@/data/diagnosticos-preliminares.json";
 import type { Criterio, EvidenciasPublicas, Grupo, PainelColetas, PainelPublico } from "@/lib/types";
+import type { DiagnosticosQ11 } from "@/lib/diagnosticos";
 
 export const criterios = criteriosData.criterios as Criterio[];
 export const grupos = gruposData.grupos as Grupo[];
@@ -16,6 +18,7 @@ export const resultados = resultadosData;
 export const coletas = coletasData as PainelColetas;
 export const painelPublico = painelPublicoData as PainelPublico;
 export const evidenciasPublicas = evidenciasPublicasData as EvidenciasPublicas;
+export const diagnosticosQ11 = diagnosticosData as DiagnosticosQ11;
 
 export const formatAutomation = (level: string) =>
   ({

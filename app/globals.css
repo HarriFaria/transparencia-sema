@@ -289,6 +289,34 @@ dd { margin: 4px 0 0; font-size: .77rem; }
 .reference-list span { margin-top: 3px; color: var(--blue-700); font-size: .64rem; }
 .reference-list p { margin: 6px 0 0; color: var(--slate-600); font-size: .69rem; }
 
+.preliminary-analysis { margin-bottom: 22px; border-top: 3px solid var(--warning); }
+.dimension-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; margin: 20px -22px 0; background: var(--slate-200); border-block: 1px solid var(--slate-200); }
+.dimension-grid article { min-width: 0; padding: 16px 22px; background: var(--slate-50); }
+.dimension-grid span, .dimension-grid strong { display: block; }
+.dimension-grid span { color: var(--slate-600); font-size: .61rem; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; }
+.dimension-grid strong { margin-top: 5px; font-size: .76rem; }
+.analysis-columns { display: grid; grid-template-columns: 1.2fr .8fr; gap: 32px; padding-top: 24px; }
+.analysis-columns h3 { margin: 0 0 10px; font-size: .82rem; }
+.analysis-columns ul { display: grid; gap: 9px; margin: 0 0 24px; padding: 0; list-style: none; }
+.analysis-columns li { padding: 12px 14px; color: var(--slate-700); background: var(--slate-50); border: 1px solid var(--slate-200); border-radius: 7px; font-size: .72rem; }
+.analysis-columns li strong, .analysis-columns li small { display: block; }
+.analysis-columns li small { margin-top: 4px; color: var(--slate-500); }
+.analysis-columns li p { margin: 0; }
+.analysis-columns blockquote { margin: 8px 0; padding-left: 10px; color: var(--slate-600); border-left: 2px solid var(--slate-300); font-size: .7rem; }
+.analysis-columns a { color: var(--blue-700); font-size: .68rem; }
+.analysis-empty { padding: 15px; color: var(--slate-600); background: var(--warning-bg); border-radius: 7px; font-size: .74rem; }
+.second-check { padding: 14px; background: var(--navy-900); border-radius: 7px; }
+.second-check span, .second-check strong { display: block; }
+.second-check span { color: #aebdca; font-size: .6rem; text-transform: uppercase; }
+.second-check strong { margin-top: 4px; color: var(--white); font-size: .76rem; }
+.analysis-disclaimer { margin: 12px 0 0; color: var(--slate-600); font-size: .7rem; }
+.diagnostic-index { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.diagnostic-index a { display: grid; grid-template-columns: 82px 1fr auto; align-items: center; gap: 12px; padding: 14px 16px; color: inherit; background: var(--white); border: 1px solid var(--slate-200); border-radius: 8px; text-decoration: none; }
+.diagnostic-index a:hover { border-color: var(--blue-500); box-shadow: var(--shadow-sm); }
+.diagnostic-index strong { color: var(--blue-700); font-family: ui-monospace, monospace; font-size: .72rem; }
+.diagnostic-index span { font-size: .72rem; }
+.diagnostic-index small { color: var(--slate-500); font-size: .62rem; text-align: right; }
+
 .editorial-empty { min-height: 380px; display: grid; grid-template-columns: 120px minmax(0, 620px); align-content: center; justify-content: center; gap: 30px; }
 .empty-icon { display: grid; place-items: center; width: 100px; height: 100px; color: var(--slate-400); background: var(--slate-100); border-radius: 50%; font-size: 2.3rem; }
 .editorial-empty h2 { font-size: 1.65rem; }
@@ -384,6 +412,8 @@ dd { margin: 4px 0 0; font-size: .77rem; }
   .detail-summary article:nth-child(2) { border-right: 0; }
   .detail-summary article:nth-child(-n+2) { border-bottom: 1px solid rgba(255,255,255,.1); }
   .verification-grid { grid-template-columns: 1fr; }
+  .dimension-grid { grid-template-columns: 1fr 1fr; }
+  .analysis-columns, .diagnostic-index { grid-template-columns: 1fr; }
   .document-grid { grid-template-columns: 1fr; }
   .method-links { grid-template-columns: 1fr; }
 }
@@ -425,6 +455,9 @@ dd { margin: 4px 0 0; font-size: .77rem; }
   .detail-summary article, .detail-summary article:nth-child(2) { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.1); }
   .detail-aside { grid-template-columns: 1fr; }
   .definition-list > div { grid-template-columns: 1fr; gap: 5px; }
+  .dimension-grid { grid-template-columns: 1fr; }
+  .diagnostic-index a { grid-template-columns: 72px 1fr; }
+  .diagnostic-index small { grid-column: 2; text-align: left; }
   .site-footer .container { align-items: flex-start; flex-direction: column; }
   .site-footer p { text-align: left; }
   .editorial-empty { padding: 26px; }
