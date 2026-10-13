@@ -7,10 +7,14 @@ import { projectRoot } from "@/lib/persistencia";
 const painel = JSON.parse(await readFile(path.join(projectRoot, "data", "painel-publico.json"), "utf8"));
 const evidence = JSON.parse(await readFile(path.join(projectRoot, "data", "evidencias-publicas.json"), "utf8"));
 const diagnostics = JSON.parse(await readFile(path.join(projectRoot, "data", "diagnosticos-preliminares.json"), "utf8"));
+const publishedReviewsText = await readFile(path.join(projectRoot, "data", "validacoes-publicadas.json"), "utf8");
+const publishedReviews = JSON.parse(publishedReviewsText);
 if (painel.escopo.criterios !== 73 || painel.escopo.grupos !== 17 || painel.escopo.passos !== 66) throw new Error("Snapshot público perdeu invariantes oficiais.");
 if (painel.resultados.validados === 0 && (painel.resultados.atendidos || painel.resultados.parciais || painel.resultados.naoAtendidos || painel.resultados.naoApurados !== 73)) throw new Error("Estado vazio de resultados finais inválido.");
 if (diagnostics.diagnosticos.length !== 10 || diagnostics.diagnosticos.some((item: any) => item.resultadoFinal !== null)) throw new Error("Diagnósticos preliminares inválidos.");
 if (JSON.stringify(diagnostics).match(/private[\\/]|[A-Z]:\\/i)) throw new Error("Snapshot de diagnósticos expõe caminho privado.");
+if (!Array.isArray(publishedReviews.resultados) || publishedReviews.total !== publishedReviews.resultados.length) throw new Error("Snapshot de validações inválido.");
+if (/"(?:responsavel_validacao|auditor_nome|matricula|e-?mail|assinatura)"\s*:/i.test(publishedReviewsText)) throw new Error("Snapshot de validações contém campo de identidade pessoal.");
 for (const item of evidence.evidencias) {
   const bytes = await readFile(path.join(projectRoot, "public", item.arquivo.replace(/^\//, "")));
   if (createHash("sha256").update(bytes).digest("hex") !== item.sha256Publicado) throw new Error(`Integridade inválida: ${item.id}`);

@@ -8,6 +8,7 @@ const required = [
   path.join(projectRoot, "data", "evidencias-publicas.json"),
   path.join(projectRoot, "public", "data", "painel-publico.json"),
   path.join(projectRoot, "public", "data", "evidencias-publicas.json"),
+  path.join(projectRoot, "public", "data", "validacoes-publicadas.json"),
 ];
 for (const file of required) await access(file).catch(() => { throw new Error(`Snapshot público ausente: ${path.relative(projectRoot, file)}. Execute npm run prepare:public localmente.`); });
 const manifest = JSON.parse(await readFile(required[1], "utf8"));

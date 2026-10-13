@@ -2,8 +2,7 @@ import { chromium } from "playwright";
 import path from "node:path";
 import { atomicWriteJson, ensureDir, executionId, projectRoot, sha256File, utcNow } from "@/lib/persistencia";
 
-const operator = process.env.AUDITOR_NOME?.trim();
-if (!operator) throw new Error("Defina AUDITOR_NOME antes da coleta complementar.");
+const operatorId = process.env.COLETA_OPERADOR_ID?.trim() || "coleta-local";
 
 const homepage = "https://www.sema.mt.gov.br/";
 const targets = [
@@ -88,7 +87,7 @@ await atomicWriteJson(path.join(execucaoDir, "conteudo-visivel.json"), {
   execucao_id: execucaoId,
   grupo_id: "Q1.1",
   metodo: "Navegacao controlada iniciada na homepage, seguida de leitura do texto visivel e captura integral.",
-  operador: operator,
+  operador_id: operatorId,
   gerado_em_utc: utcNow(),
   resultado_final: null,
   registros,

@@ -14,8 +14,8 @@ data/*.json ──> Next.js estático ──> out/ (sem dados brutos)
        │
 Playwright local ──> private/execucoes/<id>/ (eventos, imagens, trace, hashes)
        │
-revisão humana ──> private/revisoes/ ──> publicação explícita ──> data/resultados-publicados.json
-                                        └─> exports/ (XLSX local)
+revisão no navegador ──> exportação JSON com hash ──> data/validacoes/ (privado)
+                                                     └─> publicação explícita ──> data/resultados-publicados.json
 
 private/execucoes/ ──> exportação controlada ──> data/resultados-coletas.json
                               └─ seleção explícita ─> public/evidencias-autorizadas/ (cópias locais)
@@ -51,4 +51,4 @@ A integração do painel usa `scripts/exportar-resultados-painel.ts`. O script l
 
 ## Limitação de identidade
 
-O operador e o validador são nomes declarados em CLI, não autenticação forte. Caso a política institucional exija identidade verificável, o fluxo deve ser integrado a mecanismo corporativo antes de uso probatório definitivo.
+O fluxo não solicita nem armazena nome, matrícula, e-mail, login, assinatura ou outro identificador pessoal de quem revisa. A confirmação de revisão independente é uma autodeclaração associada apenas ao critério, à execução, ao diagnóstico, à revisão e ao instante. Sem autenticação, o sistema não comprova a identidade nem a distinção entre coletor e revisor e não apresenta o registro como homologação institucional verificada.

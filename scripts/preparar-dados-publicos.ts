@@ -10,6 +10,7 @@ const resultados = await readJson<any[]>(path.join(projectRoot, "data", "resulta
 const coletas = await readJson<any>(path.join(projectRoot, "data", "resultados-coletas.json"));
 const evidencias = await readJson<any>(path.join(projectRoot, "data", "evidencias-publicas.json"));
 const diagnosticos = await readJson<any>(path.join(projectRoot, "data", "diagnosticos-preliminares.json"));
+const validacoesPublicadas = await readJson<any>(path.join(projectRoot, "data", "validacoes-publicadas.json"));
 const diagnosticsByCriterion = new Map(diagnosticos.diagnosticos.map((item: any) => [item.criterioId, item]));
 const executionEntries = await readdir(path.join(projectRoot, "private", "execucoes"), { withFileTypes: true }).catch(() => []);
 const totalExecutions = executionEntries.filter((entry) => entry.isDirectory()).length;
@@ -55,6 +56,7 @@ const painel = {
     gruposComColeta: coletas.totais.grupos_com_coleta,
     criteriosComColetaTecnica: coletas.totais.criterios_com_coleta_tecnica,
     criteriosComDiagnostico: diagnosticos.totais.analisados,
+    pendentesSegundaVerificacao: diagnosticos.diagnosticos.filter((item: any) => item.necessidadeSegundaVerificacao).length,
     aguardandoValidacao: diagnosticos.totais.aguardandoValidacao,
     evidenciasRegistradas: evidencias.totais.encontradas,
     evidenciasPublicadas: evidencias.totais.publicadas,
@@ -67,4 +69,5 @@ const serialized = `${JSON.stringify(painel, null, 2)}\n`;
 await writeFile(path.join(projectRoot, "data", "painel-publico.json"), serialized, "utf8");
 await mkdir(path.join(projectRoot, "public", "data"), { recursive: true });
 await writeFile(path.join(projectRoot, "public", "data", "painel-publico.json"), serialized, "utf8");
+await writeFile(path.join(projectRoot, "public", "data", "validacoes-publicadas.json"), `${JSON.stringify(validacoesPublicadas, null, 2)}\n`, "utf8");
 console.log(`Snapshot público preparado: ${painel.escopo.criterios} critérios, ${painel.resultados.validados} validados e ${painel.coleta.evidenciasPublicadas} capturas publicadas.`);

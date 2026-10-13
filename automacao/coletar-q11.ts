@@ -14,8 +14,7 @@ const configPath = path.join(projectRoot, "automacao", "config.portais.json");
 const criteriaPath = path.join(projectRoot, "data", "criterios.json");
 const config = JSON.parse(await readFile(configPath, "utf8")) as { portais: { sema: PortalConfig } };
 const portal = config.portais.sema;
-const operator = process.env.AUDITOR_NOME?.trim();
-if (!operator) throw new Error("Defina AUDITOR_NOME com a identificação explícita do operador antes da execução.");
+const operatorId = process.env.COLETA_OPERADOR_ID?.trim() || "coleta-local";
 const id = executionId(`q11-${mode}`);
 const executionDir = path.join(projectRoot, "private", "execucoes", id);
 const screenshotsDir = path.join(executionDir, "screenshots");
@@ -24,7 +23,7 @@ await ensureDir(screenshotsDir);
 
 const manifest: Record<string, unknown> = {
   schema_version: 1, execucao_id: id, grupo: "Q1.1", modo: mode, criado_em_utc: utcNow(), fuso_visualizacao: "America/Cuiaba",
-  operador: operator, homepage: portal.homepage,
+  operador_id: operatorId, homepage: portal.homepage,
   configuracao: { arquivo: "automacao/config.portais.json", sha256: await sha256File(configPath) },
   criterios: { arquivo: "data/criterios.json", sha256: await sha256File(criteriaPath) },
   metodologia: "Navegação iniciada na homepage; nenhuma classificação final é produzida automaticamente.",

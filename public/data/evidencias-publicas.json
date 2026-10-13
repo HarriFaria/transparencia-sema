@@ -27,9 +27,9 @@
       "saneada": false,
       "sha256Original": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
       "sha256Publicado": "20e57dd711075aa591889a2687b071709888f1ff160710e2a117622ce01bb5e0",
-      "sha256Miniatura": "51bd9b5f99832e11419509af4d9293a5934b11248c2cc4db61364c3ee37ff339",
+      "sha256Miniatura": "e30966a8e2b1ba00cb8387f9d664e23363b5b8615340a6655d91d3407ee8a1de",
       "tamanhoBytes": 2077360,
-      "tamanhoMiniaturaBytes": 191372
+      "tamanhoMiniaturaBytes": 191559
     },
     {
       "id": "EV-Q11-002",
@@ -49,9 +49,9 @@
       "saneada": false,
       "sha256Original": "a3cdd7fbd01bdb95adfe7faffde1d82a93451c0362d39d83b16fd1ee472012b7",
       "sha256Publicado": "a3cdd7fbd01bdb95adfe7faffde1d82a93451c0362d39d83b16fd1ee472012b7",
-      "sha256Miniatura": "b9da66558681e71f401c6894082b05a848b6d91b1be156ffbdaa28ae0414a507",
+      "sha256Miniatura": "ead56f47440f92269b87e11300a2ae62b8dcd739599fe971c9a6af5297e29d68",
       "tamanhoBytes": 1183790,
-      "tamanhoMiniaturaBytes": 53617
+      "tamanhoMiniaturaBytes": 53583
     },
     {
       "id": "EV-Q11-003",
@@ -69,9 +69,9 @@
       "saneada": false,
       "sha256Original": "94c642a71ac8b4e5229689d409927336cb0a6efca6bd23eb4eca30dbbaf23a04",
       "sha256Publicado": "94c642a71ac8b4e5229689d409927336cb0a6efca6bd23eb4eca30dbbaf23a04",
-      "sha256Miniatura": "c0e9f8ad7e52551a9fed4d3dea84afba1b0a8f22b7b19a0ae60b22756c5e162a",
+      "sha256Miniatura": "6c568ee87528e2e8d00a8f6cb093af5f8d926b28ab0dddf1f60f1409ae499314",
       "tamanhoBytes": 2069240,
-      "tamanhoMiniaturaBytes": 189637
+      "tamanhoMiniaturaBytes": 189732
     },
     {
       "id": "EV-Q11-004",
@@ -89,9 +89,9 @@
       "saneada": false,
       "sha256Original": "0a82454f21e88510c812e94ddb364ab2e848e6dcdaa97edbabda8c43f4ff2203",
       "sha256Publicado": "0a82454f21e88510c812e94ddb364ab2e848e6dcdaa97edbabda8c43f4ff2203",
-      "sha256Miniatura": "c9acdffd754ddeb21ed522bbeaf36e45b8f3d7f569b2fe4954b848366b5217e3",
+      "sha256Miniatura": "3c2d14c93a34f587418618cbd33c07e79f43a1ca72157d9881b3168950b500f7",
       "tamanhoBytes": 428498,
-      "tamanhoMiniaturaBytes": 58585
+      "tamanhoMiniaturaBytes": 64948
     },
     {
       "id": "EV-Q11-005",
@@ -109,9 +109,9 @@
       "saneada": false,
       "sha256Original": "b0f2396a9171400196e0e7ede26d88c8e62b934e8934120e38f19338ba58e79b",
       "sha256Publicado": "b0f2396a9171400196e0e7ede26d88c8e62b934e8934120e38f19338ba58e79b",
-      "sha256Miniatura": "1266d5c41cade3d73d200cd7de693ce35b1128e7bc681b33ca916484557486a9",
+      "sha256Miniatura": "5075ce591c90ce3426ab417f4e1c145796317e748f77ef7d177b76083ae7c555",
       "tamanhoBytes": 441146,
-      "tamanhoMiniaturaBytes": 49947
+      "tamanhoMiniaturaBytes": 54539
     },
     {
       "id": "EV-Q11-006",
@@ -129,9 +129,9 @@
       "saneada": false,
       "sha256Original": "d409f9c384db9d5fc85377b9343d95d1abdbc76507aee538afa11356f61af4d3",
       "sha256Publicado": "d409f9c384db9d5fc85377b9343d95d1abdbc76507aee538afa11356f61af4d3",
-      "sha256Miniatura": "11928ff7da38182d225bc033ca4cf600239901c8ca6eb1e37de87d5c34071c91",
+      "sha256Miniatura": "ec75d00ff8238c67a4403fbcbce43abff9c4aebaff22f83dc7a4de271fbc75ac",
       "tamanhoBytes": 881855,
-      "tamanhoMiniaturaBytes": 84126
+      "tamanhoMiniaturaBytes": 84308
     },
     {
       "id": "EV-Q11-007",
@@ -151,9 +151,9 @@
       "saneada": false,
       "sha256Original": "575ae2af2e46e986911c92d90ef3daf3ada7bc4cf2c22be8ba07fc344e480cdb",
       "sha256Publicado": "575ae2af2e46e986911c92d90ef3daf3ada7bc4cf2c22be8ba07fc344e480cdb",
-      "sha256Miniatura": "06f5c581e8ca9f2592a82eb0e59ed5758e1e612d3b5288623b58483320d9f415",
+      "sha256Miniatura": "791c8657d6aa9af262e2aea7fee159e1804c3a5e18f2ede90199ae5687cccc41",
       "tamanhoBytes": 494752,
-      "tamanhoMiniaturaBytes": 51297
+      "tamanhoMiniaturaBytes": 56921
     },
     {
       "id": "EV-Q11-008",
@@ -173,9 +173,9 @@
       "saneada": false,
       "sha256Original": "303ac319db04c90b3095f33f6103f9999ffce026fd5acc87ba2d699e4d72d534",
       "sha256Publicado": "303ac319db04c90b3095f33f6103f9999ffce026fd5acc87ba2d699e4d72d534",
-      "sha256Miniatura": "a6fd1c43bada6acce3976cb16712f4952f8480d6fcfd82b56c60f41168cb5a82",
+      "sha256Miniatura": "88dccfcdee81aa2720f48b6099042ee288c772a0e9dadd6339127d200d33606c",
       "tamanhoBytes": 481899,
-      "tamanhoMiniaturaBytes": 47579
+      "tamanhoMiniaturaBytes": 52515
     },
     {
       "id": "EV-Q11-009",
@@ -193,9 +193,9 @@
       "saneada": false,
       "sha256Original": "cd2d7435476d30ad7f0a6dfc3be64c24325b5f54012f34cbb6456133d4166640",
       "sha256Publicado": "cd2d7435476d30ad7f0a6dfc3be64c24325b5f54012f34cbb6456133d4166640",
-      "sha256Miniatura": "92cd54d442ecd78b8ba85c0ec8ae318c380c05666a5230a7472c78cda3f5d1b2",
+      "sha256Miniatura": "56202b03e88f2e14ea487d67606103309c42aedbcf111dd8c9835846c4cad64a",
       "tamanhoBytes": 402783,
-      "tamanhoMiniaturaBytes": 42636
+      "tamanhoMiniaturaBytes": 46291
     },
     {
       "id": "EV-Q11-010",
@@ -213,9 +213,9 @@
       "saneada": false,
       "sha256Original": "b630490c1bed453df474bc0953b1bb4c5dc961cec60dbadd56b76928e9178ea2",
       "sha256Publicado": "b630490c1bed453df474bc0953b1bb4c5dc961cec60dbadd56b76928e9178ea2",
-      "sha256Miniatura": "2e8c9632cf8b143e0f804b6b58af1918ac46d52fc6b79c6507bcb510d3b633bf",
+      "sha256Miniatura": "0e9be27d87b680ea6f4b19728467e3a97d6b67b0c684d4f1bcdb632ce2c676cb",
       "tamanhoBytes": 2077378,
-      "tamanhoMiniaturaBytes": 191389
+      "tamanhoMiniaturaBytes": 191577
     },
     {
       "id": "EV-Q11-011",
@@ -235,9 +235,9 @@
       "saneada": false,
       "sha256Original": "fa98e0207e30f51ca68bca3e864c347fd91e21e31c70f6f01f9b1dd16ffc5a5b",
       "sha256Publicado": "fa98e0207e30f51ca68bca3e864c347fd91e21e31c70f6f01f9b1dd16ffc5a5b",
-      "sha256Miniatura": "ab44d1dee7ee9c6c4b45a0dfc652fa795f2cf3eed389f7ecdf8efe009c3882a6",
+      "sha256Miniatura": "c5907160c52a00ee2836876141ed3ed108a03148fb080d0e1e20c5e2f5e4a028",
       "tamanhoBytes": 564921,
-      "tamanhoMiniaturaBytes": 45057
+      "tamanhoMiniaturaBytes": 50704
     },
     {
       "id": "EV-Q11-012",
@@ -257,9 +257,9 @@
       "saneada": false,
       "sha256Original": "e0973e2ab2bf7b47bb20415e8ab4fed946a626612f3f596b730c7a1d1ddb07a8",
       "sha256Publicado": "e0973e2ab2bf7b47bb20415e8ab4fed946a626612f3f596b730c7a1d1ddb07a8",
-      "sha256Miniatura": "9f798548a2f2ebc2a3016da411cfa180b673a6ad18f73c24c8923b73d577a03b",
+      "sha256Miniatura": "0ddb80924da1e6bb0804849a618fbfd0bd0b2d807e6d33703011e15057da7a87",
       "tamanhoBytes": 849971,
-      "tamanhoMiniaturaBytes": 47272
+      "tamanhoMiniaturaBytes": 52408
     },
     {
       "id": "EV-Q11-013",
@@ -281,9 +281,9 @@
       "saneada": false,
       "sha256Original": "23340047176ec7da1e766fbe14dc0f73f3a97b79cd0a92f91f26a7001d864b01",
       "sha256Publicado": "23340047176ec7da1e766fbe14dc0f73f3a97b79cd0a92f91f26a7001d864b01",
-      "sha256Miniatura": "a2a29bc422a3bc0f06e8894207a53cb912e9c4f3810578ea7cb640017de1b451",
+      "sha256Miniatura": "2e8cbef8ec7b68d0b53d4b7acdeb3ca0075da8493e93669466187312c1cca2bb",
       "tamanhoBytes": 543596,
-      "tamanhoMiniaturaBytes": 46016
+      "tamanhoMiniaturaBytes": 50823
     },
     {
       "id": "EV-Q11-014",
@@ -305,9 +305,9 @@
       "saneada": false,
       "sha256Original": "a2b55397a6dfcc85155998bdfe1c3afe9241c82eb86ba3358b3a19c40f7d2942",
       "sha256Publicado": "a2b55397a6dfcc85155998bdfe1c3afe9241c82eb86ba3358b3a19c40f7d2942",
-      "sha256Miniatura": "8379a7644ab7e0d0fccb1ad0aaa68c39174d59dcd1d293a4c93e5f609fd2cf54",
+      "sha256Miniatura": "c8e79058fb9f030d86a70fb4e7bece2581ef8b65e8ad4c7bd36dcb73614d8291",
       "tamanhoBytes": 454093,
-      "tamanhoMiniaturaBytes": 53791
+      "tamanhoMiniaturaBytes": 61955
     },
     {
       "id": "EV-Q11-015",
@@ -328,9 +328,9 @@
       "saneada": false,
       "sha256Original": "0c7663ac4709a9200c83e4df3de85521f570e68114e2d8c77d01f452628526b1",
       "sha256Publicado": "0c7663ac4709a9200c83e4df3de85521f570e68114e2d8c77d01f452628526b1",
-      "sha256Miniatura": "8a5b56c4d408727ebe9b674954566cbe1f7cb2ebd18856106335f7788096d170",
+      "sha256Miniatura": "959007e9269e72be8623305051577d010b64024ad45278378a94f681ec826e7d",
       "tamanhoBytes": 463281,
-      "tamanhoMiniaturaBytes": 61309
+      "tamanhoMiniaturaBytes": 70862
     },
     {
       "id": "EV-Q11-016",
@@ -348,9 +348,9 @@
       "saneada": false,
       "sha256Original": "aa074424521e5275869eaef0bd9742689ab541aafc6473c1d7767371f5cb79b5",
       "sha256Publicado": "aa074424521e5275869eaef0bd9742689ab541aafc6473c1d7767371f5cb79b5",
-      "sha256Miniatura": "7fef5d7679c026dd578799840ad496377602e00cc7054d7365fff92a6e5e3aed",
+      "sha256Miniatura": "b61ef619dffb94219027bdfb35915025b48b705a4fb0dc0f35184b87d1d152f4",
       "tamanhoBytes": 462639,
-      "tamanhoMiniaturaBytes": 72853
+      "tamanhoMiniaturaBytes": 87558
     },
     {
       "id": "EV-Q11-017",
@@ -371,9 +371,9 @@
       "saneada": false,
       "sha256Original": "ed2a8f476f4b3addbd3ea2e884af52034695d781d82b4ebcc32953b8bade63f4",
       "sha256Publicado": "ed2a8f476f4b3addbd3ea2e884af52034695d781d82b4ebcc32953b8bade63f4",
-      "sha256Miniatura": "24e78c731b8570230726e3925f2de7e1b1434ffe439efca59d357c7b3382d106",
+      "sha256Miniatura": "3d2f619b74032c7e3fa6eac024e0cb9251016c0ae4b1cb99fd7b5a299ed1ff93",
       "tamanhoBytes": 439366,
-      "tamanhoMiniaturaBytes": 47211
+      "tamanhoMiniaturaBytes": 52354
     },
     {
       "id": "EV-Q11-018",
@@ -395,9 +395,9 @@
       "saneada": false,
       "sha256Original": "eb089629a3fe81f4f940fa06e627eab5166b4518b81cac6d1da6ef5515efc6ba",
       "sha256Publicado": "eb089629a3fe81f4f940fa06e627eab5166b4518b81cac6d1da6ef5515efc6ba",
-      "sha256Miniatura": "0585ffe1d035014a7d26341e412c59c02a26b6cb897c5e4e1cc466ba83e303e1",
+      "sha256Miniatura": "c08f1599252ff806dbea3a5e1b4e377cb22464c887b601d0e024baca98e4708c",
       "tamanhoBytes": 903485,
-      "tamanhoMiniaturaBytes": 77944
+      "tamanhoMiniaturaBytes": 83153
     }
   ]
 }

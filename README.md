@@ -60,15 +60,18 @@ Abra `http://127.0.0.1:4173/`. Um `ERR_CONNECTION_REFUSED` normalmente indica qu
 ## Coleta e revisão controlada
 
 ```powershell
-$env:AUDITOR_NOME = "Nome do operador"
+$env:COLETA_OPERADOR_ID = "coleta-local-01" # opcional; ID técnico, não nome pessoal
 npm.cmd run discover:q11
 npm.cmd run collect:q11
 npm.cmd run collect:q11-content
-npm.cmd run review -- --input C:\caminho\revisao.json
-npm.cmd run publish:data
+npm.cmd run analisar:q11
+npm.cmd run merge:reviews -- --input C:\caminho\validacoes-sema.json
+npm.cmd run publish:reviews -- --revision rev-id-expressamente-autorizado
 ```
 
-Esses comandos preservam JSON/JSONL, screenshots, hashes e traces em `private/`. A publicação de dados não aciona deploy e não cria resultado automaticamente.
+O formulário “Revisão do auditor” aparece nos 73 critérios e salva o histórico no `localStorage` do navegador. Ele nunca solicita nome, matrícula, e-mail, login ou assinatura. A exportação produz JSON versionado com SHA-256; o merge valida IDs e preserva conflitos em `data/validacoes/`, cujo conteúdo é ignorado pelo Git. Somente revisões indicadas explicitamente em `publish:reviews` entram no snapshot público. A publicação de dados não aciona deploy automaticamente.
+
+Sem autenticação, a declaração de revisão independente é uma autodeclaração. O sistema não comprova identidade nem rotula o registro como homologação institucional verificada. Veja [Validação local sem identidade pessoal](docs-tecnicos/VALIDACAO_LOCAL_SEM_IDENTIDADE.md).
 
 ## GitHub e Vercel
 
@@ -92,6 +95,7 @@ git push origin main
 - [Relatório do redesenho](docs-tecnicos/RELATORIO_REDESIGN.md)
 - [Publicação GitHub e Vercel](docs-tecnicos/PUBLICACAO_GITHUB_VERCEL.md)
 - [Arquitetura](docs-tecnicos/ARQUITETURA.md)
+- [Validação local sem identidade pessoal](docs-tecnicos/VALIDACAO_LOCAL_SEM_IDENTIDADE.md)
 - [Matriz de rastreabilidade](docs-tecnicos/MATRIZ_DE_RASTREABILIDADE.md)
 
 `../arquivos/`, `private/`, `exports/`, traces, logs, planilhas, DOCX e PDFs originais permanecem fora do Git e do bundle público.

@@ -903,7 +903,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
     },
     "Q1.1.2": {
@@ -970,7 +969,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
     },
     "Q1.1.3": {
@@ -1097,7 +1095,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
     },
     "Q1.1.4": {
@@ -1224,7 +1221,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
     },
     "Q1.1.5": {
@@ -1351,7 +1347,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
     },
     "Q1.1.6": {
@@ -1484,7 +1479,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
     },
     "Q1.1.7": {
@@ -1617,7 +1611,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
     },
     "Q1.1.8": {
@@ -1750,7 +1743,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
     },
     "Q1.1.9": {
@@ -1883,7 +1875,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
     },
     "Q1.1.10": {
@@ -1950,7 +1941,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Há coleta técnica associada, mas não existe registro de verificação do conteúdo do critério."
     },
     "Q1.2.1": {
@@ -1963,7 +1953,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.2.2": {
@@ -1976,7 +1965,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.2.3": {
@@ -1989,7 +1977,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.2.4": {
@@ -2002,7 +1989,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.2.5": {
@@ -2015,7 +2001,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.3.1": {
@@ -2028,7 +2013,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.3.2": {
@@ -2041,7 +2025,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.3.3": {
@@ -2054,7 +2037,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.3.4": {
@@ -2067,7 +2049,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.4.1": {
@@ -2080,7 +2061,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.4.2": {
@@ -2093,7 +2073,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.4.3": {
@@ -2106,7 +2085,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.4.4": {
@@ -2119,7 +2097,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.4.5": {
@@ -2132,7 +2109,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.4.6": {
@@ -2145,7 +2121,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.4.7": {
@@ -2158,7 +2133,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.4.8": {
@@ -2171,7 +2145,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.4.9": {
@@ -2184,7 +2157,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.5.1": {
@@ -2197,7 +2169,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.5.2": {
@@ -2210,7 +2181,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.6.1": {
@@ -2223,7 +2193,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.6.2": {
@@ -2236,7 +2205,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.6.3": {
@@ -2249,7 +2217,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.6.4": {
@@ -2262,7 +2229,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q1.6.5": {
@@ -2275,7 +2241,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.1.1": {
@@ -2288,7 +2253,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.1.2": {
@@ -2301,7 +2265,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.1.3": {
@@ -2314,7 +2277,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.1.4": {
@@ -2327,7 +2289,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.1.5": {
@@ -2340,7 +2301,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.1.6": {
@@ -2353,7 +2313,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.1.7": {
@@ -2366,7 +2325,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.1.8": {
@@ -2379,7 +2337,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.2.1": {
@@ -2392,7 +2349,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.2.2": {
@@ -2405,7 +2361,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.2.3": {
@@ -2418,7 +2373,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.3.1": {
@@ -2431,7 +2385,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.3.2": {
@@ -2444,7 +2397,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.3.3": {
@@ -2457,7 +2409,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.4.1": {
@@ -2470,7 +2421,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.4.2": {
@@ -2483,7 +2433,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.5.1": {
@@ -2496,7 +2445,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.5.2": {
@@ -2509,7 +2457,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.5.3": {
@@ -2522,7 +2469,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.6.1": {
@@ -2535,7 +2481,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.6.2": {
@@ -2548,7 +2493,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.7.1": {
@@ -2561,7 +2505,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.7.2": {
@@ -2574,7 +2517,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q2.7.3": {
@@ -2587,7 +2529,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.1.1": {
@@ -2600,7 +2541,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.1.2": {
@@ -2613,7 +2553,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.1.3": {
@@ -2626,7 +2565,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.2.1": {
@@ -2639,7 +2577,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.2.2": {
@@ -2652,7 +2589,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.2.3": {
@@ -2665,7 +2601,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.3.1": {
@@ -2678,7 +2613,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.3.2": {
@@ -2691,7 +2625,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.3.3": {
@@ -2704,7 +2637,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.3.4": {
@@ -2717,7 +2649,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.4.1": {
@@ -2730,7 +2661,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.4.2": {
@@ -2743,7 +2673,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.4.3": {
@@ -2756,7 +2685,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     },
     "Q3.4.4": {
@@ -2769,7 +2697,6 @@
       "primeira_verificacao": null,
       "segunda_verificacao": null,
       "resultado_final": null,
-      "responsavel_validacao": null,
       "observacao": "Não há coleta técnica nem verificação registrada para este critério."
     }
   }

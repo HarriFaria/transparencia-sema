@@ -25,6 +25,7 @@
     "gruposComColeta": 1,
     "criteriosComColetaTecnica": 10,
     "criteriosComDiagnostico": 10,
+    "pendentesSegundaVerificacao": 1,
     "aguardandoValidacao": 10,
     "evidenciasRegistradas": 43,
     "evidenciasPublicadas": 18,

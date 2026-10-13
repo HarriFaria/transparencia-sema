@@ -1,5 +1,6 @@
 import { EvidenceGallery } from "@/componentes/evidence-gallery";
-import { evidenciasPublicas, painelPublico } from "@/lib/data";
+import { LocalReviewSummary } from "@/componentes/local-review-summary";
+import { criterios, evidenciasPublicas, painelPublico } from "@/lib/data";
 
 const dateTime = (value: string | null) => value ? new Intl.DateTimeFormat("pt-BR", { dateStyle: "short", timeStyle: "short", timeZone: "America/Cuiaba" }).format(new Date(value)) : "Sem registro";
 
@@ -18,10 +19,12 @@ export default function Dashboard() {
     <div className="container report-body">
       <section aria-labelledby="indicators-title"><div className="section-title"><div><p className="kicker">Síntese do levantamento</p><h2 id="indicators-title">Resultados finais e cobertura</h2></div><p>Percentual oficial: atendidos ÷ 73 critérios</p></div><div className="kpi-grid">{metrics.map(([label, value, note, tone]) => <article className={`kpi kpi-${tone}`} key={label}><span>{label}</span><strong>{value}</strong><small>{note}</small></article>)}</div></section>
 
+      <LocalReviewSummary criterionIds={criterios.map((item) => item.id)} />
+
       <nav className="section-tabs" aria-label="Áreas do relatório"><a className="active" href="/criterios/">Matriz de critérios</a><a href="/resultados/">Achados e evidências</a><a href="/recomendacoes/">Recomendações</a></nav>
 
       <section className="overview-grid">
-        <article className="surface result-overview"><div className="surface-head"><div><p className="kicker">Situação dos pareceres</p><h2>Distribuição de resultados</h2></div><span className="badge badge-pending">{painelPublico.resultados.validados} validados</span></div>{painelPublico.resultados.validados === 0 ? <div className="empty-chart"><span aria-hidden="true">○</span><div><strong>Ainda não há pareceres finais</strong><p>As classes “Atendido”, “Atendido parcialmente” e “Não atendido” permanecem zeradas. Os 73 critérios estão corretamente apresentados como não apurados.</p></div></div> : null}<div className="result-notes"><div><strong>{painelPublico.coleta.criteriosComColetaTecnica}</strong><span>critérios com coleta técnica</span></div><div><strong>{painelPublico.coleta.criteriosComDiagnostico}</strong><span>com análise preliminar</span></div><div><strong>{painelPublico.coleta.aguardandoValidacao}</strong><span>aguardando validação</span></div></div></article>
+        <article className="surface result-overview"><div className="surface-head"><div><p className="kicker">Situação dos pareceres</p><h2>Distribuição de resultados</h2></div><span className="badge badge-pending">{painelPublico.resultados.validados} validados</span></div>{painelPublico.resultados.validados === 0 ? <div className="empty-chart"><span aria-hidden="true">○</span><div><strong>Ainda não há pareceres finais</strong><p>As classes “Atendido”, “Atendido parcialmente” e “Não atendido” permanecem zeradas. Os 73 critérios estão corretamente apresentados como não apurados.</p></div></div> : null}<div className="result-notes"><div><strong>{painelPublico.coleta.criteriosComColetaTecnica}</strong><span>critérios com coleta técnica</span></div><div><strong>{painelPublico.coleta.criteriosComDiagnostico}</strong><span>com análise preliminar</span></div><div><strong>{painelPublico.coleta.pendentesSegundaVerificacao}</strong><span>segunda verificação pendente</span></div><div><strong>{painelPublico.coleta.aguardandoValidacao}</strong><span>aguardando validação</span></div></div></article>
         <article className="surface collection-card"><div className="surface-head"><div><p className="kicker">Cobertura técnica</p><h2>Análise Q1.1</h2></div><span className="badge badge-warning">preliminar</span></div><p>Os dez critérios de Q1.1 foram confrontados individualmente com conteúdo público coletado. São diagnósticos técnicos rastreáveis, ainda sem homologação ou resultado final.</p><div className="collection-stat"><span>{painelPublico.coleta.evidenciasPublicadas}</span><div><strong>prints aprovados</strong><small>de {evidenciasPublicas.totais.encontradas} encontrados em todas as execuções</small></div></div><a className="inline-link" href="/resultados/">Examinar diagnósticos e evidências →</a></article>
       </section>
 

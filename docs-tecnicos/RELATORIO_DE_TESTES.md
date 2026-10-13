@@ -35,7 +35,7 @@ Data da rodada: 09/10/2026. Ambiente: Windows, Node.js v24.21.0 LTS portátil, P
 
 - não houve revisão humana de mérito nem resultado aprovado;
 - o build no checkout original não foi executado com dependências fisicamente no mesmo volume; o mesmo código foi compilado em D com dependências reais, sem `private/`, originais ou exportações;
-- nomes declarados na CLI não são autenticação forte;
+- a revisão não coleta identidade pessoal; a autodeclaração independente não comprova identidade nem homologação institucional;
 - a coleta demonstra navegação e integridade técnica, não atendimento material dos critérios.
 
 ## Segunda etapa — integração ao painel
@@ -55,3 +55,18 @@ Rodada complementar em 09/10/2026:
 | QA responsivo | desktop 1440×1000 e mobile 390×844 sem overflow horizontal; estados coletado/não verificado conferidos. |
 
 Os 20 erros da coleta final referem-se a recursos auxiliares de redes sociais. Permanecem no nível da execução, pois os eventos não os associam a critérios específicos.
+
+## Rodada de validação local sem identidade — 13/10/2026
+
+| Verificação | Resultado |
+|---|---|
+| Schema e privacidade | aprovado: revisão contém somente IDs técnicos, instante, parecer, justificativa e confirmações; nenhum campo de nome, matrícula, e-mail, login ou assinatura. |
+| Testes automatizados | 18 aprovados, 0 falhas; incluem bloqueio de segunda verificação, resultado `Não atendido` com checkbox e preservação do histórico. |
+| TypeScript e lint | aprovados; lint em 20 arquivos de aplicação. |
+| Build estático | aprovado em cópia limpa no volume D: 82 páginas, incluindo os 73 detalhes. |
+| Fluxo sem conclusão | Q2.1.1 salvo como `Revisado sem conclusão`; estado preservado após recarregar. |
+| Fluxo validado localmente | Q1.1.2 recebeu parecer local, checkbox explícito, persistiu após F5, exportou e reimportou JSON com SHA-256. O snapshot público continuou vazio. |
+| Bloqueio metodológico | Q1.1.9 recusou conclusão enquanto a segunda verificação em outra data permanece pendente; rascunho permitido. |
+| Merge idempotente | a mesma exportação foi importada duas vezes sem duplicar revisões e sem conflito. |
+| Publicação isolada | snapshot de teste gerado em cópia fora do repositório com uma revisão expressamente indicada e nenhum campo de identidade pessoal. |
+| Regressão visual | desktop 1440×1000 e mobile 390×844 aprovados; 18 evidências, filtros, lightbox e ausência de overflow preservados. |

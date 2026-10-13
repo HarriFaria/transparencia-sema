@@ -170,7 +170,6 @@ for (const criterion of criteriaCatalog) {
     primeira_verificacao: final?.primeira_verificacao ?? null,
     segunda_verificacao: final?.segunda_verificacao ?? null,
     resultado_final: final?.resultado_final ?? null,
-    responsavel_validacao: final?.responsavel_validacao ?? null,
     observacao: final
       ? "Resultado registrado após revisão humana."
       : relatedCollections.length
