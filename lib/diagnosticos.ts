@@ -1,8 +1,8 @@
 import { z } from "zod";
 
 export const diagnosticoPreliminarSchema = z.object({
-  criterioId: z.string().regex(/^Q1\.1\.\d+$/),
-  grupoId: z.literal("Q1.1"),
+  criterioId: z.string().regex(/^Q(?:1\.1|2\.[1-7])\.\d+$/),
+  grupoId: z.string().regex(/^Q(?:1\.1|2\.[1-7])$/),
   execucaoId: z.string().min(8),
   geradoEm: z.iso.datetime(),
   metodo: z.string().min(10),
@@ -34,14 +34,17 @@ export const diagnosticoPreliminarSchema = z.object({
 });
 
 export const diagnosticosQ11Schema = z.object({
-  schemaVersion: z.literal(1),
+  schemaVersion: z.union([z.literal(1), z.literal(2)]),
   geradoEm: z.iso.datetime(),
   execucaoId: z.string().min(8),
-  grupoId: z.literal("Q1.1"),
+  grupoId: z.string().min(2),
+  execucoesIds: z.array(z.string().min(8)).optional(),
+  gruposIds: z.array(z.string()).optional(),
   metodo: z.string().min(10),
   totais: z.object({ analisados: z.number().int(), aguardandoValidacao: z.number().int(), homologados: z.literal(0) }),
-  diagnosticos: z.array(diagnosticoPreliminarSchema).length(10),
+  diagnosticos: z.array(diagnosticoPreliminarSchema).min(10),
 });
 
 export type DiagnosticoPreliminar = z.infer<typeof diagnosticoPreliminarSchema>;
 export type DiagnosticosQ11 = z.infer<typeof diagnosticosQ11Schema>;
+export type DiagnosticosPreliminares = DiagnosticosQ11;

@@ -19,6 +19,7 @@ export const coletas = coletasData as PainelColetas;
 export const painelPublico = painelPublicoData as PainelPublico;
 export const evidenciasPublicas = evidenciasPublicasData as EvidenciasPublicas;
 export const diagnosticosQ11 = diagnosticosData as DiagnosticosQ11;
+export const diagnosticosPreliminares = diagnosticosQ11;
 
 export const formatAutomation = (level: string) =>
   ({

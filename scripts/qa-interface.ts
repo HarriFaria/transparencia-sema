@@ -26,7 +26,7 @@ try {
   const desktop = await browser.newPage({ viewport: { width: 1440, height: 1000 }, deviceScaleFactor: 1 });
   watch(desktop);
   await open(desktop, "/");
-  await desktop.getByText("10", { exact: true }).first().waitFor();
+  await desktop.getByText("34", { exact: true }).first().waitFor();
   await assertNoOverflow(desktop, "homepage desktop");
   await desktop.screenshot({ path: path.join(output, "homepage-desktop.png"), fullPage: true });
 
@@ -40,7 +40,7 @@ try {
 
   await open(desktop, "/resultados/");
   const evidenceCount = await desktop.locator(".evidence-tile").count();
-  if (evidenceCount !== 18) throw new Error(`Esperadas 18 evidências; obtidas ${evidenceCount}.`);
+  if (evidenceCount !== 33) throw new Error(`Esperadas 33 evidências; obtidas ${evidenceCount}.`);
   await desktop.getByLabel("Critério comprovado").selectOption("Q1.1.2");
   await desktop.getByText("3 capturas públicas disponíveis").waitFor();
   await desktop.locator(".evidence-preview").first().click();
@@ -62,20 +62,20 @@ try {
   watch(mobile);
   await open(mobile, "/criterios/");
   await mobile.getByLabel("Situação operacional").selectOption("analise_preliminar");
-  await mobile.getByText("10 de 73 critérios exibidos").waitFor();
+  await mobile.getByText("34 de 73 critérios exibidos").waitFor();
   await assertNoOverflow(mobile, "matriz mobile");
   await mobile.screenshot({ path: path.join(output, "matriz-analise-mobile.png"), fullPage: true });
 
   await open(mobile, "/criterios/Q2.1.1/");
-  await mobile.getByText("Ainda não analisado", { exact: true }).waitFor();
-  await mobile.getByText("Não verificado", { exact: true }).first().waitFor();
-  await assertNoOverflow(mobile, "critério sem coleta mobile");
-  await mobile.screenshot({ path: path.join(output, "criterio-nao-verificado-mobile.png"), fullPage: true });
+  await mobile.getByText("Conteúdo confrontado com o requisito", { exact: true }).waitFor();
+  await mobile.getByText("aguardando validação", { exact: true }).waitFor();
+  await assertNoOverflow(mobile, "critério Q2 analisado mobile");
+  await mobile.screenshot({ path: path.join(output, "criterio-q211-mobile.png"), fullPage: true });
 
   if (errors.length) throw new Error(`Erros de console: ${errors.join(" | ")}`);
   const relevantFailures = failedResponses.filter((entry) => !entry.endsWith("/favicon.ico"));
   if (relevantFailures.length) throw new Error(`Respostas HTTP com erro: ${relevantFailures.join(" | ")}`);
-  console.log(`QA aprovada: 18 evidências, filtros desktop/mobile, análise Q1.1, estado não verificado e lightbox funcional.`);
+  console.log(`QA aprovada: 33 evidências, filtros desktop/mobile, análises Q1.1 e Q2 e lightbox funcional.`);
 } finally {
   await browser.close();
 }

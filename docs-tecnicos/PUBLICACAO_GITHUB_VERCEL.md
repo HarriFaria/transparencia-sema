@@ -15,7 +15,7 @@ Data da entrega: 13/10/2026.
 - `private/`: execuções, JSONL, traces, originais, allowlist e QA local;
 - `exports/`: planilhas, CSVs e índices locais;
 - `.env*` reais, logs, caches, backups, `.next/`, `out/` e `node_modules/`;
-- 25 capturas sem allowlist ou redundantes, além de todos os textos, logs, traces e screenshots brutos;
+- 41 capturas sem allowlist, sensíveis ou redundantes, além de todos os textos, logs, traces e screenshots brutos;
 - `public/evidencias-autorizadas/`, diretório legado de preview local.
 
 ## Conteúdo público versionado
@@ -24,7 +24,7 @@ Data da entrega: 13/10/2026.
 - `data/painel-publico.json` e `public/data/painel-publico.json`;
 - `data/evidencias-publicas.json` e `public/data/evidencias-publicas.json`;
 - `data/diagnosticos-preliminares.json` e `public/data/diagnosticos-preliminares.json`;
-- 18 PNGs aprovados e 18 miniaturas em `public/evidencias/Q1.1/<execução>/`;
+- 33 PNGs aprovados e 33 miniaturas em `public/evidencias/<grupo>/<execução>/`;
 - scripts locais de preparação e verificação;
 - documentação sanitizada.
 
@@ -33,7 +33,7 @@ Data da entrega: 13/10/2026.
 ```powershell
 npm.cmd ci
 npm.cmd run prepare:public-evidence
-npm.cmd run prepare:q11-diagnostics
+npm.cmd run prepare:diagnostics
 npm.cmd run prepare:public-data
 npm.cmd run validate:data
 npm.cmd run typecheck
@@ -54,7 +54,7 @@ git commit -m "feat: redesenha painel SEMA com evidências públicas"
 git push origin main
 ```
 
-`git check-ignore` deve sair sem correspondência para a imagem pública. Após o build, `out/evidencias/` deve conter 36 arquivos (18 imagens e 18 miniaturas), e `out/data/` deve conter os três snapshots JSON.
+`git check-ignore` deve sair sem correspondência para a imagem pública. Após o build, `out/evidencias/` deve conter 66 arquivos (33 imagens e 33 miniaturas), e `out/data/` deve conter os quatro snapshots JSON.
 
 ## Verificação HTTP local
 

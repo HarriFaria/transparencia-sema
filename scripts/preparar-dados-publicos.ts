@@ -1,4 +1,4 @@
-import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { projectRoot } from "@/lib/persistencia";
 
@@ -13,7 +13,12 @@ const diagnosticos = await readJson<any>(path.join(projectRoot, "data", "diagnos
 const validacoesPublicadas = await readJson<any>(path.join(projectRoot, "data", "validacoes-publicadas.json"));
 const diagnosticsByCriterion = new Map(diagnosticos.diagnosticos.map((item: any) => [item.criterioId, item]));
 const executionEntries = await readdir(path.join(projectRoot, "private", "execucoes"), { withFileTypes: true }).catch(() => []);
-const totalExecutions = executionEntries.filter((entry) => entry.isDirectory()).length;
+const validExecutionFlags = await Promise.all(executionEntries.filter((entry) => entry.isDirectory()).map(async (entry) => {
+  const directory = path.join(projectRoot, "private", "execucoes", entry.name);
+  const candidates = ["manifest.json", "conteudo-visivel.json"];
+  return (await Promise.all(candidates.map((file) => stat(path.join(directory, file)).then(() => true).catch(() => false)))).some(Boolean);
+}));
+const totalExecutions = validExecutionFlags.filter(Boolean).length;
 
 const ids = criterios.map((item) => item.id);
 const byQuestion = [1, 2, 3].map((questao) => criterios.filter((item) => item.questao === questao).length);
@@ -25,6 +30,11 @@ const count = (value: string) => resultados.filter((item) => item.resultado_fina
 const ultimaValidacaoEm = resultados.map((item) => item.validado_em_utc ?? item.publicado_em_utc ?? null).filter(Boolean).sort().at(-1) ?? null;
 const evidenceByCriterion = new Map<string, number>();
 for (const evidence of evidencias.evidencias) for (const id of evidence.criteriosIds) evidenceByCriterion.set(id, (evidenceByCriterion.get(id) ?? 0) + 1);
+const collectedCriterionIds = new Set<string>([
+  ...Object.entries(coletas.criterios).filter(([, value]: any) => value?.situacao === "coleta_tecnica_sem_verificacao").map(([id]) => id),
+  ...diagnosticos.diagnosticos.map((item: any) => item.criterioId),
+]);
+const collectedGroupIds = new Set(criterios.filter((item) => collectedCriterionIds.has(item.id)).map((item) => item.grupo_id));
 const situacoes = Object.fromEntries(criterios.map((item) => {
   const collected = coletas.criterios[item.id];
   const final = resultados.find((entry) => entry.criterio_id === item.id);
@@ -53,8 +63,8 @@ const painel = {
   coleta: {
     ultimaColetaEm: [coletas.ultima_execucao?.encerrado_em_utc, coletas.ultima_execucao?.criado_em_utc, diagnosticos.geradoEm].filter(Boolean).sort().at(-1) ?? null,
     ultimaValidacaoEm,
-    gruposComColeta: coletas.totais.grupos_com_coleta,
-    criteriosComColetaTecnica: coletas.totais.criterios_com_coleta_tecnica,
+    gruposComColeta: collectedGroupIds.size,
+    criteriosComColetaTecnica: collectedCriterionIds.size,
     criteriosComDiagnostico: diagnosticos.totais.analisados,
     pendentesSegundaVerificacao: diagnosticos.diagnosticos.filter((item: any) => item.necessidadeSegundaVerificacao).length,
     aguardandoValidacao: diagnosticos.totais.aguardandoValidacao,

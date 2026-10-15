@@ -11,7 +11,7 @@ const publishedReviewsText = await readFile(path.join(projectRoot, "data", "vali
 const publishedReviews = JSON.parse(publishedReviewsText);
 if (painel.escopo.criterios !== 73 || painel.escopo.grupos !== 17 || painel.escopo.passos !== 66) throw new Error("Snapshot público perdeu invariantes oficiais.");
 if (painel.resultados.validados === 0 && (painel.resultados.atendidos || painel.resultados.parciais || painel.resultados.naoAtendidos || painel.resultados.naoApurados !== 73)) throw new Error("Estado vazio de resultados finais inválido.");
-if (diagnostics.diagnosticos.length !== 10 || diagnostics.diagnosticos.some((item: any) => item.resultadoFinal !== null)) throw new Error("Diagnósticos preliminares inválidos.");
+if (diagnostics.diagnosticos.length !== 34 || diagnostics.diagnosticos.filter((item: any) => item.criterioId.startsWith("Q2.")).length !== 24 || diagnostics.diagnosticos.some((item: any) => item.resultadoFinal !== null)) throw new Error("Diagnósticos preliminares inválidos.");
 if (JSON.stringify(diagnostics).match(/private[\\/]|[A-Z]:\\/i)) throw new Error("Snapshot de diagnósticos expõe caminho privado.");
 if (!Array.isArray(publishedReviews.resultados) || publishedReviews.total !== publishedReviews.resultados.length) throw new Error("Snapshot de validações inválido.");
 if (/"(?:responsavel_validacao|auditor_nome|matricula|e-?mail|assinatura)"\s*:/i.test(publishedReviewsText)) throw new Error("Snapshot de validações contém campo de identidade pessoal.");

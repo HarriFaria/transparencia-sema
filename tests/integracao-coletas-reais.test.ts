@@ -43,9 +43,9 @@ test("indicadores distinguem coleta, verificação e resultado final", () => {
 });
 
 test("cópias aprovadas existem e preservam os hashes", async () => {
-  assert.equal(publicEvidence.totais.encontradas, 43);
-  assert.equal(publicEvidence.totais.publicadas, 18);
-  assert.equal(publicEvidence.totais.retidas, 25);
+  assert.equal(publicEvidence.totais.encontradas, 74);
+  assert.equal(publicEvidence.totais.publicadas, 33);
+  assert.equal(publicEvidence.totais.retidas, 41);
   for (const evidence of publicEvidence.evidencias) {
     const file = path.join(root, "public", evidence.arquivo.replace(/^\//, ""));
     const hash = createHash("sha256").update(await readFile(file)).digest("hex");
@@ -60,7 +60,7 @@ test("snapshot público mantém resultados finais vazios", () => {
   assert.equal(publicPanel.resultados.parciais, 0);
   assert.equal(publicPanel.resultados.naoAtendidos, 0);
   assert.equal(publicPanel.resultados.naoApurados, 73);
-  assert.equal(publicEvidence.evidencias.filter((item) => item.nivelAssociacao === "criterio").length, 10);
+  assert.equal(publicEvidence.evidencias.filter((item) => item.nivelAssociacao === "criterio").length, 25);
   assert.equal(publicEvidence.evidencias.filter((item) => item.nivelAssociacao !== "criterio").every((item) => item.criteriosIds.length === 0), true);
 });
 

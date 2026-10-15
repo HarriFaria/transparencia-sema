@@ -1,12 +1,26 @@
 {
-  "schemaVersion": 1,
-  "geradoEm": "2026-10-13T14:08:52.799Z",
-  "execucaoId": "q11-conteudo-2026-10-13T14-08-20-786Z-57a31c35",
-  "grupoId": "Q1.1",
-  "metodo": "Leitura controlada de conteúdo visível em páginas públicas, iniciada pela homepage, confrontada com a matriz e o roteiro P01–P05. Não produz conclusão de auditoria.",
+  "schemaVersion": 2,
+  "geradoEm": "2026-10-15T14:26:50.500Z",
+  "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+  "grupoId": "Q1.1+Q2",
+  "execucoesIds": [
+    "q11-conteudo-2026-10-13T14-08-20-786Z-57a31c35",
+    "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f"
+  ],
+  "gruposIds": [
+    "Q1.1",
+    "Q2.1",
+    "Q2.2",
+    "Q2.3",
+    "Q2.4",
+    "Q2.5",
+    "Q2.6",
+    "Q2.7"
+  ],
+  "metodo": "Leitura controlada de conteúdo visível em fontes públicas oficiais, confrontada com os requisitos da matriz. Não produz conclusão de auditoria.",
   "totais": {
-    "analisados": 10,
-    "aguardandoValidacao": 10,
+    "analisados": 34,
+    "aguardandoValidacao": 34,
     "homologados": 0
   },
   "diagnosticos": [
@@ -446,6 +460,1048 @@
         "Validação humana da abrangência e atualidade das respostas."
       ],
       "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.1.1",
+      "grupoId": "Q2.1",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.1.1-R1",
+          "texto": "Documentos administrativos ambientais.",
+          "origemMatriz": "Lista de Verificação, linha 37, critério Q2.1.1"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.1.1-O1",
+          "fato": "O portal reúne sistemas e categorias de documentos ambientais, inclusive licenças, autorizações e estudos.",
+          "trecho": "Licenças, Autorizações, Outorgas, Autos de Infração",
+          "fonte": "Principal",
+          "url": "https://www.sema.mt.gov.br/transparencia",
+          "consultadoEm": "2026-10-15T14:25:39.421Z",
+          "evidenciasIds": [
+            "EV-Q2-001"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 10.650/2003, arts. 2º e 4º"
+      ],
+      "limitacoes": [
+        "A coleta confirmou categorias e pontos de acesso, não a integralidade de todos os documentos administrativos ambientais."
+      ],
+      "pendencias": [
+        "Revisar amostra documental e cobertura temporal por categoria."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.1.2",
+      "grupoId": "Q2.1",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.1.2-R1",
+          "texto": "Processos administrativos ambientais.",
+          "origemMatriz": "Lista de Verificação, linha 38, critério Q2.1.2"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.1.2-O1",
+          "fato": "A página orienta a consulta do trâmite processual pelo número do processo e publica conjuntos de julgamentos.",
+          "trecho": "consultar o sistema de protocolo ... utilizando o n° do processo",
+          "fonte": "ÁREAS EMBARGADAS, JULGAMENTOS DE AUTOS DE INFRAÇÃO E ARRECADAÇÃO DE MULTAS",
+          "url": "https://sema.mt.gov.br/transparencia/index.php/gestao-ambiental/julgamento-e-arrecadacao-multas",
+          "consultadoEm": "2026-10-15T14:25:54.841Z",
+          "evidenciasIds": [
+            "EV-Q2-004"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 10.650/2003, arts. 2º e 4º"
+      ],
+      "limitacoes": [
+        "Não foi verificada a publicidade integral dos autos de cada processo administrativo."
+      ],
+      "pendencias": [
+        "Testar amostra de processos nos sistemas indicados e conferir documentos acessíveis."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.1.3",
+      "grupoId": "Q2.1",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.1.3-R1",
+          "texto": "Listagens de licenciamento.",
+          "origemMatriz": "Lista de Verificação, linha 39, critério Q2.1.3"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.1.3-O1",
+          "fato": "O Geoportal declara disponibilizar licenças e autorizações com consulta e download.",
+          "trecho": "visualização, consulta e download de dados geográficos",
+          "fonte": "GEOPORTAL",
+          "url": "https://www.sema.mt.gov.br/transparencia/index.php/sistemas/simgeo",
+          "consultadoEm": "2026-10-15T14:25:51.255Z",
+          "evidenciasIds": [
+            "EV-Q2-003"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "sem_data_comprovada",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 10.650/2003, arts. 2º e 4º"
+      ],
+      "limitacoes": [
+        "A captura comprova o ponto de acesso, mas não inventaria todas as listagens nem testa a exportação."
+      ],
+      "pendencias": [
+        "Validar camadas, formatos de download e atualização das listagens de licenciamento."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.1.4",
+      "grupoId": "Q2.1",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.1.4-R1",
+          "texto": "Informações sobre supressão de vegetação.",
+          "origemMatriz": "Lista de Verificação, linha 40, critério Q2.1.4"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.1.4-O1",
+          "fato": "O Geoportal oferece autorizações e dados geográficos; a associação específica com supressão vegetal depende de inspeção das camadas.",
+          "trecho": "Licenças, Autorizações, Outorgas",
+          "fonte": "GEOPORTAL",
+          "url": "https://www.sema.mt.gov.br/transparencia/index.php/sistemas/simgeo",
+          "consultadoEm": "2026-10-15T14:25:51.255Z",
+          "evidenciasIds": [
+            "EV-Q2-003"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "sem_data_comprovada",
+      "aderenciaPreliminar": "insuficiente_para_concluir",
+      "fundamentosNormativos": [
+        "Lei Federal nº 10.650/2003, arts. 2º e 4º"
+      ],
+      "limitacoes": [
+        "A página de apresentação não enumera explicitamente, no texto capturado, a camada de supressão de vegetação."
+      ],
+      "pendencias": [
+        "Abrir o visualizador, localizar as camadas de supressão e testar consulta e download."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.1.5",
+      "grupoId": "Q2.1",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.1.5-R1",
+          "texto": "Autos de infração.",
+          "origemMatriz": "Lista de Verificação, linha 41, critério Q2.1.5"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.1.5-O1",
+          "fato": "Há orientação para consultar duas bases de autos de infração no Geoportal e conjuntos de julgamentos e arrecadação.",
+          "trecho": "o cidadão deve consultar as duas bases",
+          "fonte": "ÁREAS EMBARGADAS, JULGAMENTOS DE AUTOS DE INFRAÇÃO E ARRECADAÇÃO DE MULTAS",
+          "url": "https://sema.mt.gov.br/transparencia/index.php/gestao-ambiental/julgamento-e-arrecadacao-multas",
+          "consultadoEm": "2026-10-15T14:25:54.841Z",
+          "evidenciasIds": [
+            "EV-Q2-004"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 10.650/2003, arts. 2º e 4º"
+      ],
+      "limitacoes": [
+        "A navegação não aferiu completude, atualização de cada base ou correspondência entre auto e julgamento."
+      ],
+      "pendencias": [
+        "Testar as bases SEMA e SIGA e confrontar amostra com editais e decisões."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.1.6",
+      "grupoId": "Q2.1",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.1.6-R1",
+          "texto": "Termos de ajustamento de conduta (TAC).",
+          "origemMatriz": "Lista de Verificação, linha 42, critério Q2.1.6"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.1.6-O1",
+          "fato": "A consulta oficial do Diário do Estado retorna extratos de TAC firmados pela SEMA-MT em 2026.",
+          "trecho": "Extrato TAC N° 025-2026-SEMA",
+          "fonte": "Legislação",
+          "url": "https://iomat.mt.gov.br/legislacao/diario_oficial/2535/2026/3/page%3A22",
+          "consultadoEm": "2026-10-15T14:26:03.221Z",
+          "evidenciasIds": []
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 10.650/2003, arts. 2º e 4º"
+      ],
+      "limitacoes": [
+        "A captura foi mantida somente no acervo privado porque a listagem contém nomes, imóveis e identificadores pessoais; não foi aferida a integralidade dos TACs."
+      ],
+      "pendencias": [
+        "Conferir a série anual, os campos publicados e a correspondência com processos administrativos."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.1.7",
+      "grupoId": "Q2.1",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.1.7-R1",
+          "texto": "Recursos administrativos.",
+          "origemMatriz": "Lista de Verificação, linha 43, critério Q2.1.7"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.1.7-O1",
+          "fato": "A seção publica editais, notificações e decisões administrativas por ano, incluindo 2026.",
+          "trecho": "2026 2025 2024 2023 2022 -2018",
+          "fonte": "Editais, notificações e decisões administrativas de autos de infração",
+          "url": "https://sema.mt.gov.br/transparencia/index.php/gestao-ambiental/editais-notificacoes-e-decisoes-administrativas-de-autos-de-infracao",
+          "consultadoEm": "2026-10-15T14:25:57.397Z",
+          "evidenciasIds": [
+            "EV-Q2-005"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 10.650/2003, arts. 2º e 4º"
+      ],
+      "limitacoes": [
+        "A coleta não distinguiu decisões de primeira instância, recursos e acórdãos para todos os processos."
+      ],
+      "pendencias": [
+        "Conferir a série de recursos administrativos e acórdãos do CONSEMA."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.1.8",
+      "grupoId": "Q2.1",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.1.8-R1",
+          "texto": "Estudos de impacto ambiental.",
+          "origemMatriz": "Lista de Verificação, linha 44, critério Q2.1.8"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.1.8-O1",
+          "fato": "A seção EIA/RIMA reúne estudos, relatórios, termos de referência e dispensas, com processos inclusive de 2026.",
+          "trecho": "informações sobre os licenciamentos com Estudos de Impactos Ambientais",
+          "fonte": "EIA/RIMA",
+          "url": "https://www.sema.mt.gov.br/transparencia/index.php/gestao-ambiental/eia-rima",
+          "consultadoEm": "2026-10-15T14:26:12.690Z",
+          "evidenciasIds": [
+            "EV-Q2-006"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "completa",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 10.650/2003, arts. 2º e 4º"
+      ],
+      "limitacoes": [
+        "A disponibilidade e integridade de cada arquivo compactado não foram testadas."
+      ],
+      "pendencias": [
+        "Validar amostra de downloads e confrontar a lista com os processos de licenciamento."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.2.1",
+      "grupoId": "Q2.2",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.2.1-R1",
+          "texto": "Relatório anual sobre qualidade do ar.",
+          "origemMatriz": "Lista de Verificação, linha 45, critério Q2.2.1"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.2.1-O1",
+          "fato": "A página publica relatórios de qualidade do ar de 2018 a 2023 e registra interrupções operacionais.",
+          "trecho": "2023 2022 2021 2020 2019 2018",
+          "fonte": "Qualidade do Ar",
+          "url": "https://www.sema.mt.gov.br/transparencia/index.php/gestao-ambiental/monitoramento-ambiental/qualidade-do-ar",
+          "consultadoEm": "2026-10-15T14:26:15.080Z",
+          "evidenciasIds": [
+            "EV-Q2-007"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "indicio_desatualizacao",
+      "aderenciaPreliminar": "indicios_de_lacuna",
+      "fundamentosNormativos": [
+        "Lei Federal nº 10.650/2003, art. 8º"
+      ],
+      "limitacoes": [
+        "Não há relatório anual visível posterior a 2023 e a própria página informa indisponibilidades do modelo fonte."
+      ],
+      "pendencias": [
+        "Confirmar se existem relatórios de 2024 a 2026 em outra seção ou fonte."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.2.2",
+      "grupoId": "Q2.2",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.2.2-R1",
+          "texto": "Relatório anual sobre qualidade da água.",
+          "origemMatriz": "Lista de Verificação, linha 46, critério Q2.2.2"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.2.2-O1",
+          "fato": "A página publica relatórios e planilhas de qualidade da água, incluindo dados de estações até 2024.",
+          "trecho": "Dados de qualidade da água ... Anos 2020-2024",
+          "fonte": "Qualidade da Água",
+          "url": "https://www.sema.mt.gov.br/transparencia/index.php/gestao-ambiental/monitoramento-ambiental/qualidade-da-agua",
+          "consultadoEm": "2026-10-15T14:26:23.873Z",
+          "evidenciasIds": [
+            "EV-Q2-008"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 10.650/2003, art. 8º"
+      ],
+      "limitacoes": [
+        "Os documentos estão agregados em períodos plurianuais, não necessariamente como relatório anual individual."
+      ],
+      "pendencias": [
+        "Validar os arquivos e a cobertura dos anos de 2024 a 2026."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.2.3",
+      "grupoId": "Q2.2",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.2.3-R1",
+          "texto": "Sequência temporal compatível com a periodicidade anual.",
+          "origemMatriz": "Lista de Verificação, linha 47, critério Q2.2.3"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.2.3-O1",
+          "fato": "A série hídrica cobre diversos intervalos entre 2003 e 2024, mas com publicações agregadas e lacunas aparentes.",
+          "trecho": "Relatório Monitoramento Água - 2020-2023",
+          "fonte": "Qualidade da Água",
+          "url": "https://www.sema.mt.gov.br/transparencia/index.php/gestao-ambiental/monitoramento-ambiental/qualidade-da-agua",
+          "consultadoEm": "2026-10-15T14:26:23.873Z",
+          "evidenciasIds": [
+            "EV-Q2-008"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "indicio_desatualizacao",
+      "aderenciaPreliminar": "indicios_de_lacuna",
+      "fundamentosNormativos": [
+        "Lei Federal nº 10.650/2003, art. 8º"
+      ],
+      "limitacoes": [
+        "A sequência observada não demonstra periodicidade anual contínua para ar e água."
+      ],
+      "pendencias": [
+        "Montar série ano a ano dos dois temas e confirmar formalmente as lacunas."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.3.1",
+      "grupoId": "Q2.3",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.3.1-R1",
+          "texto": "Disponibilidade pública das informações não sigilosas do Cadastro Ambiental Rural.",
+          "origemMatriz": "Lista de Verificação, linha 48, critério Q2.3.1"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.3.1-O1",
+          "fato": "A SEMA mantém link público direto para o SIMCAR sem exigir autenticação na página inicial.",
+          "trecho": "SIMCAR PÚBLICO",
+          "fonte": "SIMCAR",
+          "url": "https://www.sema.mt.gov.br/site/index.php/simcar",
+          "consultadoEm": "2026-10-15T14:26:27.000Z",
+          "evidenciasIds": [
+            "EV-Q2-009"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "sem_data_comprovada",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 12.651/2012 (Código Florestal), art. 29"
+      ],
+      "limitacoes": [
+        "Não foi avaliado se o conjunto exibido omite corretamente dados sigilosos nem se cobre todos os cadastros."
+      ],
+      "pendencias": [
+        "Validar amostra de resultados e revisar os campos expostos sob a ótica de sigilo."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.3.2",
+      "grupoId": "Q2.3",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.3.2-R1",
+          "texto": "Mecanismo funcional de consulta/pesquisa.",
+          "origemMatriz": "Lista de Verificação, linha 49, critério Q2.3.2"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.3.2-O1",
+          "fato": "O portal público exibe busca por número do CAR, filtros e mapa sem tela de login.",
+          "trecho": "Pesquisar pelo Número do CAR",
+          "fonte": "SIMCAR - Projeto Técnico",
+          "url": "https://monitoramento.sema.mt.gov.br/simcar/tecnico.app/publico/car",
+          "consultadoEm": "2026-10-15T14:26:30.669Z",
+          "evidenciasIds": [
+            "EV-Q2-010"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 12.651/2012 (Código Florestal), art. 29"
+      ],
+      "limitacoes": [
+        "A coleta não utilizou identificador real, para evitar incorporar dados pessoais à evidência pública."
+      ],
+      "pendencias": [
+        "Executar teste funcional controlado com cadastro público autorizado e registrar resposta saneada."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.3.3",
+      "grupoId": "Q2.3",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.3.3-R1",
+          "texto": "Possibilidade de acesso aos resultados da consulta pelo cidadão.",
+          "origemMatriz": "Lista de Verificação, linha 50, critério Q2.3.3"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.3.3-O1",
+          "fato": "A interface pública oferece busca, filtros e mapa sem autenticação prévia.",
+          "trecho": "Buscar  Filtros",
+          "fonte": "SIMCAR - Projeto Técnico",
+          "url": "https://monitoramento.sema.mt.gov.br/simcar/tecnico.app/publico/car",
+          "consultadoEm": "2026-10-15T14:26:30.669Z",
+          "evidenciasIds": [
+            "EV-Q2-010"
+          ]
+        }
+      ],
+      "localizacao": "inconclusiva",
+      "completude": "parcial",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "insuficiente_para_concluir",
+      "fundamentosNormativos": [
+        "Lei Federal nº 12.651/2012 (Código Florestal), art. 29"
+      ],
+      "limitacoes": [
+        "A interface é acessível, mas não foi produzido resultado de consulta sem usar um identificador de imóvel real."
+      ],
+      "pendencias": [
+        "Comprovar acesso ao resultado em teste controlado e verificar quais campos são apresentados."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.4.1",
+      "grupoId": "Q2.4",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.4.1-R1",
+          "texto": "Planos de manejo das unidades de conservação estaduais.",
+          "origemMatriz": "Lista de Verificação, linha 51, critério Q2.4.1"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.4.1-O1",
+          "fato": "A página atualizada em 2026 lista 48 unidades estaduais e indica planos de manejo em diversas fichas.",
+          "trecho": "acessar os planos de manejo e legislações pertinentes",
+          "fonte": "Unidades de Conservação Estaduais",
+          "url": "https://www.sema.mt.gov.br/site/index.php/unidades-de-conservacao/unidades-de-conserva%C3%A7%C3%A3o-estaduais",
+          "consultadoEm": "2026-10-15T14:26:34.618Z",
+          "evidenciasIds": [
+            "EV-Q2-011"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 9.985/2000 (SNUC), arts. 27 e 36"
+      ],
+      "limitacoes": [
+        "A captura não comprova plano publicado para cada uma das 48 unidades nem justifica individualmente as ausências."
+      ],
+      "pendencias": [
+        "Inventariar as 48 fichas e classificar plano disponível, inexistente, em elaboração ou não aplicável."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.4.2",
+      "grupoId": "Q2.4",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.4.2-R1",
+          "texto": "Informações relativas à compensação ambiental.",
+          "origemMatriz": "Lista de Verificação, linha 52, critério Q2.4.2"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.4.2-O1",
+          "fato": "A seção publica atas, legislação, processos, termos vigentes, quitados e unidades beneficiadas, com itens de 2024 e 2025.",
+          "trecho": "informações sobre os processos de compensação ambiental",
+          "fonte": "Compensação ambiental",
+          "url": "https://www.sema.mt.gov.br/transparencia/index.php/gestao-ambiental/compensacao-ambiental",
+          "consultadoEm": "2026-10-15T14:26:36.849Z",
+          "evidenciasIds": [
+            "EV-Q2-012"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "completa",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 9.985/2000 (SNUC), arts. 27 e 36"
+      ],
+      "limitacoes": [
+        "Os arquivos vinculados não foram integralmente lidos ou confrontados com o universo de processos."
+      ],
+      "pendencias": [
+        "Validar amostra dos documentos e confirmar atualização de 2026."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.5.1",
+      "grupoId": "Q2.5",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.5.1-R1",
+          "texto": "Informações sobre o FEMAM.",
+          "origemMatriz": "Lista de Verificação, linha 53, critério Q2.5.1"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.5.1-O1",
+          "fato": "A busca institucional retorna referências ao Fundo Estadual do Meio Ambiente e ao seu regime normativo.",
+          "trecho": "Fundo Estadual do Meio Ambiente – FEMAM",
+          "fonte": "Buscar",
+          "url": "https://www.sema.mt.gov.br/site/index.php/component/search/?searchword=FEMAM&searchphrase=all&Itemid=435",
+          "consultadoEm": "2026-10-15T14:26:39.773Z",
+          "evidenciasIds": [
+            "EV-Q2-013"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "sem_data_comprovada",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Complementar Estadual nº 38/1995, arts. 8º e 9º"
+      ],
+      "limitacoes": [
+        "Não foi localizada página temática consolidada do FEMAM; os resultados são notícias e atos dispersos."
+      ],
+      "pendencias": [
+        "Localizar página institucional do Fundo, governança, finalidade e atos vigentes."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.5.2",
+      "grupoId": "Q2.5",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.5.2-R1",
+          "texto": "Fontes de recursos do Fundo.",
+          "origemMatriz": "Lista de Verificação, linha 54, critério Q2.5.2"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.5.2-O1",
+          "fato": "Um resultado informa que receitas de taxas de serviços e licenciamento constituem receita do FEMAM.",
+          "trecho": "constituirá receita do Fundo Estadual do Meio Ambiente",
+          "fonte": "Buscar",
+          "url": "https://www.sema.mt.gov.br/site/index.php/component/search/?searchword=FEMAM&searchphrase=all&Itemid=435",
+          "consultadoEm": "2026-10-15T14:26:39.773Z",
+          "evidenciasIds": [
+            "EV-Q2-013"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "parcial",
+      "atualidade": "sem_data_comprovada",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Complementar Estadual nº 38/1995, arts. 8º e 9º"
+      ],
+      "limitacoes": [
+        "Foi identificada uma fonte de receita, sem demonstração do rol completo previsto na legislação."
+      ],
+      "pendencias": [
+        "Confrontar todas as fontes legais com a informação ativa publicada."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.5.3",
+      "grupoId": "Q2.5",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.5.3-R1",
+          "texto": "Informações financeiras do Fundo objeto de transparência ativa.",
+          "origemMatriz": "Lista de Verificação, linha 55, critério Q2.5.3"
+        }
+      ],
+      "observacoes": [],
+      "localizacao": "nao_localizada_nesta_busca",
+      "completude": "nao_demonstrada",
+      "atualidade": "nao_avaliavel",
+      "aderenciaPreliminar": "insuficiente_para_concluir",
+      "fundamentosNormativos": [
+        "Lei Complementar Estadual nº 38/1995, arts. 8º e 9º"
+      ],
+      "limitacoes": [
+        "A busca retornou menção a balanço anual em norma, mas não localizou execução financeira, receitas, despesas ou balanços do Fundo."
+      ],
+      "pendencias": [
+        "Pesquisar demonstrativos do FEMAM no portal institucional e no sistema estadual de transparência."
+      ],
+      "necessidadeSegundaVerificacao": true,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.6.1",
+      "grupoId": "Q2.6",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.6.1-R1",
+          "texto": "Informações sobre recursos hídricos sob competência da SEMA-MT.",
+          "origemMatriz": "Lista de Verificação, linha 56, critério Q2.6.1"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.6.1-O1",
+          "fato": "A seção reúne política, quantidade e qualidade da água, planos, outorgas, barragens, comitês e relatórios de gestão.",
+          "trecho": "informações e relatórios sobre quantidade e qualidade da água",
+          "fonte": "Recursos hídricos",
+          "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/recursos-hidricos",
+          "consultadoEm": "2026-10-15T14:26:43.822Z",
+          "evidenciasIds": [
+            "EV-Q2-014"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "completa",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 9.433/1997"
+      ],
+      "limitacoes": [
+        "A coleta avaliou a organização e presença das categorias, não a completude de cada acervo."
+      ],
+      "pendencias": [
+        "Validar amostra dos documentos e a atualização de cada subtema."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.6.2",
+      "grupoId": "Q2.6",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.6.2-R1",
+          "texto": "Seção, sistema ou conjunto de documentos que permita ao cidadão localizar essas informações.",
+          "origemMatriz": "Lista de Verificação, linha 57, critério Q2.6.2"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.6.2-O1",
+          "fato": "Existe seção própria com links para sistemas, documentos, planos e relatórios de recursos hídricos.",
+          "trecho": "Recursos Hídricos",
+          "fonte": "Recursos hídricos",
+          "url": "https://www.sema.mt.gov.br/site/index.php/unidades-administrativas/recursos-hidricos",
+          "consultadoEm": "2026-10-15T14:26:43.822Z",
+          "evidenciasIds": [
+            "EV-Q2-014"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "completa",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Federal nº 9.433/1997"
+      ],
+      "limitacoes": [
+        "Não foram testados todos os links e sistemas externos listados."
+      ],
+      "pendencias": [
+        "Executar teste amostral de navegação e downloads."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.7.1",
+      "grupoId": "Q2.7",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.7.1-R1",
+          "texto": "Sistema estadual de informações sobre meio ambiente.",
+          "origemMatriz": "Lista de Verificação, linha 58, critério Q2.7.1"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.7.1-O1",
+          "fato": "O portal estadual organiza SIMLAM, SIMCAR, Geoportal e outros sistemas ambientais de acesso público.",
+          "trecho": "Sistemas ... SIMLAM ... SIMCAR ... GEOPORTAL",
+          "fonte": "Principal",
+          "url": "https://www.sema.mt.gov.br/transparencia",
+          "consultadoEm": "2026-10-15T14:25:39.421Z",
+          "evidenciasIds": [
+            "EV-Q2-001"
+          ]
+        }
+      ],
+      "localizacao": "localizada",
+      "completude": "completa",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "evidencia_compativel",
+      "fundamentosNormativos": [
+        "Lei Complementar Federal nº 140/2011, art. 8º, VII e VIII"
+      ],
+      "limitacoes": [
+        "A existência do conjunto de sistemas não comprova integração, governança ou completude dos dados."
+      ],
+      "pendencias": [
+        "Validar arquitetura, responsabilidades e atualização dos sistemas estaduais."
+      ],
+      "necessidadeSegundaVerificacao": false,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.7.2",
+      "grupoId": "Q2.7",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.7.2-R1",
+          "texto": "Prestação de informações à União para formação e atualização do Sinima.",
+          "origemMatriz": "Lista de Verificação, linha 59, critério Q2.7.2"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.7.2-O1",
+          "fato": "A página federal descreve o SINIMA e a obrigação geral de integração das bases das autoridades licenciadoras.",
+          "trecho": "bases de dados integradas ao SINIMA",
+          "fonte": "Informações Ambientais — Ministério do Meio Ambiente e Mudança do Clima",
+          "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/informacoes-ambientais",
+          "consultadoEm": "2026-10-15T14:26:48.700Z",
+          "evidenciasIds": [
+            "EV-Q2-015"
+          ]
+        }
+      ],
+      "localizacao": "inconclusiva",
+      "completude": "nao_demonstrada",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "insuficiente_para_concluir",
+      "fundamentosNormativos": [
+        "Lei Complementar Federal nº 140/2011, art. 8º, VII e VIII"
+      ],
+      "limitacoes": [
+        "A fonte nacional não identifica, na captura, prestação específica e atualizada de dados pela SEMA-MT."
+      ],
+      "pendencias": [
+        "Obter evidência técnica ou administrativa do fluxo de dados de Mato Grosso ao SINIMA."
+      ],
+      "necessidadeSegundaVerificacao": true,
+      "situacaoValidacao": "aguardando_validacao_humana",
+      "resultadoFinal": null
+    },
+    {
+      "criterioId": "Q2.7.3",
+      "grupoId": "Q2.7",
+      "execucaoId": "q2-conteudo-2026-10-15T14-25-21-830Z-a87d4c9f",
+      "geradoEm": "2026-10-15T14:26:50.500Z",
+      "metodo": "Leitura controlada da fonte oficial e confronto com a redação literal da matriz do Q2.",
+      "versaoSchema": 1,
+      "requisitosAtomicos": [
+        {
+          "id": "Q2.7.3-R1",
+          "texto": "Alimentação dos sistemas nacionais pertinentes, inclusive do Portal Nacional de Licenciamento Ambiental.",
+          "origemMatriz": "Lista de Verificação, linha 60, critério Q2.7.3"
+        }
+      ],
+      "observacoes": [
+        {
+          "id": "Q2.7.3-O1",
+          "fato": "O MMA informa que o PNLA sistematiza informações de licenciamento para acompanhamento social.",
+          "trecho": "O Portal Nacional de Licenciamento Ambiental ... atua na sistematização",
+          "fonte": "Informações Ambientais — Ministério do Meio Ambiente e Mudança do Clima",
+          "url": "https://www.gov.br/mma/pt-br/acesso-a-informacao/informacoes-ambientais",
+          "consultadoEm": "2026-10-15T14:26:48.700Z",
+          "evidenciasIds": [
+            "EV-Q2-015"
+          ]
+        }
+      ],
+      "localizacao": "inconclusiva",
+      "completude": "nao_demonstrada",
+      "atualidade": "aparentemente_atual",
+      "aderenciaPreliminar": "insuficiente_para_concluir",
+      "fundamentosNormativos": [
+        "Lei Complementar Federal nº 140/2011, art. 8º, VII e VIII"
+      ],
+      "limitacoes": [
+        "A página não comprova que a SEMA-MT alimenta atualmente o PNLA nem permite aferir adequação ou periodicidade."
+      ],
+      "pendencias": [
+        "Consultar o PNLA por Mato Grosso e solicitar confirmação do envio e atualização pela SEMA-MT."
+      ],
+      "necessidadeSegundaVerificacao": true,
       "situacaoValidacao": "aguardando_validacao_humana",
       "resultadoFinal": null
     }

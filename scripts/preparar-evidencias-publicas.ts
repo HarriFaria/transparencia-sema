@@ -7,6 +7,7 @@ import { projectRoot } from "@/lib/persistencia";
 type ApprovalItem = {
   id: string;
   execucao_id?: string;
+  grupo_id?: string;
   arquivo: string;
   publicar: boolean;
   titulo: string;
@@ -57,18 +58,26 @@ async function localChromiumExecutable() {
   return stat(candidate).then(() => candidate).catch(() => undefined);
 }
 
-const approvalPath = path.join(projectRoot, "private", "aprovacao-evidencias.json");
-const approval = await readJson<Approval>(approvalPath);
-if (approval.schema_version !== 1 || !approval.execucao_id || !approval.grupo_id) throw new Error("Manifesto privado de aprovação inválido.");
-if (!approval.itens.length || approval.itens.some((item) => !item.id || !item.justificativa)) throw new Error("A allowlist precisa conter IDs e justificativas explícitas.");
-if (new Set(approval.itens.map((item) => item.id)).size !== approval.itens.length) throw new Error("IDs duplicados na allowlist.");
+const privateEntries = await readdir(path.join(projectRoot, "private"), { withFileTypes: true });
+const approvalFiles = privateEntries.filter((entry) => entry.isFile() && /^aprovacao-evidencias(?:-[a-z0-9]+)?\.json$/i.test(entry.name));
+const approvals = await Promise.all(approvalFiles.map((entry) => readJson<Approval>(path.join(projectRoot, "private", entry.name))));
+if (!approvals.length || approvals.some((approval) => approval.schema_version !== 1 || !approval.execucao_id || !approval.grupo_id)) throw new Error("Manifesto privado de aprovação inválido.");
+const approvedEntries = approvals.flatMap((approval) => approval.itens.map((item) => ({ approval, item })));
+if (!approvedEntries.length || approvedEntries.some(({ item }) => !item.id || !item.justificativa)) throw new Error("As allowlists precisam conter IDs e justificativas explícitas.");
+if (new Set(approvedEntries.map(({ item }) => item.id)).size !== approvedEntries.length) throw new Error("IDs duplicados nas allowlists.");
 
 const dataRoot = path.join(projectRoot, "public", "data");
-const executionIds = [...new Set(approval.itens.filter((item) => item.publicar).map((item) => item.execucao_id ?? approval.execucao_id))];
-for (const executionId of executionIds) {
-  const targetRoot = path.join(projectRoot, "public", "evidencias", approval.grupo_id, executionId);
+const publicationRoots = [...new Set(approvedEntries.filter(({ item }) => item.publicar).map(({ approval, item }) => `${item.grupo_id ?? approval.grupo_id}|${item.execucao_id ?? approval.execucao_id}`))];
+const publicationGroups = [...new Set(publicationRoots.map((entry) => entry.split("|")[0]))];
+for (const groupId of publicationGroups) {
+  const groupRoot = path.join(projectRoot, "public", "evidencias", groupId);
+  if (!groupRoot.startsWith(path.join(projectRoot, "public", "evidencias") + path.sep)) throw new Error("Grupo público inesperado.");
+  await rm(groupRoot, { recursive: true, force: true });
+}
+for (const entry of publicationRoots) {
+  const [groupId, executionId] = entry.split("|");
+  const targetRoot = path.join(projectRoot, "public", "evidencias", groupId, executionId);
   if (!targetRoot.startsWith(path.join(projectRoot, "public", "evidencias") + path.sep)) throw new Error("Destino público inesperado.");
-  await rm(targetRoot, { recursive: true, force: true });
   await mkdir(path.join(targetRoot, "miniaturas"), { recursive: true });
 }
 await mkdir(dataRoot, { recursive: true });
@@ -79,8 +88,9 @@ const page = await browser.newPage({ viewport: { width: 640, height: 360 }, devi
 const published = [];
 
 try {
-  for (const item of approval.itens.filter((entry) => entry.publicar)) {
+  for (const { approval, item } of approvedEntries.filter(({ item: entry }) => entry.publicar)) {
     const executionId = item.execucao_id ?? approval.execucao_id;
+    const groupId = item.grupo_id ?? approval.grupo_id;
     const executionRoot = path.join(projectRoot, "private", "execucoes", executionId);
     const relative = item.arquivo.replaceAll("\\", "/");
     if (!relative.startsWith("screenshots/") || relative.includes("..") || path.extname(relative).toLowerCase() !== ".png") throw new Error(`Fonte fora do escopo: ${relative}`);
@@ -99,7 +109,7 @@ try {
 
     const publicName = `${item.id.toLowerCase()}.png`;
     const thumbName = `${item.id.toLowerCase()}-thumb.png`;
-    const targetRoot = path.join(projectRoot, "public", "evidencias", approval.grupo_id, executionId);
+    const targetRoot = path.join(projectRoot, "public", "evidencias", groupId, executionId);
     const publicPath = path.join(targetRoot, publicName);
     const thumbPath = path.join(targetRoot, "miniaturas", thumbName);
     await copyFile(source, publicPath);
@@ -111,15 +121,15 @@ try {
     published.push({
       id: item.id,
       execucaoId: executionId,
-      grupoId: approval.grupo_id,
+      grupoId: groupId,
       criteriosIds: item.criterios_ids,
       nivelAssociacao: item.nivel_associacao,
       titulo: item.titulo,
       descricao: item.justificativa,
       urlOrigem: sanitizeUrl(event.url),
       capturadoEm: event.timestamp_utc,
-      arquivo: `/evidencias/${approval.grupo_id}/${executionId}/${publicName}`,
-      miniatura: `/evidencias/${approval.grupo_id}/${executionId}/miniaturas/${thumbName}`,
+      arquivo: `/evidencias/${groupId}/${executionId}/${publicName}`,
+      miniatura: `/evidencias/${groupId}/${executionId}/miniaturas/${thumbName}`,
       statusRevisao: "aprovado",
       saneada: false,
       sha256Original: originalHash,
@@ -136,7 +146,7 @@ try {
 const allRawImages = await listImages(path.join(projectRoot, "private", "execucoes"));
 const payload = {
   schemaVersion: 1,
-  revisadoEm: approval.revisado_em,
+  revisadoEm: approvals.map((approval) => approval.revisado_em).sort().at(-1),
   geradoEm: published.map((item) => item.capturadoEm).sort().at(-1) ?? null,
   nota: "Capturas de páginas públicas aprovadas após inspeção visual. Comprovam navegação técnica, não atendimento ao critério.",
   totais: { encontradas: allRawImages.length, aprovadas: published.length, publicadas: published.length, retidas: allRawImages.length - published.length },

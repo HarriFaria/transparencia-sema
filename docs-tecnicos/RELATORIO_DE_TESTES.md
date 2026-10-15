@@ -69,4 +69,4 @@ Os 20 erros da coleta final referem-se a recursos auxiliares de redes sociais. P
 | Bloqueio metodológico | Q1.1.9 recusou conclusão enquanto a segunda verificação em outra data permanece pendente; rascunho permitido. |
 | Merge idempotente | a mesma exportação foi importada duas vezes sem duplicar revisões e sem conflito. |
 | Publicação isolada | snapshot de teste gerado em cópia fora do repositório com uma revisão expressamente indicada e nenhum campo de identidade pessoal. |
-| Regressão visual | desktop 1440×1000 e mobile 390×844 aprovados; 18 evidências, filtros, lightbox e ausência de overflow preservados. |
+| Regressão visual | desktop 1440×1000 e mobile 390×844 aprovados; 33 evidências, filtros, análises Q1.1/Q2, lightbox e ausência de overflow preservados. |

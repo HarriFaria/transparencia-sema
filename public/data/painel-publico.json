@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "geradoEm": "2026-10-13T14:08:49.567Z",
+  "geradoEm": "2026-10-15T14:26:48.700Z",
   "escopo": {
     "criterios": 73,
     "questoes": {
@@ -20,16 +20,16 @@
     "percentualOficial": 0
   },
   "coleta": {
-    "ultimaColetaEm": "2026-10-13T14:08:52.799Z",
+    "ultimaColetaEm": "2026-10-15T14:26:50.500Z",
     "ultimaValidacaoEm": null,
-    "gruposComColeta": 1,
-    "criteriosComColetaTecnica": 10,
-    "criteriosComDiagnostico": 10,
-    "pendentesSegundaVerificacao": 1,
-    "aguardandoValidacao": 10,
-    "evidenciasRegistradas": 43,
-    "evidenciasPublicadas": 18,
-    "execucoes": 8
+    "gruposComColeta": 8,
+    "criteriosComColetaTecnica": 34,
+    "criteriosComDiagnostico": 34,
+    "pendentesSegundaVerificacao": 4,
+    "aguardandoValidacao": 34,
+    "evidenciasRegistradas": 74,
+    "evidenciasPublicadas": 33,
+    "execucoes": 9
   },
   "situacoes": {
     "Q1.1.1": {
@@ -243,148 +243,148 @@
       "ultimaVerificacao": null
     },
     "Q2.1.1": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 2,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.1.2": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 3,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.1.3": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 2,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.1.4": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.1.5": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 3,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.1.6": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
       "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.1.7": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 2,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.1.8": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.2.1": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.2.2": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.2.3": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 2,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.3.1": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 2,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.3.2": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 2,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.3.3": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 2,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.4.1": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.4.2": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.5.1": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.5.2": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.5.3": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
       "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.6.1": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.6.2": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.7.1": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 2,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.7.2": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q2.7.3": {
-      "situacaoOperacional": "nao_iniciado",
+      "situacaoOperacional": "analise_preliminar",
       "resultadoFinal": null,
-      "evidenciasPublicas": 0,
-      "ultimaVerificacao": null
+      "evidenciasPublicas": 1,
+      "ultimaVerificacao": "2026-10-15T14:26:50.500Z"
     },
     "Q3.1.1": {
       "situacaoOperacional": "nao_iniciado",

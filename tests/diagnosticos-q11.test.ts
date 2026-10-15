@@ -3,10 +3,11 @@ import assert from "node:assert/strict";
 import diagnostics from "../data/diagnosticos-preliminares.json" with { type: "json" };
 
 const byId = new Map(diagnostics.diagnosticos.map((item) => [item.criterioId, item]));
+const q11 = diagnostics.diagnosticos.filter((item) => item.criterioId.startsWith("Q1.1."));
 
-test("diagnósticos cobrem somente os dez critérios reais de Q1.1", () => {
-  assert.equal(diagnostics.diagnosticos.length, 10);
-  assert.deepEqual([...byId.keys()], Array.from({ length: 10 }, (_, index) => `Q1.1.${index + 1}`));
+test("diagnósticos preservam os dez critérios reais de Q1.1", () => {
+  assert.equal(q11.length, 10);
+  assert.deepEqual(q11.map((item) => item.criterioId), Array.from({ length: 10 }, (_, index) => `Q1.1.${index + 1}`));
   assert.equal(diagnostics.diagnosticos.every((item) => item.resultadoFinal === null), true);
 });
 

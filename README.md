@@ -6,10 +6,10 @@ Painel executivo e estático de apoio à fiscalização da transparência ativa 
 
 - 73 critérios únicos importados das linhas 2–74 da planilha oficial, distribuídos em 35/24/14 nas Questões 1/2/3;
 - zero resultados finais validados e 73 critérios não apurados;
-- sete execuções técnicas Q1.1 preservadas localmente, com 43 capturas brutas registradas;
-- dez diagnósticos substantivos preliminares de Q1.1, todos aguardando validação humana e com `resultado_final = null`;
-- 18 capturas aprovadas após inspeção visual, copiadas para `public/evidencias/` e exibidas no painel;
-- 25 capturas não allowlisted ou redundantes retidas fora do Git;
+- nove execuções técnicas válidas preservadas localmente, com 74 capturas brutas registradas;
+- 34 diagnósticos substantivos preliminares — dez de Q1.1 e 24 de Q2 — todos aguardando validação humana e com `resultado_final = null`;
+- 33 capturas aprovadas após inspeção visual, copiadas para `public/evidencias/` e exibidas no painel;
+- 41 capturas não allowlisted, sensíveis ou redundantes retidas fora do Git;
 - exportação estática Next.js, sem banco de dados, API Route ou arquivo privado em runtime.
 
 ## Regra da verdade
@@ -40,13 +40,13 @@ O arquivo `private/aprovacao-evidencias.json` é a allowlist local e permanece i
 
 ```powershell
 npm.cmd run prepare:public-evidence
-npm.cmd run prepare:q11-diagnostics
+npm.cmd run prepare:diagnostics
 npm.cmd run prepare:public-data
 npm.cmd run verify:public-evidence
 npm.cmd run verify:public
 ```
 
-`prepare:public-evidence` confere os hashes originais, copia somente as imagens aprovadas, cria miniaturas separadas e gera o manifesto público. `prepare:q11-diagnostics` valida os dez diagnósticos, preserva o histórico privado e gera o snapshot sanitizado. `prepare:public-data` recalcula os indicadores consumidos pelo dashboard. O build remoto usa apenas os artefatos versionados.
+`prepare:public-evidence` confere os hashes originais, copia somente as imagens aprovadas, cria miniaturas separadas e gera o manifesto público. `prepare:diagnostics` valida os 34 diagnósticos, preserva o histórico privado e gera o snapshot sanitizado. `prepare:public-data` recalcula os indicadores consumidos pelo dashboard. O build remoto usa apenas os artefatos versionados.
 
 ## Build e preview do export
 
@@ -65,6 +65,8 @@ npm.cmd run discover:q11
 npm.cmd run collect:q11
 npm.cmd run collect:q11-content
 npm.cmd run analisar:q11
+npm.cmd run collect:q2-content
+npm.cmd run analisar:q2
 npm.cmd run merge:reviews -- --input C:\caminho\validacoes-sema.json
 npm.cmd run publish:reviews -- --revision rev-id-expressamente-autorizado
 ```
@@ -92,6 +94,7 @@ git push origin main
 
 - [Revisão das evidências públicas](docs-tecnicos/REVISAO_PUBLICACAO_EVIDENCIAS.md)
 - [Análise preliminar substantiva de Q1.1](docs-tecnicos/ANALISE_PRELIMINAR_Q11.md)
+- [Análise preliminar substantiva do Q2](docs-tecnicos/ANALISE_PRELIMINAR_Q2.md)
 - [Relatório do redesenho](docs-tecnicos/RELATORIO_REDESIGN.md)
 - [Publicação GitHub e Vercel](docs-tecnicos/PUBLICACAO_GITHUB_VERCEL.md)
 - [Arquitetura](docs-tecnicos/ARQUITETURA.md)

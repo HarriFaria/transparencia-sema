@@ -1,15 +1,15 @@
 # Revisão de publicação das evidências
 
-Data da revisão: 13/10/2026. Escopo atualizado: 43 capturas localizadas nas sete execuções Q1.1 preservadas.
+Data da revisão inicial: 13/10/2026. Ampliação Q2 revisada em 15/10/2026. Escopo atualizado: 74 capturas localizadas nas nove execuções válidas preservadas.
 
 ## Resultado
 
-- 18 capturas aprovadas e publicadas: dez da coleta inicial e oito da coleta substantiva complementar;
-- 25 capturas retidas por redundância ou ausência na allowlist;
-- nenhum dado pessoal, credencial, token, sessão, sistema interno ou documento reservado identificado nas dez imagens aprovadas;
+- 33 capturas aprovadas e publicadas: 18 de Q1.1 e 15 de Q2;
+- 41 capturas retidas por redundância, conteúdo individualizado ou ausência na allowlist;
+- nenhum dado pessoal, credencial, token, sessão, sistema interno ou documento reservado identificado nas imagens aprovadas;
 - nenhum original privado foi alterado;
 - as cópias públicas não receberam ocultação, pois não foi identificado conteúdo que exigisse saneamento;
-- capturas candidatas a vários critérios foram vinculadas somente ao grupo Q1.1.
+- capturas candidatas a vários critérios foram vinculadas ao menor grupo seguro, sem presumir atendimento individual.
 
 | ID | Arquivo público | Captura (UTC) | Origem pública | Vínculo | Decisão e justificativa |
 |---|---|---|---|---|---|
@@ -33,14 +33,16 @@ Data da revisão: 13/10/2026. Escopo atualizado: 43 capturas localizadas nas set
 | EV-Q11-017 | `ev-q11-017.png` | 2026-10-13 14:08:43 | Ações e projetos de educação ambiental | Q1.1.7 e Q1.1.8 | Aprovado; data de 2019 preservada, sem inferência de atualidade. |
 | EV-Q11-018 | `ev-q11-018.png` | 2026-10-13 14:08:49 | Projeto EVA | Q1.1.6–Q1.1.8 | Aprovado; finalidade, ações previstas e documentos de 2026; sem vínculo com obras. |
 
+As 15 capturas Q2 (`EV-Q2-001` a `EV-Q2-015`) abrangem Portal de Transparência, SIMLAM, Geoportal, autos e decisões, EIA/RIMA, qualidade do ar e da água, SIMCAR, unidades de conservação, compensação ambiental, busca por FEMAM, recursos hídricos e SINIMA/PNLA. A tela do SIMCAR foi capturada antes de qualquer pesquisa e não contém cadastro, proprietário ou imóvel.
+
 As URLs completas, hashes SHA-256, tamanhos e metadados técnicos públicos constam em `data/evidencias-publicas.json`. Caminhos privados não constam neste relatório nem no manifesto público.
 
 ## Controles aplicados
 
-1. inspeção visual individual das dez capturas iniciais e das oito novas candidatas aprovadas;
-2. allowlist privada explícita em `private/aprovacao-evidencias.json`;
+1. inspeção visual individual das 33 capturas aprovadas;
+2. allowlists privadas explícitas por escopo;
 3. conferência do evento JSONL e do SHA-256 original;
-4. cópia para `public/evidencias/Q1.1/<execução>/` e geração de miniatura separada;
+4. cópia para `public/evidencias/<grupo>/<execução>/` e geração de miniatura separada;
 5. verificação automatizada do hash de cada cópia e miniatura;
 6. teste HTTP de imagem: status 200, `content-type: image/png` e 2.077.360 bytes na amostra EV-Q11-001;
 7. inspeção do bundle para impedir PDF, DOCX, XLSX, JSONL, ZIP, log, trace e caminho absoluto.
